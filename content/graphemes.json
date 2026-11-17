@@ -1,0 +1,902 @@
+{
+  "sounds": [
+    {
+      "id": "m",
+      "clip": "snd_m",
+      "continuous": true,
+      "label": "/m/",
+      "example": "map",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: mmm. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "s",
+      "clip": "snd_s",
+      "continuous": true,
+      "label": "/s/",
+      "example": "sit",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: sss. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "t",
+      "clip": "snd_t",
+      "continuous": false,
+      "label": "/t/",
+      "example": "tap",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /t/, not \"tuh\"."
+    },
+    {
+      "id": "p",
+      "clip": "snd_p",
+      "continuous": false,
+      "label": "/p/",
+      "example": "pin",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /p/, not \"puh\"."
+    },
+    {
+      "id": "n",
+      "clip": "snd_n",
+      "continuous": true,
+      "label": "/n/",
+      "example": "nap",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: nnn. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "k",
+      "clip": "snd_k",
+      "continuous": false,
+      "label": "/k/",
+      "example": "cat",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /k/, not \"kuh\"."
+    },
+    {
+      "id": "f",
+      "clip": "snd_f",
+      "continuous": true,
+      "label": "/f/",
+      "example": "fan",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: fff. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "d",
+      "clip": "snd_d",
+      "continuous": false,
+      "label": "/d/",
+      "example": "dog",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /d/, not \"duh\"."
+    },
+    {
+      "id": "g",
+      "clip": "snd_g",
+      "continuous": false,
+      "label": "/g/",
+      "example": "got",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /g/, not \"guh\"."
+    },
+    {
+      "id": "h",
+      "clip": "snd_h",
+      "continuous": false,
+      "label": "/h/",
+      "example": "hat",
+      "guidance": "Quick breath of air, no voice and no vowel: /h/, not \"huh\"."
+    },
+    {
+      "id": "b",
+      "clip": "snd_b",
+      "continuous": false,
+      "label": "/b/",
+      "example": "bat",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /b/, not \"buh\"."
+    },
+    {
+      "id": "r",
+      "clip": "snd_r",
+      "continuous": true,
+      "label": "/r/",
+      "example": "ran",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: rrr. Keep it steady, with no vowel after it. Avoid \"er\" or \"ruh\"."
+    },
+    {
+      "id": "l",
+      "clip": "snd_l",
+      "continuous": true,
+      "label": "/l/",
+      "example": "lap",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: lll. Keep it steady, with no vowel after it. Avoid \"ul\" or \"luh\"."
+    },
+    {
+      "id": "z",
+      "clip": "snd_z",
+      "continuous": true,
+      "label": "/z/",
+      "example": "zip",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: zzz. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "w",
+      "clip": "snd_w",
+      "continuous": false,
+      "label": "/w/",
+      "example": "we",
+      "guidance": "Quick glide with rounded lips: /w/, not \"wuh\"."
+    },
+    {
+      "id": "ch",
+      "clip": "snd_ch",
+      "continuous": false,
+      "label": "/ch/",
+      "example": "chip",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /ch/, not \"chuh\"."
+    },
+    {
+      "id": "sh",
+      "clip": "snd_sh",
+      "continuous": true,
+      "label": "/sh/",
+      "example": "ship",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: shhh. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "th_voiced",
+      "clip": "snd_th_voiced",
+      "continuous": true,
+      "label": "/th/ (voiced)",
+      "example": "this",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: thhh with your voice on, tongue between teeth. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "th_unvoiced",
+      "clip": "snd_th_unvoiced",
+      "continuous": true,
+      "label": "/th/ (unvoiced)",
+      "example": "thin",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: thhh with air only, tongue between teeth. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "j",
+      "clip": "snd_j",
+      "continuous": false,
+      "label": "/j/",
+      "example": "jam",
+      "guidance": "Stop sound. Short and clipped, with no added vowel: /j/, not \"juh\"."
+    },
+    {
+      "id": "v",
+      "clip": "snd_v",
+      "continuous": true,
+      "label": "/v/",
+      "example": "van",
+      "guidance": "Continuous sound. Hold it for about 0.6 s: vvv. Keep it steady, with no vowel after it."
+    },
+    {
+      "id": "y",
+      "clip": "snd_y",
+      "continuous": false,
+      "label": "/y/",
+      "example": "yes",
+      "guidance": "Quick glide: /y/, not \"yuh\"."
+    },
+    {
+      "id": "ks",
+      "clip": "snd_ks",
+      "continuous": false,
+      "label": "/ks/",
+      "example": "fox",
+      "guidance": "Two quick sounds together: /ks/, as at the end of \"fox\"."
+    },
+    {
+      "id": "kw",
+      "clip": "snd_kw",
+      "continuous": false,
+      "label": "/kw/",
+      "example": "quit",
+      "guidance": "Two quick sounds together: /kw/, as at the start of \"quit\"."
+    },
+    {
+      "id": "a_short",
+      "clip": "snd_a_short",
+      "continuous": true,
+      "label": "/ă/",
+      "example": "cat",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: aaa as in \"cat\"."
+    },
+    {
+      "id": "i_short",
+      "clip": "snd_i_short",
+      "continuous": true,
+      "label": "/ĭ/",
+      "example": "sit",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: iii as in \"sit\"."
+    },
+    {
+      "id": "o_short",
+      "clip": "snd_o_short",
+      "continuous": true,
+      "label": "/ŏ/",
+      "example": "hot",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: ooo as in \"hot\"."
+    },
+    {
+      "id": "u_short",
+      "clip": "snd_u_short",
+      "continuous": true,
+      "label": "/ŭ/",
+      "example": "sun",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: uuu as in \"sun\"."
+    },
+    {
+      "id": "e_short",
+      "clip": "snd_e_short",
+      "continuous": true,
+      "label": "/ĕ/",
+      "example": "bed",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: eee as in \"bed\"."
+    },
+    {
+      "id": "a_long",
+      "clip": "snd_a_long",
+      "continuous": true,
+      "label": "/ā/",
+      "example": "they",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"they\" (says its name: A)."
+    },
+    {
+      "id": "e_long",
+      "clip": "snd_e_long",
+      "continuous": true,
+      "label": "/ē/",
+      "example": "she",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"she\" (says its name: E)."
+    },
+    {
+      "id": "i_long",
+      "clip": "snd_i_long",
+      "continuous": true,
+      "label": "/ī/",
+      "example": "like",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"like\" (says its name: I)."
+    },
+    {
+      "id": "o_long",
+      "clip": "snd_o_long",
+      "continuous": true,
+      "label": "/ō/",
+      "example": "go",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"go\" (says its name: O)."
+    },
+    {
+      "id": "u_long",
+      "clip": "snd_u_long",
+      "continuous": true,
+      "label": "/ū/",
+      "example": "cube",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"cube\" (says its name: U)."
+    },
+    {
+      "id": "oo",
+      "clip": "snd_oo",
+      "continuous": true,
+      "label": "/oo/",
+      "example": "to",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"to\" and \"moon\"."
+    },
+    {
+      "id": "ow",
+      "clip": "snd_ow",
+      "continuous": true,
+      "label": "/ow/",
+      "example": "down",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the vowel in \"down\"."
+    },
+    {
+      "id": "er",
+      "clip": "snd_er",
+      "continuous": true,
+      "label": "/er/",
+      "example": "her",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the sound at the end of \"her\"."
+    },
+    {
+      "id": "ar",
+      "clip": "snd_ar",
+      "continuous": true,
+      "label": "/ar/",
+      "example": "are",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the whole word \"are\"."
+    },
+    {
+      "id": "air",
+      "clip": "snd_air",
+      "continuous": true,
+      "label": "/air/",
+      "example": "fairy",
+      "guidance": "Vowel. Hold it for about 0.6 s at a steady pitch: the first vowel sound in \"fairy\"."
+    },
+    {
+      "id": "schwa",
+      "clip": "snd_schwa",
+      "continuous": true,
+      "label": "/ə/",
+      "example": "the",
+      "guidance": "The relaxed \"uh\" in \"the\" and \"a\". Keep it short and soft."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "cons_m",
+      "label": "m",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "m",
+          "soundId": "m"
+        }
+      ]
+    },
+    {
+      "id": "cons_s",
+      "label": "s",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "s",
+          "soundId": "s"
+        }
+      ]
+    },
+    {
+      "id": "cons_t",
+      "label": "t",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "t",
+          "soundId": "t"
+        }
+      ]
+    },
+    {
+      "id": "cons_p",
+      "label": "p",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "p",
+          "soundId": "p"
+        }
+      ]
+    },
+    {
+      "id": "cons_n",
+      "label": "n",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "n",
+          "soundId": "n"
+        }
+      ]
+    },
+    {
+      "id": "cons_f",
+      "label": "f",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "f",
+          "soundId": "f"
+        }
+      ]
+    },
+    {
+      "id": "cons_d",
+      "label": "d",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "d",
+          "soundId": "d"
+        }
+      ]
+    },
+    {
+      "id": "cons_g",
+      "label": "g",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "g",
+          "soundId": "g"
+        }
+      ]
+    },
+    {
+      "id": "cons_h",
+      "label": "h",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "h",
+          "soundId": "h"
+        }
+      ]
+    },
+    {
+      "id": "cons_b",
+      "label": "b",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "b",
+          "soundId": "b"
+        }
+      ]
+    },
+    {
+      "id": "cons_r",
+      "label": "r",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "r",
+          "soundId": "r"
+        }
+      ]
+    },
+    {
+      "id": "cons_l",
+      "label": "l",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "l",
+          "soundId": "l"
+        }
+      ]
+    },
+    {
+      "id": "cons_z",
+      "label": "z",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "z",
+          "soundId": "z"
+        }
+      ]
+    },
+    {
+      "id": "cons_c",
+      "label": "c (as in cat)",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "c",
+          "soundId": "k"
+        }
+      ]
+    },
+    {
+      "id": "cons_k",
+      "label": "k",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "k",
+          "soundId": "k"
+        }
+      ]
+    },
+    {
+      "id": "cons_w",
+      "label": "w",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "w",
+          "soundId": "w"
+        }
+      ]
+    },
+    {
+      "id": "cons_j",
+      "label": "j",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "j",
+          "soundId": "j"
+        }
+      ]
+    },
+    {
+      "id": "cons_v",
+      "label": "v",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "v",
+          "soundId": "v"
+        }
+      ]
+    },
+    {
+      "id": "cons_x",
+      "label": "x",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "x",
+          "soundId": "ks"
+        }
+      ]
+    },
+    {
+      "id": "cons_y",
+      "label": "y (as in yes)",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "y",
+          "soundId": "y"
+        }
+      ]
+    },
+    {
+      "id": "cons_qu",
+      "label": "qu",
+      "group": "consonant",
+      "graphemes": [
+        {
+          "spelling": "qu",
+          "soundId": "kw"
+        }
+      ]
+    },
+    {
+      "id": "short_a",
+      "label": "short a",
+      "group": "vowel",
+      "graphemes": [
+        {
+          "spelling": "a",
+          "soundId": "a_short"
+        }
+      ]
+    },
+    {
+      "id": "short_i",
+      "label": "short i",
+      "group": "vowel",
+      "graphemes": [
+        {
+          "spelling": "i",
+          "soundId": "i_short"
+        }
+      ]
+    },
+    {
+      "id": "short_o",
+      "label": "short o",
+      "group": "vowel",
+      "graphemes": [
+        {
+          "spelling": "o",
+          "soundId": "o_short"
+        }
+      ]
+    },
+    {
+      "id": "short_u",
+      "label": "short u",
+      "group": "vowel",
+      "graphemes": [
+        {
+          "spelling": "u",
+          "soundId": "u_short"
+        }
+      ]
+    },
+    {
+      "id": "short_e",
+      "label": "short e",
+      "group": "vowel",
+      "graphemes": [
+        {
+          "spelling": "e",
+          "soundId": "e_short"
+        }
+      ]
+    },
+    {
+      "id": "dig_ch",
+      "label": "ch",
+      "group": "digraph",
+      "graphemes": [
+        {
+          "spelling": "ch",
+          "soundId": "ch"
+        }
+      ]
+    },
+    {
+      "id": "dig_th",
+      "label": "th (this, thin)",
+      "group": "digraph",
+      "graphemes": [
+        {
+          "spelling": "th",
+          "soundId": "th_unvoiced"
+        },
+        {
+          "spelling": "th",
+          "soundId": "th_voiced"
+        }
+      ]
+    },
+    {
+      "id": "dig_sh",
+      "label": "sh",
+      "group": "digraph",
+      "graphemes": [
+        {
+          "spelling": "sh",
+          "soundId": "sh"
+        }
+      ]
+    },
+    {
+      "id": "dig_ck",
+      "label": "ck",
+      "group": "digraph",
+      "graphemes": [
+        {
+          "spelling": "ck",
+          "soundId": "k"
+        }
+      ]
+    },
+    {
+      "id": "dig_wh",
+      "label": "wh",
+      "group": "digraph",
+      "graphemes": [
+        {
+          "spelling": "wh",
+          "soundId": "w"
+        }
+      ]
+    },
+    {
+      "id": "suffix_s",
+      "label": "ending -s as /s/ (hops)",
+      "group": "suffix",
+      "graphemes": [
+        {
+          "spelling": "s",
+          "soundId": "s"
+        }
+      ]
+    },
+    {
+      "id": "suffix_s_z",
+      "label": "s as /z/ (dogs, is, has)",
+      "group": "suffix",
+      "graphemes": [
+        {
+          "spelling": "s",
+          "soundId": "z"
+        }
+      ]
+    },
+    {
+      "id": "blend_initial",
+      "label": "beginning blends (st, fl, gr...)",
+      "group": "blend",
+      "graphemes": []
+    },
+    {
+      "id": "blend_final",
+      "label": "ending blends (-nd, -st, -mp...)",
+      "group": "blend",
+      "graphemes": []
+    },
+    {
+      "id": "vce_a",
+      "label": "a_e (cake)",
+      "group": "silent_e",
+      "graphemes": [
+        {
+          "spelling": "a_e",
+          "soundId": "a_long"
+        }
+      ]
+    },
+    {
+      "id": "vce_i",
+      "label": "i_e (like)",
+      "group": "silent_e",
+      "graphemes": [
+        {
+          "spelling": "i_e",
+          "soundId": "i_long"
+        }
+      ]
+    },
+    {
+      "id": "vce_o",
+      "label": "o_e (home)",
+      "group": "silent_e",
+      "graphemes": [
+        {
+          "spelling": "o_e",
+          "soundId": "o_long"
+        }
+      ]
+    },
+    {
+      "id": "vce_u",
+      "label": "u_e (cube)",
+      "group": "silent_e",
+      "graphemes": [
+        {
+          "spelling": "u_e",
+          "soundId": "u_long"
+        }
+      ]
+    },
+    {
+      "id": "open_vowel",
+      "label": "open syllable long vowel (he, go)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "e",
+          "soundId": "e_long"
+        },
+        {
+          "spelling": "o",
+          "soundId": "o_long"
+        }
+      ]
+    },
+    {
+      "id": "vt_ee",
+      "label": "ee (see)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "ee",
+          "soundId": "e_long"
+        }
+      ]
+    },
+    {
+      "id": "vt_ea",
+      "label": "ea (eat)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "ea",
+          "soundId": "e_long"
+        }
+      ]
+    },
+    {
+      "id": "vt_oo",
+      "label": "oo (moon)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "oo",
+          "soundId": "oo"
+        }
+      ]
+    },
+    {
+      "id": "vt_ow",
+      "label": "ow (down)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "ow",
+          "soundId": "ow"
+        }
+      ]
+    },
+    {
+      "id": "rc_er",
+      "label": "er (her)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "er",
+          "soundId": "er"
+        }
+      ]
+    },
+    {
+      "id": "rc_ar",
+      "label": "ar (star)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "ar",
+          "soundId": "ar"
+        }
+      ]
+    },
+    {
+      "id": "rc_air",
+      "label": "air (fairy)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "air",
+          "soundId": "air"
+        }
+      ]
+    },
+    {
+      "id": "final_y",
+      "label": "final y as long e (fairy)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "y",
+          "soundId": "e_long"
+        }
+      ]
+    },
+    {
+      "id": "double_s",
+      "label": "double s (princess)",
+      "group": "future",
+      "graphemes": [
+        {
+          "spelling": "ss",
+          "soundId": "s"
+        }
+      ]
+    },
+    {
+      "id": "irregular",
+      "label": "irregular spelling (learned by heart)",
+      "group": "irregular",
+      "graphemes": [
+        {
+          "spelling": "e",
+          "soundId": "schwa"
+        },
+        {
+          "spelling": "a",
+          "soundId": "schwa"
+        },
+        {
+          "spelling": "ey",
+          "soundId": "a_long"
+        },
+        {
+          "spelling": "I",
+          "soundId": "i_long"
+        },
+        {
+          "spelling": "o",
+          "soundId": "oo"
+        },
+        {
+          "spelling": "are",
+          "soundId": "ar"
+        },
+        {
+          "spelling": "ie",
+          "soundId": "e_short"
+        },
+        {
+          "spelling": "c",
+          "soundId": "s"
+        }
+      ]
+    }
+  ]
+}

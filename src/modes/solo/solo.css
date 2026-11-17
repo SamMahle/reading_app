@@ -1,0 +1,130 @@
+.activity {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  width: 100%;
+  flex: 1;
+}
+
+.activity__prompt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: var(--touch);
+}
+
+.activity__sentence {
+  margin: 0;
+  letter-spacing: var(--letter-reading);
+  max-width: 1000px;
+  padding: 0 80px;
+  text-align: center;
+  font-family: var(--font-reading);
+  font-size: var(--size-sentence);
+  line-height: var(--line-reading);
+  word-spacing: var(--word-reading);
+}
+
+.activity__success,
+.activity__pause {
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(246 243 236 / 78%);
+}
+
+.activity__pause {
+  background: rgb(246 243 236 / 55%);
+}
+
+.grapheme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  min-height: 240px;
+  padding: 24px 40px;
+  border-radius: 32px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  border: 4px solid transparent;
+  transition:
+    border-color var(--motion) ease,
+    background-color var(--motion) ease;
+}
+
+.grapheme-button .grapheme-card {
+  font-size: 8rem;
+}
+
+.grapheme-button--active {
+  border-color: var(--color-accent);
+  background: var(--color-warm-soft);
+}
+
+.progress-beads {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.bead {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-line);
+}
+
+.bead--done {
+  background: var(--color-accent);
+}
+
+.bead--now {
+  background: var(--color-warm);
+}
+
+.screen__bar-spacer {
+  width: var(--touch);
+}
+
+.finish__books {
+  display: flex;
+  gap: var(--gap);
+}
+
+.finish__book {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pop var(--motion) ease-out;
+}
+
+.limit-moon {
+  color: var(--color-ink-soft);
+}
+
+.limit-moon .icon {
+  width: 160px;
+  height: 160px;
+}
+
+@media (max-height: 800px) {
+  .activity {
+    gap: 18px;
+  }
+
+  .grapheme-button {
+    min-width: 200px;
+    min-height: 200px;
+  }
+}

@@ -1,0 +1,630 @@
+[
+  {
+    "id": "is",
+    "text": "is",
+    "graphemes": [
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [],
+    "unlockLevel": 1,
+    "audioWord": "wd_is",
+    "isHeartWord": true
+  },
+  {
+    "id": "has",
+    "text": "has",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [],
+    "unlockLevel": 1,
+    "audioWord": "wd_has",
+    "isHeartWord": true
+  },
+  {
+    "id": "the",
+    "text": "the",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "schwa",
+        "patternId": "irregular",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_the",
+    "isHeartWord": true
+  },
+  {
+    "id": "they",
+    "text": "they",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "ey",
+        "soundId": "a_long",
+        "patternId": "irregular",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_they",
+    "isHeartWord": true
+  },
+  {
+    "id": "he",
+    "text": "he",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_long",
+        "patternId": "open_vowel",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_he",
+    "isHeartWord": true
+  },
+  {
+    "id": "we",
+    "text": "we",
+    "graphemes": [
+      {
+        "spelling": "w",
+        "soundId": "w",
+        "patternId": "cons_w",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_long",
+        "patternId": "open_vowel",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_we",
+    "isHeartWord": true
+  },
+  {
+    "id": "go",
+    "text": "go",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_long",
+        "patternId": "open_vowel",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_go",
+    "isHeartWord": true
+  },
+  {
+    "id": "she",
+    "text": "she",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_long",
+        "patternId": "open_vowel",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_she",
+    "isHeartWord": true
+  },
+  {
+    "id": "see",
+    "text": "see",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "ee",
+        "soundId": "e_long",
+        "patternId": "vt_ee",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_see",
+    "isHeartWord": true
+  },
+  {
+    "id": "eat",
+    "text": "eat",
+    "graphemes": [
+      {
+        "spelling": "ea",
+        "soundId": "e_long",
+        "patternId": "vt_ea",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "irregularIdx": [
+      0
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_eat",
+    "isHeartWord": true
+  },
+  {
+    "id": "like",
+    "text": "like",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "k",
+        "soundId": "k",
+        "patternId": "cons_k",
+        "continuous": false
+      }
+    ],
+    "irregularIdx": [],
+    "unlockLevel": 1,
+    "audioWord": "wd_like",
+    "isHeartWord": true
+  },
+  {
+    "id": "her",
+    "text": "her",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "er",
+        "soundId": "er",
+        "patternId": "rc_er",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_her",
+    "isHeartWord": true
+  },
+  {
+    "id": "i",
+    "text": "I",
+    "graphemes": [
+      {
+        "spelling": "I",
+        "soundId": "i_long",
+        "patternId": "irregular",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      0
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_i",
+    "isHeartWord": true
+  },
+  {
+    "id": "a",
+    "text": "a",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "schwa",
+        "patternId": "irregular",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      0
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_a",
+    "isHeartWord": true
+  },
+  {
+    "id": "to",
+    "text": "to",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "oo",
+        "patternId": "irregular",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_to",
+    "isHeartWord": true
+  },
+  {
+    "id": "was",
+    "text": "was",
+    "graphemes": [
+      {
+        "spelling": "w",
+        "soundId": "w",
+        "patternId": "cons_w",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "schwa",
+        "patternId": "irregular",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_was",
+    "isHeartWord": true
+  },
+  {
+    "id": "are",
+    "text": "are",
+    "graphemes": [
+      {
+        "spelling": "are",
+        "soundId": "ar",
+        "patternId": "irregular",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      0
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_are",
+    "isHeartWord": true
+  },
+  {
+    "id": "down",
+    "text": "down",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "ow",
+        "soundId": "ow",
+        "patternId": "vt_ow",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_down",
+    "isHeartWord": true
+  },
+  {
+    "id": "friend",
+    "text": "friend",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "ie",
+        "soundId": "e_short",
+        "patternId": "irregular",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "irregularIdx": [
+      2
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_friend",
+    "isHeartWord": true
+  },
+  {
+    "id": "star",
+    "text": "star",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "ar",
+        "soundId": "ar",
+        "patternId": "rc_ar",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      2
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_star",
+    "isHeartWord": true,
+    "optional": true,
+    "pictureId": "star"
+  },
+  {
+    "id": "moon",
+    "text": "moon",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "oo",
+        "soundId": "oo",
+        "patternId": "vt_oo",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_moon",
+    "isHeartWord": true,
+    "optional": true,
+    "pictureId": "moon"
+  },
+  {
+    "id": "fairy",
+    "text": "fairy",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "air",
+        "soundId": "air",
+        "patternId": "rc_air",
+        "continuous": true
+      },
+      {
+        "spelling": "y",
+        "soundId": "e_long",
+        "patternId": "final_y",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      1,
+      2
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_fairy",
+    "isHeartWord": true,
+    "optional": true,
+    "pictureId": "fairy"
+  },
+  {
+    "id": "princess",
+    "text": "princess",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "c",
+        "soundId": "s",
+        "patternId": "irregular",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "ss",
+        "soundId": "s",
+        "patternId": "double_s",
+        "continuous": true
+      }
+    ],
+    "irregularIdx": [
+      4,
+      6
+    ],
+    "unlockLevel": 1,
+    "audioWord": "wd_princess",
+    "isHeartWord": true,
+    "optional": true,
+    "pictureId": "princess"
+  }
+]

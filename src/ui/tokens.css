@@ -1,0 +1,82 @@
+/* Design tokens (spec §7.1). Calm, low saturation, plain backgrounds behind text. */
+@font-face {
+  font-family: 'Andika';
+  src: url('/fonts/andika/andika-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Andika';
+  src: url('/fonts/andika/andika-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  /* Andika: single-story a and g, as beginning readers expect. */
+  --font-reading: 'Andika', 'Avenir Next', system-ui, sans-serif;
+  --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-bg: #f6f3ec;
+  --color-surface: #fffdf8;
+  --color-surface-2: #ece7db;
+  --color-ink: #1f2a37; /* 12.9:1 on --color-bg */
+  --color-ink-soft: #45505c; /* 7.3:1 on --color-bg */
+  --color-line: #d5cfc0;
+  --color-dot: #9aa3ad;
+  --color-accent: #2c6b76;
+  --color-accent-soft: #d6e6e7;
+  --color-accent-ink: #ffffff;
+  --color-heart: #d76a70;
+  --color-ok: #4b8a5c;
+  --color-ok-soft: #dcebdd;
+  --color-warm: #e8c26a;
+  --color-warm-soft: #f6ead0;
+  --color-alert: #a8473f;
+
+  /* Text sizes: single word >= 56pt, sentence >= 40pt. */
+  --size-word: 4.5rem;
+  --size-word-large: 6rem;
+  --size-sentence: 2.75rem;
+  --size-ui: 1.0625rem;
+  --line-reading: 1.6;
+  --letter-reading: 0.02em;
+  --word-reading: 0.25em;
+
+  /* Touch: targets >= 60pt, tiles >= 80pt, >= 16pt between targets. */
+  --touch: 64px;
+  --tile: 88px;
+  --gap: 16px;
+
+  --radius: 18px;
+  --radius-small: 10px;
+  --shadow: 0 1px 2px rgb(31 42 55 / 8%), 0 4px 14px rgb(31 42 55 / 6%);
+  --motion: 180ms;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+}
+
+@media (max-height: 800px) and (orientation: landscape) {
+  :root {
+    --size-word-large: 5.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion: 0ms;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

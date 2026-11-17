@@ -1,0 +1,255 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+  font-size: var(--size-ui);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  padding: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+img {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- Screen scaffolding ------------------------------------------------ */
+.screen {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: calc(var(--safe-top) + 16px) calc(var(--safe-right) + 24px)
+    calc(var(--safe-bottom) + 16px) calc(var(--safe-left) + 24px);
+}
+
+.screen__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap);
+  min-height: var(--touch);
+}
+
+.screen__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  min-height: 0;
+}
+
+.kid-screen {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ---- Buttons ------------------------------------------------------------ */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch);
+  height: var(--touch);
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  box-shadow: var(--shadow);
+  transition:
+    transform var(--motion) ease,
+    background-color var(--motion) ease,
+    opacity var(--motion) ease;
+  flex: none;
+}
+
+.icon-button:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.icon-button:disabled {
+  opacity: 0.35;
+  box-shadow: none;
+}
+
+.icon-button--accent {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
+.icon-button--large {
+  width: 96px;
+  height: 96px;
+}
+
+.icon-button--huge {
+  width: 168px;
+  height: 168px;
+}
+
+.icon-button--ghost {
+  background: transparent;
+  box-shadow: none;
+  color: var(--color-ink-soft);
+}
+
+.icon-button--nudge {
+  animation: nudge 1.6s ease-in-out infinite;
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(44 107 118 / 35%);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgb(44 107 118 / 0%);
+  }
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+
+.icon-button--large .icon {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-button--huge .icon {
+  width: 84px;
+  height: 84px;
+}
+
+/* Press-and-hold buttons show a progress ring while held. */
+.hold-button {
+  position: relative;
+}
+
+.hold-button__ring {
+  position: absolute;
+  inset: -5px;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+.hold-button__ring circle {
+  fill: none;
+  stroke: var(--color-accent);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+/* ---- Feedback ----------------------------------------------------------- */
+.check-pop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--color-ok-soft);
+  color: var(--color-ok);
+  animation: pop var(--motion) ease-out;
+}
+
+.check-pop .icon {
+  width: 48px;
+  height: 48px;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slide-in var(--motion) ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(14px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.dev-badge {
+  position: fixed;
+  left: 8px;
+  bottom: 8px;
+  z-index: 100;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--color-alert);
+  color: #fff;
+  font-size: 0.75rem;
+  pointer-events: none;
+}

@@ -1,0 +1,659 @@
+/* Shared reading components (spec §7). */
+
+/* ---- Word --------------------------------------------------------------- */
+.word {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--font-reading);
+  letter-spacing: var(--letter-reading);
+  color: var(--color-ink);
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.word--sentence {
+  font-size: var(--size-sentence);
+}
+
+.word--word {
+  font-size: var(--size-word);
+}
+
+.word--large {
+  font-size: var(--size-word-large);
+}
+
+.word--button {
+  border-radius: var(--radius-small);
+}
+
+.word__cell {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.word--spaced .word__cell {
+  min-width: 84px;
+  padding: 0 6px;
+}
+
+.word--spaced {
+  gap: var(--gap);
+}
+
+.word--spaced .word__split {
+  gap: var(--gap);
+}
+
+.word__cell--button {
+  min-height: var(--touch);
+  border-radius: var(--radius);
+  padding-bottom: 10px;
+  transition: background-color var(--motion) ease;
+}
+
+.word__cell--button:active {
+  background: var(--color-accent-soft);
+}
+
+.word__letters {
+  border-radius: 8px;
+  transition:
+    background-color var(--motion) ease,
+    color var(--motion) ease;
+}
+
+.word__letters--active {
+  background: var(--color-warm-soft);
+  box-shadow: 0 0 0 6px var(--color-warm-soft);
+}
+
+/* Hearts sit above irregular graphemes, out of the text flow so every word
+   keeps the same baseline. */
+.word__heart {
+  position: absolute;
+  top: -0.16em;
+  left: 0;
+  right: 0;
+  height: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-heart);
+  pointer-events: none;
+}
+
+.word__heart .icon {
+  width: 0.3em;
+  height: 0.3em;
+}
+
+.word__dot {
+  width: 0.2em;
+  height: 0.2em;
+  margin-top: 0.1em;
+  border-radius: 50%;
+  background: var(--color-dot);
+  transition:
+    background-color var(--motion) ease,
+    transform var(--motion) ease;
+}
+
+/* While sounding out, the dots are full-size touch targets. */
+.word--spaced .word__dot {
+  width: 22px;
+  height: 22px;
+  margin-top: 10px;
+}
+
+.word__dot--tapped {
+  background: var(--color-accent);
+  transform: scale(1.15);
+}
+
+.word__dot--none {
+  visibility: hidden;
+}
+
+/* Split digraph: one dot under the vowel, linked to the silent e by an arc. */
+.word__split {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.word__arc {
+  position: absolute;
+  left: 0.3em;
+  right: 0.3em;
+  bottom: -14px;
+  height: 22px;
+  border: 3px solid var(--color-dot);
+  border-top: 0;
+  border-radius: 0 0 999px 999px;
+  pointer-events: none;
+}
+
+.word--spaced .word__arc {
+  left: 48px;
+  right: 48px;
+}
+
+/* ---- Sound-it-out overlay ---------------------------------------------- */
+.help-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  padding: calc(var(--safe-top) + 16px) calc(var(--safe-right) + 24px)
+    calc(var(--safe-bottom) + 16px) calc(var(--safe-left) + 24px);
+  animation: slide-in var(--motion) ease-out;
+}
+
+.help-overlay__slider {
+  width: min(680px, 100%);
+  min-height: 84px;
+}
+
+.help-overlay__actions {
+  display: flex;
+  gap: 32px;
+  min-height: 96px;
+}
+
+/* ---- Blend slider ------------------------------------------------------- */
+/* The thumb's centre travels the element's width; the track is drawn wider. */
+.blend-slider {
+  position: relative;
+  height: 84px;
+  margin: 0 42px;
+  touch-action: none;
+  animation: slide-in var(--motion) ease-out;
+}
+
+.blend-slider::before {
+  content: '';
+  position: absolute;
+  inset: 0 -42px;
+  border-radius: 999px;
+  background: var(--color-surface-2);
+}
+
+.blend-slider__fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -42px;
+  border-radius: 999px;
+  background: var(--color-accent-soft);
+}
+
+.blend-slider__tick {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 50%;
+  background: var(--color-dot);
+}
+
+.blend-slider__thumb {
+  position: absolute;
+  top: 0;
+  width: 84px;
+  height: 84px;
+  margin-left: -42px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.blend-slider__thumb .icon {
+  width: 44px;
+  height: 44px;
+}
+
+.blend-slider--disabled {
+  opacity: 0.4;
+}
+
+.blend-slider--model {
+  height: 28px;
+  margin-top: 28px;
+}
+
+/* ---- Choices ------------------------------------------------------------ */
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  width: min(960px, 100%);
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 20px;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  border: 4px solid transparent;
+  transition:
+    transform var(--motion) ease,
+    opacity var(--motion) ease,
+    border-color var(--motion) ease;
+}
+
+.choice:active {
+  transform: scale(0.98);
+}
+
+.choice--highlight {
+  border-color: var(--color-accent);
+  animation: nudge 1.6s ease-in-out infinite;
+}
+
+.choice--faded {
+  opacity: 0.3;
+}
+
+.choices--picture .choice {
+  aspect-ratio: 1 / 1;
+  min-height: 0;
+  max-height: 34vh;
+  padding: 12px;
+  justify-self: center;
+  width: 100%;
+  max-width: 34vh;
+}
+
+.grapheme-card {
+  font-family: var(--font-reading);
+  font-size: var(--size-word-large);
+  line-height: 1.1;
+}
+
+.prompt-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(220px, 26vh);
+  height: min(220px, 26vh);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+}
+
+.picture {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
+}
+
+/* ---- Scenes ------------------------------------------------------------- */
+.scene {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.scene img {
+  position: absolute;
+  object-fit: contain;
+}
+
+.scene--alone .scene__subject {
+  inset: 8%;
+  width: 84%;
+  height: 84%;
+}
+
+/* "on": the subject sits on top of the object. */
+.scene--on .scene__object {
+  left: 14%;
+  bottom: 0;
+  width: 72%;
+  height: 60%;
+}
+
+.scene--on .scene__subject {
+  left: 24%;
+  top: 0;
+  width: 52%;
+  height: 52%;
+}
+
+/* "in": the subject is drawn small inside the object. */
+.scene--in .scene__object {
+  inset: 2%;
+  width: 96%;
+  height: 96%;
+}
+
+.scene--in .scene__subject {
+  left: 29%;
+  top: 30%;
+  width: 42%;
+  height: 42%;
+  filter: drop-shadow(0 0 3px #fff) drop-shadow(0 0 3px #fff);
+}
+
+/* "with" / "next to": side by side. */
+.scene--beside .scene__subject {
+  left: 0;
+  top: 18%;
+  width: 56%;
+  height: 64%;
+}
+
+.scene--beside .scene__object {
+  right: 0;
+  bottom: 14%;
+  width: 46%;
+  height: 52%;
+}
+
+/* ---- Tile board --------------------------------------------------------- */
+.tile-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.tile-board__boxes,
+.tile-board__tray {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: var(--tile);
+}
+
+.sound-box,
+.tile {
+  height: var(--tile);
+  min-width: var(--tile);
+  padding: 0 10px;
+  border-radius: var(--radius);
+  font-family: var(--font-reading);
+  font-size: 3.25rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sound-box {
+  border: 3px dashed var(--color-dot);
+  background: transparent;
+  min-width: 104px;
+  height: 104px;
+}
+
+.sound-box--filled {
+  border-style: solid;
+  border-color: var(--color-accent);
+  background: var(--color-surface);
+}
+
+.tile {
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  border: 3px solid var(--color-line);
+  touch-action: none;
+  transition:
+    opacity var(--motion) ease,
+    border-color var(--motion) ease;
+}
+
+.tile--dragging {
+  z-index: 5;
+  border-color: var(--color-accent);
+  box-shadow: 0 10px 24px rgb(31 42 55 / 18%);
+}
+
+.tile--highlight {
+  border-color: var(--color-accent);
+  animation: nudge 1.6s ease-in-out infinite;
+}
+
+.tile--faded {
+  opacity: 0.3;
+}
+
+/* ---- Focus reader ------------------------------------------------------- */
+.reader {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+  max-width: 1100px;
+  touch-action: pan-y;
+}
+
+.reader__text {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-family: var(--font-reading);
+  font-size: var(--size-sentence);
+  line-height: var(--line-reading);
+  word-spacing: var(--word-reading);
+  color: var(--color-ink);
+}
+
+.reader__token {
+  white-space: nowrap;
+}
+
+.reader__word {
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+  font: inherit;
+  letter-spacing: var(--letter-reading);
+  color: inherit;
+  border-radius: var(--radius-small);
+  padding: 2px 4px;
+  margin: 0 -4px;
+  border-bottom: 4px solid transparent;
+  transition:
+    opacity var(--motion) ease,
+    background-color var(--motion) ease;
+}
+
+.reader__word:disabled {
+  color: inherit;
+}
+
+.reader__word--past {
+  opacity: 0.35;
+}
+
+.reader__word--future {
+  visibility: hidden;
+}
+
+.reader__word--selected {
+  background: var(--color-warm-soft);
+}
+
+.reader__word--self_corrected {
+  border-bottom-color: var(--color-warm);
+}
+
+.reader__word--needed_help {
+  border-bottom-color: var(--color-dot);
+}
+
+.reader__next {
+  align-self: flex-end;
+}
+
+/* ---- Parent strip ------------------------------------------------------- */
+.parent-strip {
+  width: 232px;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  font-size: 0.875rem;
+  color: var(--color-ink);
+  align-self: stretch;
+  overflow-y: auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.parent-strip p,
+.parent-strip ol {
+  margin: 0;
+}
+
+.parent-strip__target,
+.parent-strip__heading {
+  font-weight: 600;
+}
+
+.parent-strip__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.strip-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--touch);
+  padding: 0 14px;
+  border-radius: var(--radius-small);
+  background: var(--color-surface-2);
+  font-weight: 600;
+  text-align: left;
+}
+
+.strip-button:disabled {
+  opacity: 0.4;
+}
+
+.strip-button--ok {
+  background: var(--color-ok-soft);
+}
+
+.strip-button .icon {
+  width: 26px;
+  height: 26px;
+}
+
+.parent-strip__hint {
+  color: var(--color-ink-soft);
+}
+
+.parent-strip__script {
+  border-top: 1px solid var(--color-line);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.parent-strip__script ol {
+  padding-left: 18px;
+}
+
+.parent-strip__dont {
+  color: var(--color-alert);
+}
+
+/* ---- Bookshelf ---------------------------------------------------------- */
+.shelf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px 20px 0;
+  border-bottom: 10px solid var(--color-line);
+  width: 100%;
+  min-height: 190px;
+}
+
+.shelf__book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 112px;
+  min-height: 150px;
+  padding: 16px 10px 12px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: inset -6px 0 0 rgb(31 42 55 / 6%);
+}
+
+.shelf__sticker {
+  width: 76px;
+  height: 76px;
+}
+
+.shelf__stars {
+  display: flex;
+  gap: 2px;
+}
+
+.shelf__star {
+  color: var(--color-dot);
+}
+
+.shelf__star--on {
+  color: #b98a1d;
+}
+
+.shelf__star .icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (orientation: portrait) {
+  .choices {
+    gap: var(--gap);
+  }
+
+  .choice {
+    min-height: 130px;
+    padding: 12px;
+  }
+
+  .word--spaced .word__cell {
+    min-width: 68px;
+  }
+
+  .reader {
+    flex-direction: column;
+  }
+
+  .reader__next {
+    align-self: center;
+  }
+}

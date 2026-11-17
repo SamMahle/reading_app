@@ -1,0 +1,12 @@
+dist
+coverage
+node_modules
+package-lock.json
+content/*.json
+assets
+public
+docs
+test-results
+playwright-report
+READING_APP_SPEC.md
+content/REVIEW.md

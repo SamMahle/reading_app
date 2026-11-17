@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Reading App: Executive Summary</title><link rel="stylesheet" href="docs.css"></head>
+<body class="compact">
+<p class="kicker">Executive summary</p>
+<h1>Reading App</h1>
+<p class="lead">An offline iPad app that teaches one kindergarten reader to sound words out instead of guessing, and builds her confidence one small, successful step at a time.</p>
+<p class="meta">Version 1.0.0 · Built 17 November 2026 from READING_APP_SPEC.md v1.0 · Phases 0–5 complete · Pilot (Phase 6) not started</p>
+
+<div class="cols">
+  <div>
+    <h3>Bottom line</h3>
+    <p>The app is built and tested, and is ready to deploy and install. It is <strong>not ready for her to use until you record about 30 letter sounds</strong> on the iPad (10 to 15 minutes in the built-in Sound Studio). Everything else works now.</p>
+    <h3>The problem it addresses</h3>
+    <ul>
+      <li>She knows many words, but a block of text overwhelms her.</li>
+      <li>At an unfamiliar word she guesses or gives up.</li>
+      <li>The working theory: the cause is text load and a missing decoding routine, not vocabulary.</li>
+    </ul>
+    <h3>How it works</h3>
+    <ul>
+      <li><strong>One routine, everywhere:</strong> tap each sound, slide to blend, say the word. It is the only help the app ever offers, and the whole word cannot be heard until she has done it.</li>
+      <li><strong>Only readable text:</strong> every word is checked against what her class has taught. Anything else is refused by the code, not by convention.</li>
+      <li><strong>Text grows gradually:</strong> one phrase at a time now, moving to full pages as her accuracy holds at 90%.</li>
+      <li><strong>No pressure:</strong> no timers, scores, lives, buzzers or lost streaks. She never ends on a miss.</li>
+    </ul>
+  </div>
+  <figure>
+    <img src="../img/help-2-slide.png" alt="">
+    <figcaption>The sound-it-out routine. Each dot plays one sound; the slider blends them. The same routine her teacher uses with sound dots.</figcaption>
+  </figure>
+</div>
+
+<div class="keep">
+<h2>What was built</h2>
+<table>
+  <tr><th style="width:18%">Part</th><th>What it does</th><th style="width:27%">Who uses it</th></tr>
+  <tr><td><strong>Solo mode</strong></td><td>Short sessions (4, 6 or 8 minutes) of four activities: sound warm-up, word building, pick the word, read then match. The app verifies every answer with no microphone. Words come back on a spaced schedule.</td><td>Her, on her own</td></tr>
+  <tr><td><strong>Coach mode</strong></td><td>She reads a story aloud. The text appears a chunk at a time while you score with three buttons. Each story is read three times across the week. A correction script on screen keeps every adult saying the same thing.</td><td>Her and a parent</td></tr>
+  <tr><td><strong>Class passage</strong></td><td>Paste the week's school passage. The app flags words she has not been taught, practises just those first, then she reads it at her current step.</td><td>Parent sets up, both read</td></tr>
+  <tr><td><strong>Parent area</strong></td><td>PIN-protected. Unlock levels as school teaches them, add words, record audio, see reports, back up.</td><td>Parent</td></tr>
+</table>
+
+</div>
+<div class="cols">
+  <div class="box">
+    <h3>Content at launch</h3>
+    <ul>
+      <li>279 words, each split into sounds by rule and checked</li>
+      <li>19 heart words from her list, plus 4 optional interest words</li>
+      <li>103 sentences and 23 short stories</li>
+      <li>Levels 1–3 unlocked (short a, i, o; ch, th), matching her class today</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>Built around what she loves</h3>
+    <ul>
+      <li><strong>Animals</strong> run through nearly every story: cats, dogs, pigs, a hog in the fog.</li>
+      <li><strong>Space</strong> with words she can already read: a <em>bot</em> in a <em>pod</em>, a hot <em>dot</em>, a <em>ship</em>.</li>
+      <li><strong>Princesses and fairies</strong> as optional heart words (<em>star, moon, fairy, princess</em>) with five stories, off until you switch them on.</li>
+      <li>Reward stickers: rocket, crown, wand, unicorn, planet, paw.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="keep">
+<h2>Status and evidence</h2>
+<table>
+  <tr><th style="width:30%">Phase</th><th style="width:14%">Status</th><th>Evidence</th></tr>
+  <tr><td>0. Content engine and seed content</td><td><span class="status status--done">Done</span></td><td>99.6% test coverage of the engine. All content passes the checker. The spec's test passage classifies exactly as specified.</td></tr>
+  <tr><td>1. Reading components and audio</td><td><span class="status status--done">Done</span></td><td>The whole-word gate is tested at two levels. Recording and sound latency need the real iPad.</td></tr>
+  <tr><td>2. Solo mode</td><td><span class="status status--done">Done</span></td><td>A full session runs end to end. 25 seconds of rapid random tapping cannot complete any of the four activities.</td></tr>
+  <tr><td>3. Offline app</td><td><span class="status status--done">Done</span></td><td>Cold start with the network off works, with zero outside requests. Install and reboot checks need the iPad.</td></tr>
+  <tr><td>4. Coach mode</td><td><span class="status status--done">Done</span></td><td>The text-load ladder, repeated reading and the class passage flow are tested with the spec's passage.</td></tr>
+  <tr><td>5. Parent area</td><td><span class="status status--done">Done</span></td><td>Backup → clean install → import restores everything exactly. The PIN is stored only as a salted hash.</td></tr>
+  <tr><td>6. Pilot hardening</td><td><span class="status status--open">Not started</span></td><td>Needs two weeks of real use.</td></tr>
+</table>
+</div>
+<p><strong>Automated checks:</strong> 164 unit tests and 18 end-to-end tests pass. Lint, formatting and strict type checks are clean.</p>
+<div class="note"><strong>One limit on that evidence.</strong> The end-to-end tests ran in Chromium, because Safari's engine (WebKit) was not available on the build machine. The project is set up to run them in WebKit automatically on GitHub. Until that run and the on-device checklist are done, treat Safari-specific behaviour (sound start-up, recording, the blend slider) as unverified.</div>
+
+<div class="keep">
+<h2>What it needs from you</h2>
+<ol class="steps">
+  <li><strong>Deploy it</strong> (about 10 minutes). GitHub Pages or Netlify; both are documented and need no server.</li>
+  <li><strong>Install it on her iPad</strong> from Safari with Add to Home Screen, then open it once while online.</li>
+  <li><strong>Record the sounds</strong> in Sound Studio. About 30 single sounds first. Words and spoken directions can follow, or use the iPad's voice for those in the meantime.</li>
+  <li><strong>Read through the content</strong> in <code>content/REVIEW.md</code>. It was drafted for this app and machine-checked, but you should confirm it.</li>
+  <li><strong>Run the device checklist</strong> once (15 minutes), then start the pilot.</li>
+</ol>
+</div>
+
+<div class="keep">
+<h2>Decisions I made that you may want to reverse</h2>
+<table>
+  <tr><th style="width:34%">Decision</th><th>Why</th></tr>
+  <tr><td>In read-then-match, the pictures wait for her tap. They never appear on a 4-second timer.</td><td>A timer would show pictures before a slow reader finishes, which breaks the spec's own rule that pictures come only after reading.</td></tr>
+  <tr><td>The iPad's voice can stand in for unrecorded <em>words and directions</em>, as a parent setting (off by default).</td><td>There are 302 word clips. Without this the app would be largely silent until all are recorded. It is never used for single letter sounds.</td></tr>
+  <tr><td>Four interest words (<em>star, moon, fairy, princess</em>) ship switched off.</td><td>Her interests are not decodable yet. Heart words are the honest way to include them, and that is your call.</td></tr>
+  <tr><td>Book spines on her shelf show a picture, not a title.</td><td>Small text would break the minimum reading sizes. The text appears full-size when she opens the book.</td></tr>
+  <tr><td>An extra anti-guessing rule: an answer needs one second of no tapping first.</td><td>Testing showed that mashing the whole screen could occasionally land an answer.</td></tr>
+</table>
+</div>
+<p>The full list (19 items) and six open questions are in <code>docs/BUILD_REPORT.md</code>.</p>
+
+<h2>Privacy</h2>
+<p>All data stays on the iPad. The app makes no network requests while running, and has no accounts, analytics or third-party code. Her progress leaves the device only if you export a backup file.</p>
+</body>
+</html>

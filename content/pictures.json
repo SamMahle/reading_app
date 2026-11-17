@@ -1,0 +1,508 @@
+[
+  {
+    "id": "cat",
+    "file": "cat.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F408"
+  },
+  {
+    "id": "dog",
+    "file": "dog.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F415"
+  },
+  {
+    "id": "pig",
+    "file": "pig.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F416"
+  },
+  {
+    "id": "rat",
+    "file": "rat.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F400"
+  },
+  {
+    "id": "bat",
+    "file": "bat.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F987"
+  },
+  {
+    "id": "ram",
+    "file": "ram.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F40F"
+  },
+  {
+    "id": "hog",
+    "file": "hog.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F417"
+  },
+  {
+    "id": "hat",
+    "file": "hat.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F3A9"
+  },
+  {
+    "id": "cap",
+    "file": "cap.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F9E2"
+  },
+  {
+    "id": "map",
+    "file": "map.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F5FA"
+  },
+  {
+    "id": "bag",
+    "file": "bag.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F45C"
+  },
+  {
+    "id": "pan",
+    "file": "pan.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F373"
+  },
+  {
+    "id": "pot",
+    "file": "pot.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F372"
+  },
+  {
+    "id": "can",
+    "file": "can.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F96B"
+  },
+  {
+    "id": "fan",
+    "file": "fan.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1FAAD"
+  },
+  {
+    "id": "pin",
+    "file": "pin.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F4CC"
+  },
+  {
+    "id": "bin",
+    "file": "bin.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F5D1"
+  },
+  {
+    "id": "man",
+    "file": "man.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F468"
+  },
+  {
+    "id": "mom",
+    "file": "mom.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F469"
+  },
+  {
+    "id": "log",
+    "file": "log.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1FAB5"
+  },
+  {
+    "id": "bot",
+    "file": "bot.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F916"
+  },
+  {
+    "id": "bath",
+    "file": "bath.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F6C1"
+  },
+  {
+    "id": "ship",
+    "file": "ship.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F6A2"
+  },
+  {
+    "id": "shop",
+    "file": "shop.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F3EA"
+  },
+  {
+    "id": "fish",
+    "file": "fish.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F41F"
+  },
+  {
+    "id": "dish",
+    "file": "dish.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F37D"
+  },
+  {
+    "id": "cash",
+    "file": "cash.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F4B5"
+  },
+  {
+    "id": "chip",
+    "file": "chip.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F35F"
+  },
+  {
+    "id": "sun",
+    "file": "sun.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "2600"
+  },
+  {
+    "id": "bed",
+    "file": "bed.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F6CF"
+  },
+  {
+    "id": "bug",
+    "file": "bug.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F41B"
+  },
+  {
+    "id": "cup",
+    "file": "cup.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F964"
+  },
+  {
+    "id": "bus",
+    "file": "bus.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F68C"
+  },
+  {
+    "id": "pen",
+    "file": "pen.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F58A"
+  },
+  {
+    "id": "hen",
+    "file": "hen.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F414"
+  },
+  {
+    "id": "nut",
+    "file": "nut.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F95C"
+  },
+  {
+    "id": "leg",
+    "file": "leg.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F9B5"
+  },
+  {
+    "id": "frog",
+    "file": "frog.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F438"
+  },
+  {
+    "id": "crab",
+    "file": "crab.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F980"
+  },
+  {
+    "id": "hand",
+    "file": "hand.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "270B"
+  },
+  {
+    "id": "flag",
+    "file": "flag.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F6A9"
+  },
+  {
+    "id": "ant",
+    "file": "ant.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F41C"
+  },
+  {
+    "id": "tent",
+    "file": "tent.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "26FA"
+  },
+  {
+    "id": "sled",
+    "file": "sled.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F6F7"
+  },
+  {
+    "id": "duck",
+    "file": "duck.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F986"
+  },
+  {
+    "id": "sock",
+    "file": "sock.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F9E6"
+  },
+  {
+    "id": "rock",
+    "file": "rock.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1FAA8"
+  },
+  {
+    "id": "chick",
+    "file": "chick.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F425"
+  },
+  {
+    "id": "bone",
+    "file": "bone.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F9B4"
+  },
+  {
+    "id": "home",
+    "file": "home.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F3E0"
+  },
+  {
+    "id": "game",
+    "file": "game.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F3AE"
+  },
+  {
+    "id": "cube",
+    "file": "cube.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F9CA"
+  },
+  {
+    "id": "star",
+    "file": "star.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "2B50"
+  },
+  {
+    "id": "moon",
+    "file": "moon.svg",
+    "cue": true,
+    "source": "openmoji",
+    "emoji": "1F319"
+  },
+  {
+    "id": "fairy",
+    "file": "fairy.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F9DA"
+  },
+  {
+    "id": "princess",
+    "file": "princess.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F478"
+  },
+  {
+    "id": "crown",
+    "file": "crown.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F451"
+  },
+  {
+    "id": "rocket",
+    "file": "rocket.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F680"
+  },
+  {
+    "id": "planet",
+    "file": "planet.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1FA90"
+  },
+  {
+    "id": "unicorn",
+    "file": "unicorn.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F984"
+  },
+  {
+    "id": "castle",
+    "file": "castle.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F3F0"
+  },
+  {
+    "id": "sparkles",
+    "file": "sparkles.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "2728"
+  },
+  {
+    "id": "paw",
+    "file": "paw.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F43E"
+  },
+  {
+    "id": "rainbow",
+    "file": "rainbow.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F308"
+  },
+  {
+    "id": "ufo",
+    "file": "ufo.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F6F8"
+  },
+  {
+    "id": "wand",
+    "file": "wand.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1FA84"
+  },
+  {
+    "id": "book",
+    "file": "book.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F4D6"
+  },
+  {
+    "id": "dad",
+    "file": "man.svg",
+    "cue": false,
+    "source": "openmoji",
+    "emoji": "1F468"
+  },
+  {
+    "id": "mat",
+    "file": "mat.svg",
+    "cue": true,
+    "source": "original"
+  },
+  {
+    "id": "pod",
+    "file": "pod.svg",
+    "cue": false,
+    "source": "original"
+  },
+  {
+    "id": "dot",
+    "file": "dot.svg",
+    "cue": true,
+    "source": "original"
+  },
+  {
+    "id": "lid",
+    "file": "lid.svg",
+    "cue": false,
+    "source": "original"
+  },
+  {
+    "id": "mop",
+    "file": "mop.svg",
+    "cue": true,
+    "source": "original"
+  }
+]

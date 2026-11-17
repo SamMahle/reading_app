@@ -1,0 +1,125 @@
+.home__modes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.mode-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 40px;
+  background: var(--color-surface);
+  color: var(--color-accent);
+  box-shadow: var(--shadow);
+  transition: transform var(--motion) ease;
+}
+
+.mode-card:active {
+  transform: scale(0.97);
+}
+
+.mode-card .icon {
+  width: 132px;
+  height: 132px;
+  stroke-width: 1.5;
+}
+
+.mode-card--small {
+  width: 150px;
+  height: 150px;
+  border-radius: 32px;
+  color: var(--color-ink-soft);
+}
+
+.mode-card--small .icon {
+  width: 76px;
+  height: 76px;
+}
+
+.home__badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-warm);
+}
+
+.home__due {
+  display: flex;
+  gap: var(--gap);
+}
+
+.due-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  min-width: 120px;
+  min-height: var(--touch);
+}
+
+.due-card__sticker {
+  width: 60px;
+  height: 60px;
+}
+
+.due-card__stars {
+  display: flex;
+}
+
+.day-tracker {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: var(--touch);
+}
+
+.day-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--color-dot);
+}
+
+.day-dot--on {
+  background: var(--color-warm);
+  border-color: var(--color-warm);
+}
+
+.start-gate__button .icon {
+  margin-left: 8px;
+}
+
+.loading {
+  color: var(--color-ink-soft);
+}
+
+.storage-error {
+  max-width: 520px;
+  text-align: center;
+  color: var(--color-ink);
+}
+
+.home__friends {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding-bottom: 8px;
+}
+
+.home__friend {
+  width: 56px;
+  height: 56px;
+  opacity: 0.85;
+}
