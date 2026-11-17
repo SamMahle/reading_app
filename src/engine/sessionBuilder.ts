@@ -86,6 +86,14 @@ export interface BuildInput {
   minutes: SessionMinutes;
   /** False when the device is muted or audio could not start. */
   audioAvailable: boolean;
+  /**
+   * Whether a word can be spoken (a recording exists). Word Building needs
+   * the word said aloud, or failing that a picture that names it. Defaults to
+   * "yes" for every word.
+   */
+  canSayWord?: (word: WordEntry) => boolean;
+  /** Whether a single sound has a clip. "Find the sound" needs one. */
+  canPlaySound?: (soundId: string) => boolean;
   rng: Rng;
 }
 
@@ -187,8 +195,9 @@ function buildWarmups(
     1 + (topLevelPatterns.has(g.patternId) ? 2 : 0) + (missed.has(g.spelling) ? 3 : 0);
   const targets = weightedSample(graphemes, weight, count, input.rng);
   return targets.map((target, i) => {
+    const audible = input.audioAvailable && (input.canPlaySound?.(target.soundId) ?? true);
     const options =
-      input.audioAvailable && i % 2 === 1 ? warmupOptions(target, graphemes, input.rng) : undefined;
+      audible && i % 2 === 1 ? warmupOptions(target, graphemes, input.rng) : undefined;
     return options
       ? { kind: 'warmup', variant: 'find', target, options }
       : { kind: 'warmup', variant: 'hear', target, options: [target] };
@@ -289,8 +298,14 @@ export function buildSession(input: BuildInput): SessionPlan {
   let builds: BuildItem[] = [];
   if (input.audioAvailable) {
     const used = new Set(pickWords.map((w) => w.id));
+    const hasCue = (w: WordEntry) =>
+      w.pictureId ? input.pictures.get(w.pictureId)?.cue === true : false;
     const buildable = decodable.filter(
-      (w) => !used.has(w.id) && w.graphemes.length >= 2 && w.graphemes.length <= 5,
+      (w) =>
+        !used.has(w.id) &&
+        w.graphemes.length >= 2 &&
+        w.graphemes.length <= 5 &&
+        ((input.canSayWord?.(w) ?? true) || hasCue(w)),
     );
     builds = selectByMix(buildable, counts.build, ctx).map((w) => toBuildItem(w, graphemes, rng));
   } else {
@@ -341,7 +356,7 @@ export function chooseCloser(
       const item = toPickItem(word, input.lexicon, input.unlock, input.rng);
       if (item) return item;
     }
-    if (input.audioAvailable && word.graphemes.length <= 5) {
+    if (input.audioAvailable && word.graphemes.length <= 5 && (input.canSayWord?.(word) ?? true)) {
       return toBuildItem(word, graphemes, input.rng);
     }
   }

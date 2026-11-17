@@ -52,3 +52,26 @@ export function isReadableAfterPreTeach(
   const offenders = result.offenders.filter((o) => !preTaught.has(normalizeWord(o.token)));
   return { ok: offenders.length === 0, offenders };
 }
+
+/**
+ * Runtime gate for reading text (spec §6.4): keeps only the sentences that
+ * may be shown under the live unlock state. `preTaught` is the Class Passage
+ * exception. Callers log what was dropped.
+ */
+export function partitionReadable<T extends { text: string }>(
+  sentences: readonly T[],
+  unlock: UnlockState,
+  lex: Lexicon,
+  preTaught?: ReadonlySet<string>,
+): { shown: T[]; refused: { sentence: T; offenders: Offender[] }[] } {
+  const shown: T[] = [];
+  const refused: { sentence: T; offenders: Offender[] }[] = [];
+  for (const sentence of sentences) {
+    const result = preTaught
+      ? isReadableAfterPreTeach(sentence.text, unlock, lex, preTaught)
+      : isReadable(sentence.text, unlock, lex);
+    if (result.ok) shown.push(sentence);
+    else refused.push({ sentence, offenders: result.offenders });
+  }
+  return { shown, refused };
+}

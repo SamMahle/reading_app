@@ -132,6 +132,26 @@ describe('buildSession (spec §8.5)', () => {
     expect(plan.closer.kind).not.toBe('build');
   });
 
+  it('builds only picture-cued words when no word recordings exist, and skips find-the-sound', () => {
+    for (let seed = 0; seed < 10; seed += 1) {
+      const plan = buildSession(
+        input({
+          canSayWord: () => false,
+          canPlaySound: () => false,
+          rng: createRng(seed),
+          cards: new Map([['sat', card('sat', 5, T0 + DAY, 3)]]),
+        }),
+      );
+      for (const item of plan.items) {
+        if (item.kind === 'build')
+          expect(PICTURES.get(word(item.wordId).pictureId ?? '')?.cue).toBe(true);
+        if (item.kind === 'warmup') expect(item.variant).toBe('hear');
+      }
+      expect(plan.items.some((i) => i.kind === 'build')).toBe(true);
+      expect(plan.closer.kind).toBe('warmup'); // "sat" has no picture and cannot be said
+    }
+  });
+
   it('draws only review and mastered items while rolling accuracy is below 85%', () => {
     const attempts: Attempt[] = Array.from({ length: 10 }, (_, i) =>
       attempt({ itemId: 'cat', outcome: i < 8 ? 'correct' : 'modeled', ts: T0 - 1000 + i }),

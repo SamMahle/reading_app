@@ -20,6 +20,10 @@ export default tseslint.config(
       'no-console': ['error', { allow: ['warn', 'error'] }],
     },
   },
-  { files: ['scripts/**/*.ts'], rules: { 'no-console': 'off' } },
+  {
+    files: ['scripts/**/*.{ts,mjs}', '*.config.{js,ts}'],
+    languageOptions: { globals: { ...globals.node } },
+    rules: { 'no-console': 'off' },
+  },
   prettier,
 );

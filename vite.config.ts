@@ -47,11 +47,14 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,woff2,svg,png,ico,json,webmanifest,m4a,mp3,wav,txt}'],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         cleanupOutdatedCaches: true,
+        // Take control on the very first visit, so one online launch is enough.
+        clientsClaim: true,
         navigateFallback: 'index.html',
       },
     }),
   ],
-  build: { target: 'es2022', sourcemap: false },
+  // One bundle on purpose: the whole app is precached for offline use.
+  build: { target: 'es2022', sourcemap: false, chunkSizeWarningLimit: 1500 },
   test: {
     environment: 'node',
     include: ['tests/unit/**/*.test.{ts,tsx}'],

@@ -13,7 +13,7 @@ export const GUARD = {
   burstWindowMs: 3000,
   pauseMs: 2000,
   /** Tile taps closer together than this (3 in a row) count as rapid tapping. */
-  rapidWindowMs: 1200,
+  rapidWindowMs: 900,
 } as const;
 
 export interface GuardState {

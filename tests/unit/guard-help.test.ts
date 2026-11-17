@@ -75,6 +75,7 @@ describe('anti-guessing guard (spec §8.4)', () => {
   it('detects three taps in quick succession', () => {
     expect(isRapidBurst([0, 300])).toBe(false);
     expect(isRapidBurst([0, 300, 600])).toBe(true);
+    expect(isRapidBurst([0, 500, 1000])).toBe(false);
     expect(isRapidBurst([0, 300, 5000, 6000, 7000])).toBe(false);
   });
 });

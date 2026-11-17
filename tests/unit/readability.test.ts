@@ -8,7 +8,12 @@ import {
   unlockForLevel,
   wordLevel,
 } from '@/engine/lexicon';
-import { classifyWord, isReadable, isReadableAfterPreTeach } from '@/engine/readability';
+import {
+  classifyWord,
+  isReadable,
+  isReadableAfterPreTeach,
+  partitionReadable,
+} from '@/engine/readability';
 import { tokenize } from '@/engine/tokenize';
 import type { HeartWordEntry, WordEntry } from '@/engine/types';
 import { CONTENT, defaultUnlock, LEX, unlockAt, word } from './helpers';
@@ -120,6 +125,20 @@ describe('isReadable', () => {
     const text = 'The cat sits on the mat.';
     expect(isReadableAfterPreTeach(text, unlock, LEX, new Set()).ok).toBe(false);
     expect(isReadableAfterPreTeach(text, unlock, LEX, new Set(['sits'])).ok).toBe(true);
+  });
+
+  it('partitions sentences into shown and refused for the runtime gate', () => {
+    const unlock = defaultUnlock();
+    const sentences = [
+      { text: 'The cat sat.' },
+      { text: 'The cat sits.' },
+      { text: 'The sun is hot.' },
+    ];
+    const plain = partitionReadable(sentences, unlock, LEX);
+    expect(plain.shown).toEqual([{ text: 'The cat sat.' }]);
+    expect(plain.refused.map((r) => r.offenders[0]?.token)).toEqual(['sits', 'sun']);
+    const taught = partitionReadable(sentences, unlock, LEX, new Set(['sits']));
+    expect(taught.shown).toHaveLength(2);
   });
 
   it('is true for empty text', () => {
