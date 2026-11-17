@@ -1,0 +1,89 @@
+{
+  "defaultUnlocked": [
+    1,
+    2,
+    3
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "title": "Short a, i",
+      "patterns": [
+        "cons_m",
+        "cons_s",
+        "cons_t",
+        "cons_p",
+        "cons_n",
+        "cons_f",
+        "cons_d",
+        "cons_g",
+        "cons_h",
+        "cons_b",
+        "cons_r",
+        "cons_l",
+        "cons_z",
+        "cons_c",
+        "short_a",
+        "short_i"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Short o",
+      "patterns": [
+        "short_o"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ch, th",
+      "patterns": [
+        "dig_ch",
+        "dig_th"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ending -s",
+      "patterns": [
+        "suffix_s",
+        "suffix_s_z"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "sh",
+      "patterns": [
+        "dig_sh"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Short u, e",
+      "patterns": [
+        "short_u",
+        "short_e"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Blends",
+      "patterns": [
+        "blend_initial",
+        "blend_final"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "ck, wh, silent-e",
+      "patterns": [
+        "dig_ck",
+        "dig_wh",
+        "vce_a",
+        "vce_i",
+        "vce_o",
+        "vce_u"
+      ]
+    }
+  ]
+}

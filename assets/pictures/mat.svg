@@ -1,0 +1,11 @@
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g id="color">
+    <path fill="#92d3f5" d="M10 44 L22 28 H62 L50 44 Z"/>
+    <path fill="#61b2e4" d="M14.5 38 L18.5 32.7 H58.5 L54.5 38 Z"/>
+  </g>
+  <g id="line" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M10 44 L22 28 H62 L50 44 Z"/>
+    <path d="M14.5 38 H54.5 M18.5 32.7 H58.5"/>
+    <path d="M12 44 v4 M17 44 v4 M22 44 v4 M27 44 v4 M32 44 v4 M37 44 v4 M42 44 v4 M47 44 v4"/>
+  </g>
+</svg>

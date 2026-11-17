@@ -1,0 +1,914 @@
+[
+  {
+    "id": "s001",
+    "text": "The cat sat in a bag.",
+    "levelId": 1,
+    "scene": {
+      "subject": "cat",
+      "object": "bag",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s002",
+    "text": "The pig is in a pan.",
+    "levelId": 1,
+    "scene": {
+      "subject": "pig",
+      "object": "pan",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s003",
+    "text": "The rat has a hat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "rat",
+      "object": "hat",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s004",
+    "text": "A bat is in a cap.",
+    "levelId": 1,
+    "scene": {
+      "subject": "bat",
+      "object": "cap",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s005",
+    "text": "The cat has a map.",
+    "levelId": 1,
+    "scene": {
+      "subject": "cat",
+      "object": "map",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s006",
+    "text": "The rat is in a can.",
+    "levelId": 1,
+    "scene": {
+      "subject": "rat",
+      "object": "can",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s007",
+    "text": "A pig sat in a bin.",
+    "levelId": 1,
+    "scene": {
+      "subject": "pig",
+      "object": "bin",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s008",
+    "text": "I see a big pig.",
+    "levelId": 1,
+    "scene": {
+      "subject": "pig",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s009",
+    "text": "The ram has a bag.",
+    "levelId": 1,
+    "scene": {
+      "subject": "ram",
+      "object": "bag",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s010",
+    "text": "Dad has a tan hat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "dad",
+      "object": "hat",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s011",
+    "text": "The man has a fan.",
+    "levelId": 1,
+    "scene": {
+      "subject": "man",
+      "object": "fan",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s012",
+    "text": "The cat is sad.",
+    "levelId": 1
+  },
+  {
+    "id": "s013",
+    "text": "Pam has a big bag.",
+    "levelId": 1
+  },
+  {
+    "id": "s014",
+    "text": "Sam can tap a pan.",
+    "levelId": 1
+  },
+  {
+    "id": "s015",
+    "text": "The bat is in a hat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "bat",
+      "object": "hat",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s016",
+    "text": "I see a rat in a cap.",
+    "levelId": 1,
+    "scene": {
+      "subject": "rat",
+      "object": "cap",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s017",
+    "text": "The pig hid in a bag.",
+    "levelId": 1,
+    "scene": {
+      "subject": "pig",
+      "object": "bag",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s018",
+    "text": "She has a pin.",
+    "levelId": 1
+  },
+  {
+    "id": "s019",
+    "text": "We like the cat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "cat",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s020",
+    "text": "He can pat the ram.",
+    "levelId": 1,
+    "scene": {
+      "subject": "ram",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s021",
+    "text": "A cat sat in a hat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "cat",
+      "object": "hat",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s022",
+    "text": "The ram is big.",
+    "levelId": 1
+  },
+  {
+    "id": "s023",
+    "text": "The dog is on a log.",
+    "levelId": 2,
+    "scene": {
+      "subject": "dog",
+      "object": "log",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s024",
+    "text": "The cat is on the mat.",
+    "levelId": 2,
+    "scene": {
+      "subject": "cat",
+      "object": "mat",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s025",
+    "text": "A dog is in a pot.",
+    "levelId": 2,
+    "scene": {
+      "subject": "dog",
+      "object": "pot",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s026",
+    "text": "The bot is in a pod.",
+    "levelId": 2,
+    "scene": {
+      "subject": "bot",
+      "object": "pod",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s027",
+    "text": "The bot has a map.",
+    "levelId": 2,
+    "scene": {
+      "subject": "bot",
+      "object": "map",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s028",
+    "text": "The dog has a hat.",
+    "levelId": 2,
+    "scene": {
+      "subject": "dog",
+      "object": "hat",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s029",
+    "text": "The rat is on a pot.",
+    "levelId": 2,
+    "scene": {
+      "subject": "rat",
+      "object": "pot",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s030",
+    "text": "A cat is on the bot.",
+    "levelId": 2,
+    "scene": {
+      "subject": "cat",
+      "object": "bot",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s031",
+    "text": "The hog is on a log.",
+    "levelId": 2,
+    "scene": {
+      "subject": "hog",
+      "object": "log",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s032",
+    "text": "The pig has a mop.",
+    "levelId": 2,
+    "scene": {
+      "subject": "pig",
+      "object": "mop",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s033",
+    "text": "I see a dot.",
+    "levelId": 2,
+    "scene": {
+      "subject": "dot",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s034",
+    "text": "The bot can hop.",
+    "levelId": 2
+  },
+  {
+    "id": "s035",
+    "text": "The pod is hot.",
+    "levelId": 2
+  },
+  {
+    "id": "s036",
+    "text": "Mom has a pot.",
+    "levelId": 2,
+    "scene": {
+      "subject": "mom",
+      "object": "pot",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s037",
+    "text": "Tom got a dog.",
+    "levelId": 2
+  },
+  {
+    "id": "s038",
+    "text": "The dog is not sad.",
+    "levelId": 2
+  },
+  {
+    "id": "s039",
+    "text": "The cat sat on a lid.",
+    "levelId": 2,
+    "scene": {
+      "subject": "cat",
+      "object": "lid",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s040",
+    "text": "A pig is on a mat.",
+    "levelId": 2,
+    "scene": {
+      "subject": "pig",
+      "object": "mat",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s041",
+    "text": "The bot is on a log.",
+    "levelId": 2,
+    "scene": {
+      "subject": "bot",
+      "object": "log",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s042",
+    "text": "The hog has a cap.",
+    "levelId": 2,
+    "scene": {
+      "subject": "hog",
+      "object": "cap",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s043",
+    "text": "Bob has a rod.",
+    "levelId": 2
+  },
+  {
+    "id": "s044",
+    "text": "The dog got on a pod.",
+    "levelId": 2,
+    "scene": {
+      "subject": "dog",
+      "object": "pod",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s045",
+    "text": "The pig is in the bath.",
+    "levelId": 3,
+    "scene": {
+      "subject": "pig",
+      "object": "bath",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s046",
+    "text": "A dog is in a bath.",
+    "levelId": 3,
+    "scene": {
+      "subject": "dog",
+      "object": "bath",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s047",
+    "text": "This is a big ram.",
+    "levelId": 3,
+    "scene": {
+      "subject": "ram",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s048",
+    "text": "That is a fat cat.",
+    "levelId": 3,
+    "scene": {
+      "subject": "cat",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s049",
+    "text": "The bat is thin.",
+    "levelId": 3
+  },
+  {
+    "id": "s050",
+    "text": "I see a chip on the mat.",
+    "levelId": 3,
+    "scene": {
+      "subject": "chip",
+      "object": "mat",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s051",
+    "text": "The rat has a chip.",
+    "levelId": 3,
+    "scene": {
+      "subject": "rat",
+      "object": "chip",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s052",
+    "text": "This cat is rich.",
+    "levelId": 3
+  },
+  {
+    "id": "s053",
+    "text": "The ram is on a path.",
+    "levelId": 3
+  },
+  {
+    "id": "s054",
+    "text": "Pam can chat to Tom.",
+    "levelId": 3
+  },
+  {
+    "id": "s055",
+    "text": "I like math.",
+    "levelId": 3
+  },
+  {
+    "id": "s056",
+    "text": "That bot is in a bath.",
+    "levelId": 3,
+    "scene": {
+      "subject": "bot",
+      "object": "bath",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s057",
+    "text": "The cat has a chip.",
+    "levelId": 3,
+    "scene": {
+      "subject": "cat",
+      "object": "chip",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s058",
+    "text": "Chop the log.",
+    "levelId": 3
+  },
+  {
+    "id": "s059",
+    "text": "A moth is on that hat.",
+    "levelId": 3
+  },
+  {
+    "id": "s060",
+    "text": "The pig sits in a pan.",
+    "levelId": 4,
+    "scene": {
+      "subject": "pig",
+      "object": "pan",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s061",
+    "text": "The cat naps on a mat.",
+    "levelId": 4,
+    "scene": {
+      "subject": "cat",
+      "object": "mat",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s062",
+    "text": "The rat sits on a hat.",
+    "levelId": 4,
+    "scene": {
+      "subject": "rat",
+      "object": "hat",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s063",
+    "text": "The dog digs.",
+    "levelId": 4
+  },
+  {
+    "id": "s064",
+    "text": "Pam pats the cat.",
+    "levelId": 4
+  },
+  {
+    "id": "s065",
+    "text": "The bot nods.",
+    "levelId": 4
+  },
+  {
+    "id": "s066",
+    "text": "She has cats.",
+    "levelId": 4
+  },
+  {
+    "id": "s067",
+    "text": "The dogs see the cats.",
+    "levelId": 4
+  },
+  {
+    "id": "s068",
+    "text": "The dog sips.",
+    "levelId": 4
+  },
+  {
+    "id": "s069",
+    "text": "The bat naps in a cap.",
+    "levelId": 4,
+    "scene": {
+      "subject": "bat",
+      "object": "cap",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s070",
+    "text": "The hog sits on a log.",
+    "levelId": 4,
+    "scene": {
+      "subject": "hog",
+      "object": "log",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s071",
+    "text": "A dog hops on a pod.",
+    "levelId": 4,
+    "scene": {
+      "subject": "dog",
+      "object": "pod",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s072",
+    "text": "The fish is in a dish.",
+    "levelId": 5,
+    "scene": {
+      "subject": "fish",
+      "object": "dish",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s073",
+    "text": "The cat is on a ship.",
+    "levelId": 5,
+    "scene": {
+      "subject": "cat",
+      "object": "ship",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s074",
+    "text": "The bot is on the ship.",
+    "levelId": 5,
+    "scene": {
+      "subject": "bot",
+      "object": "ship",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s075",
+    "text": "The dog is in the shop.",
+    "levelId": 5,
+    "scene": {
+      "subject": "dog",
+      "object": "shop",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s076",
+    "text": "A fish is in the pot.",
+    "levelId": 5,
+    "scene": {
+      "subject": "fish",
+      "object": "pot",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s077",
+    "text": "She has a fish.",
+    "levelId": 5
+  },
+  {
+    "id": "s078",
+    "text": "I see a ship.",
+    "levelId": 5,
+    "scene": {
+      "subject": "ship",
+      "relation": "none"
+    }
+  },
+  {
+    "id": "s079",
+    "text": "The pig has cash.",
+    "levelId": 5,
+    "scene": {
+      "subject": "pig",
+      "object": "cash",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s080",
+    "text": "Dash to the ship!",
+    "levelId": 5
+  },
+  {
+    "id": "s081",
+    "text": "The cat got a fish.",
+    "levelId": 5,
+    "scene": {
+      "subject": "cat",
+      "object": "fish",
+      "relation": "with"
+    }
+  },
+  {
+    "id": "s082",
+    "text": "The rat is in a dish.",
+    "levelId": 5,
+    "scene": {
+      "subject": "rat",
+      "object": "dish",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s083",
+    "text": "The fish is in a bath.",
+    "levelId": 5,
+    "scene": {
+      "subject": "fish",
+      "object": "bath",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s084",
+    "text": "I see a star.",
+    "levelId": 1,
+    "scene": {
+      "subject": "star",
+      "relation": "none"
+    },
+    "bonus": [
+      "star"
+    ]
+  },
+  {
+    "id": "s085",
+    "text": "The cat is on the moon.",
+    "levelId": 2,
+    "scene": {
+      "subject": "cat",
+      "object": "moon",
+      "relation": "on"
+    },
+    "bonus": [
+      "moon"
+    ]
+  },
+  {
+    "id": "s086",
+    "text": "The bot is on the moon.",
+    "levelId": 2,
+    "scene": {
+      "subject": "bot",
+      "object": "moon",
+      "relation": "on"
+    },
+    "bonus": [
+      "moon"
+    ]
+  },
+  {
+    "id": "s087",
+    "text": "The fairy has a hat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "fairy",
+      "object": "hat",
+      "relation": "with"
+    },
+    "bonus": [
+      "fairy"
+    ]
+  },
+  {
+    "id": "s088",
+    "text": "The princess has a cat.",
+    "levelId": 1,
+    "scene": {
+      "subject": "princess",
+      "object": "cat",
+      "relation": "with"
+    },
+    "bonus": [
+      "princess"
+    ]
+  },
+  {
+    "id": "s089",
+    "text": "A fairy is on a star.",
+    "levelId": 2,
+    "scene": {
+      "subject": "fairy",
+      "object": "star",
+      "relation": "on"
+    },
+    "bonus": [
+      "star",
+      "fairy"
+    ]
+  },
+  {
+    "id": "s090",
+    "text": "The princess is on the ship.",
+    "levelId": 5,
+    "scene": {
+      "subject": "princess",
+      "object": "ship",
+      "relation": "on"
+    },
+    "bonus": [
+      "princess"
+    ]
+  },
+  {
+    "id": "s091",
+    "text": "The dog is on a star.",
+    "levelId": 2,
+    "scene": {
+      "subject": "dog",
+      "object": "star",
+      "relation": "on"
+    },
+    "bonus": [
+      "star"
+    ]
+  },
+  {
+    "id": "s092",
+    "text": "The bug is on a cup.",
+    "levelId": 6,
+    "scene": {
+      "subject": "bug",
+      "object": "cup",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s093",
+    "text": "The hen is in the bed.",
+    "levelId": 6,
+    "scene": {
+      "subject": "hen",
+      "object": "bed",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s094",
+    "text": "The sun is hot.",
+    "levelId": 6
+  },
+  {
+    "id": "s095",
+    "text": "The cat is on the bus.",
+    "levelId": 6,
+    "scene": {
+      "subject": "cat",
+      "object": "bus",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s096",
+    "text": "The bug is on a pen.",
+    "levelId": 6,
+    "scene": {
+      "subject": "bug",
+      "object": "pen",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s097",
+    "text": "The frog is on a log.",
+    "levelId": 7,
+    "scene": {
+      "subject": "frog",
+      "object": "log",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s098",
+    "text": "The crab is in the sand.",
+    "levelId": 7
+  },
+  {
+    "id": "s099",
+    "text": "The ant is on a hand.",
+    "levelId": 7,
+    "scene": {
+      "subject": "ant",
+      "object": "hand",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s100",
+    "text": "The frog is in a tent.",
+    "levelId": 7,
+    "scene": {
+      "subject": "frog",
+      "object": "tent",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s101",
+    "text": "The duck is on a rock.",
+    "levelId": 8,
+    "scene": {
+      "subject": "duck",
+      "object": "rock",
+      "relation": "on"
+    }
+  },
+  {
+    "id": "s102",
+    "text": "The chick is in a sock.",
+    "levelId": 8,
+    "scene": {
+      "subject": "chick",
+      "object": "sock",
+      "relation": "in"
+    }
+  },
+  {
+    "id": "s103",
+    "text": "The dog has a bone.",
+    "levelId": 8,
+    "scene": {
+      "subject": "dog",
+      "object": "bone",
+      "relation": "with"
+    }
+  }
+]

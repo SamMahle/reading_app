@@ -1,0 +1,9202 @@
+[
+  {
+    "id": "at",
+    "text": "at",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_at",
+    "minimalPairs": [
+      "an",
+      "am",
+      "it"
+    ]
+  },
+  {
+    "id": "bat",
+    "text": "bat",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "bat",
+    "audioWord": "wd_bat",
+    "minimalPairs": [
+      "cat",
+      "fat",
+      "hat",
+      "mat",
+      "pat",
+      "rat"
+    ]
+  },
+  {
+    "id": "cat",
+    "text": "cat",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "cat",
+    "audioWord": "wd_cat",
+    "minimalPairs": [
+      "bat",
+      "fat",
+      "hat",
+      "mat",
+      "pat",
+      "rat"
+    ]
+  },
+  {
+    "id": "fat",
+    "text": "fat",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_fat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "hat",
+      "mat",
+      "pat",
+      "rat"
+    ]
+  },
+  {
+    "id": "hat",
+    "text": "hat",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "hat",
+    "audioWord": "wd_hat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "mat",
+      "pat",
+      "rat"
+    ]
+  },
+  {
+    "id": "mat",
+    "text": "mat",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "mat",
+    "audioWord": "wd_mat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "hat",
+      "pat",
+      "rat"
+    ]
+  },
+  {
+    "id": "pat",
+    "text": "pat",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "hat",
+      "mat",
+      "rat"
+    ]
+  },
+  {
+    "id": "rat",
+    "text": "rat",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "rat",
+    "audioWord": "wd_rat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "hat",
+      "mat",
+      "pat"
+    ]
+  },
+  {
+    "id": "sat",
+    "text": "sat",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_sat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "hat",
+      "mat",
+      "pat"
+    ]
+  },
+  {
+    "id": "an",
+    "text": "an",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_an",
+    "minimalPairs": [
+      "at",
+      "am",
+      "in",
+      "on"
+    ]
+  },
+  {
+    "id": "can",
+    "text": "can",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "can",
+    "audioWord": "wd_can",
+    "minimalPairs": [
+      "cat",
+      "fan",
+      "man",
+      "pan",
+      "ran",
+      "tan"
+    ]
+  },
+  {
+    "id": "fan",
+    "text": "fan",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "fan",
+    "audioWord": "wd_fan",
+    "minimalPairs": [
+      "fat",
+      "can",
+      "man",
+      "pan",
+      "ran",
+      "tan"
+    ]
+  },
+  {
+    "id": "man",
+    "text": "man",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "man",
+    "audioWord": "wd_man",
+    "minimalPairs": [
+      "mat",
+      "can",
+      "fan",
+      "pan",
+      "ran",
+      "tan"
+    ]
+  },
+  {
+    "id": "pan",
+    "text": "pan",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "pan",
+    "audioWord": "wd_pan",
+    "minimalPairs": [
+      "pat",
+      "can",
+      "fan",
+      "man",
+      "ran",
+      "tan"
+    ]
+  },
+  {
+    "id": "ran",
+    "text": "ran",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_ran",
+    "minimalPairs": [
+      "rat",
+      "can",
+      "fan",
+      "man",
+      "pan",
+      "tan"
+    ]
+  },
+  {
+    "id": "tan",
+    "text": "tan",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_tan",
+    "minimalPairs": [
+      "can",
+      "fan",
+      "man",
+      "pan",
+      "ran",
+      "tap"
+    ]
+  },
+  {
+    "id": "cap",
+    "text": "cap",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "cap",
+    "audioWord": "wd_cap",
+    "minimalPairs": [
+      "cat",
+      "can",
+      "gap",
+      "lap",
+      "map",
+      "nap"
+    ]
+  },
+  {
+    "id": "gap",
+    "text": "gap",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_gap",
+    "minimalPairs": [
+      "cap",
+      "lap",
+      "map",
+      "nap",
+      "tap",
+      "zap"
+    ]
+  },
+  {
+    "id": "lap",
+    "text": "lap",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_lap",
+    "minimalPairs": [
+      "cap",
+      "gap",
+      "map",
+      "nap",
+      "tap",
+      "zap"
+    ]
+  },
+  {
+    "id": "map",
+    "text": "map",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "map",
+    "audioWord": "wd_map",
+    "minimalPairs": [
+      "mat",
+      "man",
+      "cap",
+      "gap",
+      "lap",
+      "nap"
+    ]
+  },
+  {
+    "id": "nap",
+    "text": "nap",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_nap",
+    "minimalPairs": [
+      "cap",
+      "gap",
+      "lap",
+      "map",
+      "tap",
+      "zap"
+    ]
+  },
+  {
+    "id": "tap",
+    "text": "tap",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tap",
+    "minimalPairs": [
+      "tan",
+      "cap",
+      "gap",
+      "lap",
+      "map",
+      "nap"
+    ]
+  },
+  {
+    "id": "zap",
+    "text": "zap",
+    "graphemes": [
+      {
+        "spelling": "z",
+        "soundId": "z",
+        "patternId": "cons_z",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_zap",
+    "minimalPairs": [
+      "cap",
+      "gap",
+      "lap",
+      "map",
+      "nap",
+      "tap"
+    ]
+  },
+  {
+    "id": "bad",
+    "text": "bad",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_bad",
+    "minimalPairs": [
+      "bat",
+      "dad",
+      "had",
+      "mad",
+      "pad",
+      "sad"
+    ]
+  },
+  {
+    "id": "dad",
+    "text": "dad",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "pictureId": "dad",
+    "audioWord": "wd_dad",
+    "minimalPairs": [
+      "bad",
+      "had",
+      "mad",
+      "pad",
+      "sad",
+      "did"
+    ]
+  },
+  {
+    "id": "had",
+    "text": "had",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_had",
+    "minimalPairs": [
+      "hat",
+      "bad",
+      "dad",
+      "mad",
+      "pad",
+      "sad"
+    ]
+  },
+  {
+    "id": "mad",
+    "text": "mad",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_mad",
+    "minimalPairs": [
+      "mat",
+      "man",
+      "map",
+      "bad",
+      "dad",
+      "had"
+    ]
+  },
+  {
+    "id": "pad",
+    "text": "pad",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pad",
+    "minimalPairs": [
+      "pat",
+      "pan",
+      "bad",
+      "dad",
+      "had",
+      "mad"
+    ]
+  },
+  {
+    "id": "sad",
+    "text": "sad",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_sad",
+    "minimalPairs": [
+      "sat",
+      "bad",
+      "dad",
+      "had",
+      "mad",
+      "pad"
+    ]
+  },
+  {
+    "id": "bag",
+    "text": "bag",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "bag",
+    "audioWord": "wd_bag",
+    "minimalPairs": [
+      "bat",
+      "bad",
+      "rag",
+      "tag",
+      "big",
+      "bath"
+    ]
+  },
+  {
+    "id": "rag",
+    "text": "rag",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rag",
+    "minimalPairs": [
+      "rat",
+      "ran",
+      "bag",
+      "tag",
+      "ram"
+    ]
+  },
+  {
+    "id": "tag",
+    "text": "tag",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tag",
+    "minimalPairs": [
+      "tan",
+      "tap",
+      "bag",
+      "rag",
+      "tab"
+    ]
+  },
+  {
+    "id": "am",
+    "text": "am",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_am",
+    "minimalPairs": [
+      "at",
+      "an"
+    ]
+  },
+  {
+    "id": "ham",
+    "text": "ham",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_ham",
+    "minimalPairs": [
+      "hat",
+      "had",
+      "ram",
+      "him"
+    ]
+  },
+  {
+    "id": "ram",
+    "text": "ram",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "pictureId": "ram",
+    "audioWord": "wd_ram",
+    "minimalPairs": [
+      "rat",
+      "ran",
+      "rag",
+      "ham",
+      "rim"
+    ]
+  },
+  {
+    "id": "pam",
+    "text": "pam",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pam",
+    "tags": [
+      "name"
+    ]
+  },
+  {
+    "id": "sam",
+    "text": "sam",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_sam",
+    "tags": [
+      "name"
+    ]
+  },
+  {
+    "id": "cab",
+    "text": "cab",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cab",
+    "minimalPairs": [
+      "cat",
+      "can",
+      "cap",
+      "lab",
+      "tab",
+      "cob"
+    ]
+  },
+  {
+    "id": "lab",
+    "text": "lab",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_lab",
+    "minimalPairs": [
+      "lap",
+      "cab",
+      "tab"
+    ]
+  },
+  {
+    "id": "tab",
+    "text": "tab",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tab",
+    "minimalPairs": [
+      "tan",
+      "tap",
+      "tag",
+      "cab",
+      "lab"
+    ]
+  },
+  {
+    "id": "gas",
+    "text": "gas",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_gas",
+    "minimalPairs": [
+      "gap"
+    ]
+  },
+  {
+    "id": "pal",
+    "text": "pal",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pal",
+    "minimalPairs": [
+      "pat",
+      "pan",
+      "pad",
+      "path"
+    ]
+  },
+  {
+    "id": "it",
+    "text": "it",
+    "graphemes": [
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_it",
+    "minimalPairs": [
+      "at",
+      "in",
+      "if"
+    ]
+  },
+  {
+    "id": "bit",
+    "text": "bit",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_bit",
+    "minimalPairs": [
+      "bat",
+      "fit",
+      "hit",
+      "lit",
+      "pit",
+      "sit"
+    ]
+  },
+  {
+    "id": "fit",
+    "text": "fit",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_fit",
+    "minimalPairs": [
+      "fat",
+      "bit",
+      "hit",
+      "lit",
+      "pit",
+      "sit"
+    ]
+  },
+  {
+    "id": "hit",
+    "text": "hit",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hit",
+    "minimalPairs": [
+      "hat",
+      "bit",
+      "fit",
+      "lit",
+      "pit",
+      "sit"
+    ]
+  },
+  {
+    "id": "lit",
+    "text": "lit",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_lit",
+    "minimalPairs": [
+      "bit",
+      "fit",
+      "hit",
+      "pit",
+      "sit",
+      "lip"
+    ]
+  },
+  {
+    "id": "pit",
+    "text": "pit",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pit",
+    "minimalPairs": [
+      "pat",
+      "bit",
+      "fit",
+      "hit",
+      "lit",
+      "sit"
+    ]
+  },
+  {
+    "id": "sit",
+    "text": "sit",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_sit",
+    "minimalPairs": [
+      "sat",
+      "bit",
+      "fit",
+      "hit",
+      "lit",
+      "pit"
+    ]
+  },
+  {
+    "id": "in",
+    "text": "in",
+    "graphemes": [
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_in",
+    "minimalPairs": [
+      "an",
+      "it",
+      "if",
+      "on"
+    ]
+  },
+  {
+    "id": "bin",
+    "text": "bin",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "bin",
+    "audioWord": "wd_bin",
+    "minimalPairs": [
+      "bit",
+      "fin",
+      "pin",
+      "tin",
+      "big",
+      "bib"
+    ]
+  },
+  {
+    "id": "fin",
+    "text": "fin",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_fin",
+    "minimalPairs": [
+      "fan",
+      "fit",
+      "bin",
+      "pin",
+      "tin",
+      "fig"
+    ]
+  },
+  {
+    "id": "pin",
+    "text": "pin",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "pin",
+    "audioWord": "wd_pin",
+    "minimalPairs": [
+      "pan",
+      "pit",
+      "bin",
+      "fin",
+      "tin",
+      "pig"
+    ]
+  },
+  {
+    "id": "tin",
+    "text": "tin",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_tin",
+    "minimalPairs": [
+      "tan",
+      "bin",
+      "fin",
+      "pin",
+      "tip",
+      "chin"
+    ]
+  },
+  {
+    "id": "dip",
+    "text": "dip",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_dip",
+    "minimalPairs": [
+      "hip",
+      "lip",
+      "rip",
+      "sip",
+      "tip",
+      "zip"
+    ]
+  },
+  {
+    "id": "hip",
+    "text": "hip",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hip",
+    "minimalPairs": [
+      "hit",
+      "dip",
+      "lip",
+      "rip",
+      "sip",
+      "tip"
+    ]
+  },
+  {
+    "id": "lip",
+    "text": "lip",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_lip",
+    "minimalPairs": [
+      "lap",
+      "lit",
+      "dip",
+      "hip",
+      "rip",
+      "sip"
+    ]
+  },
+  {
+    "id": "rip",
+    "text": "rip",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rip",
+    "minimalPairs": [
+      "dip",
+      "hip",
+      "lip",
+      "sip",
+      "tip",
+      "zip"
+    ]
+  },
+  {
+    "id": "sip",
+    "text": "sip",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_sip",
+    "minimalPairs": [
+      "sit",
+      "dip",
+      "hip",
+      "lip",
+      "rip",
+      "tip"
+    ]
+  },
+  {
+    "id": "tip",
+    "text": "tip",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tip",
+    "minimalPairs": [
+      "tap",
+      "tin",
+      "dip",
+      "hip",
+      "lip",
+      "rip"
+    ]
+  },
+  {
+    "id": "zip",
+    "text": "zip",
+    "graphemes": [
+      {
+        "spelling": "z",
+        "soundId": "z",
+        "patternId": "cons_z",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_zip",
+    "minimalPairs": [
+      "zap",
+      "dip",
+      "hip",
+      "lip",
+      "rip",
+      "sip"
+    ]
+  },
+  {
+    "id": "big",
+    "text": "big",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_big",
+    "minimalPairs": [
+      "bag",
+      "bit",
+      "bin",
+      "dig",
+      "fig",
+      "pig"
+    ]
+  },
+  {
+    "id": "dig",
+    "text": "dig",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_dig",
+    "minimalPairs": [
+      "dip",
+      "big",
+      "fig",
+      "pig",
+      "did",
+      "dim"
+    ]
+  },
+  {
+    "id": "fig",
+    "text": "fig",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_fig",
+    "minimalPairs": [
+      "fit",
+      "fin",
+      "big",
+      "dig",
+      "pig",
+      "fog"
+    ]
+  },
+  {
+    "id": "pig",
+    "text": "pig",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "pig",
+    "audioWord": "wd_pig",
+    "minimalPairs": [
+      "pit",
+      "pin",
+      "big",
+      "dig",
+      "fig"
+    ]
+  },
+  {
+    "id": "did",
+    "text": "did",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_did",
+    "minimalPairs": [
+      "dad",
+      "dip",
+      "dig",
+      "hid",
+      "lid",
+      "dim"
+    ]
+  },
+  {
+    "id": "hid",
+    "text": "hid",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hid",
+    "minimalPairs": [
+      "had",
+      "hit",
+      "hip",
+      "did",
+      "lid",
+      "him"
+    ]
+  },
+  {
+    "id": "lid",
+    "text": "lid",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "pictureId": "lid",
+    "audioWord": "wd_lid",
+    "minimalPairs": [
+      "lit",
+      "lip",
+      "did",
+      "hid"
+    ]
+  },
+  {
+    "id": "dim",
+    "text": "dim",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dim",
+    "minimalPairs": [
+      "dip",
+      "dig",
+      "did",
+      "him",
+      "rim"
+    ]
+  },
+  {
+    "id": "him",
+    "text": "him",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_him",
+    "minimalPairs": [
+      "ham",
+      "hit",
+      "hip",
+      "hid",
+      "dim",
+      "rim"
+    ]
+  },
+  {
+    "id": "rim",
+    "text": "rim",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_rim",
+    "minimalPairs": [
+      "ram",
+      "rip",
+      "dim",
+      "him",
+      "rib",
+      "rich"
+    ]
+  },
+  {
+    "id": "bib",
+    "text": "bib",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_bib",
+    "minimalPairs": [
+      "bit",
+      "bin",
+      "big",
+      "rib"
+    ]
+  },
+  {
+    "id": "rib",
+    "text": "rib",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rib",
+    "minimalPairs": [
+      "rip",
+      "rim",
+      "bib",
+      "rob",
+      "rich"
+    ]
+  },
+  {
+    "id": "if",
+    "text": "if",
+    "graphemes": [
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_if",
+    "minimalPairs": [
+      "it",
+      "in"
+    ]
+  },
+  {
+    "id": "on",
+    "text": "on",
+    "graphemes": [
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_on",
+    "minimalPairs": [
+      "an",
+      "in"
+    ]
+  },
+  {
+    "id": "not",
+    "text": "not",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_not",
+    "minimalPairs": [
+      "hot",
+      "pot",
+      "dot",
+      "got",
+      "lot",
+      "cot"
+    ]
+  },
+  {
+    "id": "hot",
+    "text": "hot",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hot",
+    "minimalPairs": [
+      "hat",
+      "hit",
+      "not",
+      "pot",
+      "dot",
+      "got"
+    ]
+  },
+  {
+    "id": "pot",
+    "text": "pot",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "pot",
+    "audioWord": "wd_pot",
+    "minimalPairs": [
+      "pat",
+      "pit",
+      "not",
+      "hot",
+      "dot",
+      "got"
+    ]
+  },
+  {
+    "id": "dot",
+    "text": "dot",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "dot",
+    "audioWord": "wd_dot",
+    "minimalPairs": [
+      "not",
+      "hot",
+      "pot",
+      "got",
+      "lot",
+      "cot"
+    ]
+  },
+  {
+    "id": "got",
+    "text": "got",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_got",
+    "minimalPairs": [
+      "not",
+      "hot",
+      "pot",
+      "dot",
+      "lot",
+      "cot"
+    ]
+  },
+  {
+    "id": "lot",
+    "text": "lot",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_lot",
+    "minimalPairs": [
+      "lit",
+      "not",
+      "hot",
+      "pot",
+      "dot",
+      "got"
+    ]
+  },
+  {
+    "id": "cot",
+    "text": "cot",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cot",
+    "minimalPairs": [
+      "cat",
+      "not",
+      "hot",
+      "pot",
+      "dot",
+      "got"
+    ]
+  },
+  {
+    "id": "hop",
+    "text": "hop",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hop",
+    "minimalPairs": [
+      "hip",
+      "hot",
+      "mop",
+      "top",
+      "pop",
+      "hog"
+    ]
+  },
+  {
+    "id": "mop",
+    "text": "mop",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "mop",
+    "audioWord": "wd_mop",
+    "minimalPairs": [
+      "map",
+      "hop",
+      "top",
+      "pop",
+      "mom",
+      "chop"
+    ]
+  },
+  {
+    "id": "top",
+    "text": "top",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_top",
+    "minimalPairs": [
+      "tap",
+      "tip",
+      "hop",
+      "mop",
+      "pop",
+      "chop"
+    ]
+  },
+  {
+    "id": "pop",
+    "text": "pop",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pop",
+    "minimalPairs": [
+      "pot",
+      "hop",
+      "mop",
+      "top",
+      "pod",
+      "chop"
+    ]
+  },
+  {
+    "id": "dog",
+    "text": "dog",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "dog",
+    "audioWord": "wd_dog",
+    "minimalPairs": [
+      "dig",
+      "dot",
+      "hog",
+      "log",
+      "fog"
+    ]
+  },
+  {
+    "id": "hog",
+    "text": "hog",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "hog",
+    "audioWord": "wd_hog",
+    "minimalPairs": [
+      "hot",
+      "hop",
+      "dog",
+      "log",
+      "fog"
+    ]
+  },
+  {
+    "id": "log",
+    "text": "log",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "log",
+    "audioWord": "wd_log",
+    "minimalPairs": [
+      "lot",
+      "dog",
+      "hog",
+      "fog"
+    ]
+  },
+  {
+    "id": "fog",
+    "text": "fog",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_fog",
+    "minimalPairs": [
+      "fig",
+      "dog",
+      "hog",
+      "log"
+    ]
+  },
+  {
+    "id": "mom",
+    "text": "mom",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "pictureId": "mom",
+    "audioWord": "wd_mom",
+    "minimalPairs": [
+      "mop",
+      "moth"
+    ]
+  },
+  {
+    "id": "tom",
+    "text": "tom",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_tom",
+    "tags": [
+      "name"
+    ]
+  },
+  {
+    "id": "bob",
+    "text": "bob",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_bob",
+    "tags": [
+      "name"
+    ]
+  },
+  {
+    "id": "cob",
+    "text": "cob",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cob",
+    "minimalPairs": [
+      "cab",
+      "cot",
+      "sob",
+      "rob",
+      "cod"
+    ]
+  },
+  {
+    "id": "sob",
+    "text": "sob",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_sob",
+    "minimalPairs": [
+      "cob",
+      "rob"
+    ]
+  },
+  {
+    "id": "rob",
+    "text": "rob",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rob",
+    "minimalPairs": [
+      "rib",
+      "cob",
+      "sob",
+      "rod"
+    ]
+  },
+  {
+    "id": "nod",
+    "text": "nod",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_nod",
+    "minimalPairs": [
+      "not",
+      "rod",
+      "pod",
+      "cod"
+    ]
+  },
+  {
+    "id": "rod",
+    "text": "rod",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rod",
+    "minimalPairs": [
+      "rob",
+      "nod",
+      "pod",
+      "cod"
+    ]
+  },
+  {
+    "id": "pod",
+    "text": "pod",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "pictureId": "pod",
+    "audioWord": "wd_pod",
+    "minimalPairs": [
+      "pad",
+      "pot",
+      "pop",
+      "nod",
+      "rod",
+      "cod"
+    ]
+  },
+  {
+    "id": "cod",
+    "text": "cod",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cod",
+    "minimalPairs": [
+      "cot",
+      "cob",
+      "nod",
+      "rod",
+      "pod"
+    ]
+  },
+  {
+    "id": "bot",
+    "text": "bot",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "bot",
+    "audioWord": "wd_bot",
+    "minimalPairs": [
+      "bat",
+      "bit",
+      "not",
+      "hot",
+      "pot",
+      "dot"
+    ]
+  },
+  {
+    "id": "chip",
+    "text": "chip",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "chip",
+    "audioWord": "wd_chip",
+    "minimalPairs": [
+      "dip",
+      "hip",
+      "lip",
+      "rip",
+      "sip",
+      "tip"
+    ]
+  },
+  {
+    "id": "chat",
+    "text": "chat",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_chat",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "hat",
+      "mat",
+      "pat"
+    ]
+  },
+  {
+    "id": "chin",
+    "text": "chin",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_chin",
+    "minimalPairs": [
+      "bin",
+      "fin",
+      "pin",
+      "tin",
+      "chip",
+      "thin"
+    ]
+  },
+  {
+    "id": "chop",
+    "text": "chop",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_chop",
+    "minimalPairs": [
+      "hop",
+      "mop",
+      "top",
+      "pop",
+      "chip"
+    ]
+  },
+  {
+    "id": "rich",
+    "text": "rich",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rich",
+    "minimalPairs": [
+      "rip",
+      "rim",
+      "rib"
+    ]
+  },
+  {
+    "id": "this",
+    "text": "this",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_this",
+    "minimalPairs": [
+      "thin"
+    ]
+  },
+  {
+    "id": "that",
+    "text": "that",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_that",
+    "minimalPairs": [
+      "bat",
+      "cat",
+      "fat",
+      "hat",
+      "mat",
+      "pat"
+    ]
+  },
+  {
+    "id": "than",
+    "text": "than",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_than",
+    "minimalPairs": [
+      "can",
+      "fan",
+      "man",
+      "pan",
+      "ran",
+      "tan"
+    ]
+  },
+  {
+    "id": "thin",
+    "text": "thin",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_unvoiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_thin",
+    "minimalPairs": [
+      "bin",
+      "fin",
+      "pin",
+      "tin",
+      "chin",
+      "this"
+    ]
+  },
+  {
+    "id": "math",
+    "text": "math",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "th",
+        "soundId": "th_unvoiced",
+        "patternId": "dig_th",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_math",
+    "minimalPairs": [
+      "mat",
+      "man",
+      "map",
+      "mad",
+      "bath",
+      "path"
+    ]
+  },
+  {
+    "id": "bath",
+    "text": "bath",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "th",
+        "soundId": "th_unvoiced",
+        "patternId": "dig_th",
+        "continuous": true
+      }
+    ],
+    "pictureId": "bath",
+    "audioWord": "wd_bath",
+    "minimalPairs": [
+      "bat",
+      "bad",
+      "bag",
+      "math",
+      "path"
+    ]
+  },
+  {
+    "id": "path",
+    "text": "path",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "th",
+        "soundId": "th_unvoiced",
+        "patternId": "dig_th",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_path",
+    "minimalPairs": [
+      "pat",
+      "pan",
+      "pad",
+      "pal",
+      "math",
+      "bath"
+    ]
+  },
+  {
+    "id": "moth",
+    "text": "moth",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "th",
+        "soundId": "th_unvoiced",
+        "patternId": "dig_th",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_moth",
+    "minimalPairs": [
+      "mop",
+      "mom",
+      "math"
+    ]
+  },
+  {
+    "id": "cats",
+    "text": "cats",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_cats",
+    "minimalPairs": [
+      "hats",
+      "bats",
+      "rats",
+      "mats",
+      "caps",
+      "pats"
+    ]
+  },
+  {
+    "id": "hats",
+    "text": "hats",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_hats",
+    "minimalPairs": [
+      "cats",
+      "bats",
+      "rats",
+      "mats",
+      "pats",
+      "hits"
+    ]
+  },
+  {
+    "id": "bats",
+    "text": "bats",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_bats",
+    "minimalPairs": [
+      "cats",
+      "hats",
+      "rats",
+      "mats",
+      "pats",
+      "bags"
+    ]
+  },
+  {
+    "id": "rats",
+    "text": "rats",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_rats",
+    "minimalPairs": [
+      "cats",
+      "hats",
+      "bats",
+      "mats",
+      "pats",
+      "chats"
+    ]
+  },
+  {
+    "id": "mats",
+    "text": "mats",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_mats",
+    "minimalPairs": [
+      "cats",
+      "hats",
+      "bats",
+      "rats",
+      "maps",
+      "pats"
+    ]
+  },
+  {
+    "id": "maps",
+    "text": "maps",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_maps",
+    "minimalPairs": [
+      "mats",
+      "caps",
+      "naps",
+      "taps",
+      "mops"
+    ]
+  },
+  {
+    "id": "caps",
+    "text": "caps",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_caps",
+    "minimalPairs": [
+      "cats",
+      "maps",
+      "naps",
+      "taps",
+      "cans"
+    ]
+  },
+  {
+    "id": "naps",
+    "text": "naps",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_naps",
+    "minimalPairs": [
+      "maps",
+      "caps",
+      "taps"
+    ]
+  },
+  {
+    "id": "taps",
+    "text": "taps",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_taps",
+    "minimalPairs": [
+      "maps",
+      "caps",
+      "naps",
+      "tips",
+      "tops"
+    ]
+  },
+  {
+    "id": "pats",
+    "text": "pats",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pats",
+    "minimalPairs": [
+      "cats",
+      "hats",
+      "bats",
+      "rats",
+      "mats",
+      "pans"
+    ]
+  },
+  {
+    "id": "sits",
+    "text": "sits",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_sits",
+    "minimalPairs": [
+      "hits",
+      "sips"
+    ]
+  },
+  {
+    "id": "hits",
+    "text": "hits",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_hits",
+    "minimalPairs": [
+      "hats",
+      "sits"
+    ]
+  },
+  {
+    "id": "tips",
+    "text": "tips",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_tips",
+    "minimalPairs": [
+      "taps",
+      "sips",
+      "dips",
+      "tops",
+      "chips"
+    ]
+  },
+  {
+    "id": "sips",
+    "text": "sips",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_sips",
+    "minimalPairs": [
+      "sits",
+      "tips",
+      "dips",
+      "chips"
+    ]
+  },
+  {
+    "id": "dips",
+    "text": "dips",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dips",
+    "minimalPairs": [
+      "tips",
+      "sips",
+      "digs",
+      "chips"
+    ]
+  },
+  {
+    "id": "digs",
+    "text": "digs",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_digs",
+    "minimalPairs": [
+      "dips",
+      "pigs",
+      "dogs"
+    ]
+  },
+  {
+    "id": "pigs",
+    "text": "pigs",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pigs",
+    "minimalPairs": [
+      "digs",
+      "pins"
+    ]
+  },
+  {
+    "id": "pins",
+    "text": "pins",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pins",
+    "minimalPairs": [
+      "pigs",
+      "bins",
+      "pans"
+    ]
+  },
+  {
+    "id": "bins",
+    "text": "bins",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_bins",
+    "minimalPairs": [
+      "pins"
+    ]
+  },
+  {
+    "id": "bags",
+    "text": "bags",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_bags",
+    "minimalPairs": [
+      "bats"
+    ]
+  },
+  {
+    "id": "pans",
+    "text": "pans",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pans",
+    "minimalPairs": [
+      "pats",
+      "pins",
+      "fans",
+      "cans",
+      "pals"
+    ]
+  },
+  {
+    "id": "fans",
+    "text": "fans",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_fans",
+    "minimalPairs": [
+      "pans",
+      "cans"
+    ]
+  },
+  {
+    "id": "cans",
+    "text": "cans",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_cans",
+    "minimalPairs": [
+      "cats",
+      "caps",
+      "pans",
+      "fans"
+    ]
+  },
+  {
+    "id": "dads",
+    "text": "dads",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dads"
+  },
+  {
+    "id": "pals",
+    "text": "pals",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pals",
+    "minimalPairs": [
+      "pats",
+      "pans"
+    ]
+  },
+  {
+    "id": "hops",
+    "text": "hops",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_hops",
+    "minimalPairs": [
+      "pops",
+      "tops",
+      "mops",
+      "hogs",
+      "chops"
+    ]
+  },
+  {
+    "id": "pops",
+    "text": "pops",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pops",
+    "minimalPairs": [
+      "hops",
+      "tops",
+      "pots",
+      "mops",
+      "pods",
+      "chops"
+    ]
+  },
+  {
+    "id": "tops",
+    "text": "tops",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_tops",
+    "minimalPairs": [
+      "taps",
+      "tips",
+      "hops",
+      "pops",
+      "mops",
+      "chops"
+    ]
+  },
+  {
+    "id": "pots",
+    "text": "pots",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pots",
+    "minimalPairs": [
+      "pats",
+      "pops",
+      "dots",
+      "pods",
+      "bots"
+    ]
+  },
+  {
+    "id": "dots",
+    "text": "dots",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dots",
+    "minimalPairs": [
+      "pots",
+      "dogs",
+      "bots"
+    ]
+  },
+  {
+    "id": "mops",
+    "text": "mops",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_mops",
+    "minimalPairs": [
+      "maps",
+      "hops",
+      "pops",
+      "tops",
+      "moms",
+      "chops"
+    ]
+  },
+  {
+    "id": "dogs",
+    "text": "dogs",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dogs",
+    "minimalPairs": [
+      "digs",
+      "dots",
+      "hogs",
+      "logs"
+    ]
+  },
+  {
+    "id": "hogs",
+    "text": "hogs",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_hogs",
+    "minimalPairs": [
+      "hops",
+      "dogs",
+      "logs"
+    ]
+  },
+  {
+    "id": "logs",
+    "text": "logs",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_logs",
+    "minimalPairs": [
+      "dogs",
+      "hogs"
+    ]
+  },
+  {
+    "id": "moms",
+    "text": "moms",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_moms",
+    "minimalPairs": [
+      "mops"
+    ]
+  },
+  {
+    "id": "nods",
+    "text": "nods",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_nods",
+    "minimalPairs": [
+      "pods"
+    ]
+  },
+  {
+    "id": "pods",
+    "text": "pods",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pods",
+    "minimalPairs": [
+      "pops",
+      "pots",
+      "nods"
+    ]
+  },
+  {
+    "id": "bots",
+    "text": "bots",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_bots",
+    "minimalPairs": [
+      "bats",
+      "pots",
+      "dots"
+    ]
+  },
+  {
+    "id": "chips",
+    "text": "chips",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_chips",
+    "minimalPairs": [
+      "tips",
+      "sips",
+      "dips",
+      "chops"
+    ]
+  },
+  {
+    "id": "chops",
+    "text": "chops",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_chops",
+    "minimalPairs": [
+      "hops",
+      "pops",
+      "tops",
+      "mops",
+      "chips"
+    ]
+  },
+  {
+    "id": "chats",
+    "text": "chats",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_chats",
+    "minimalPairs": [
+      "cats",
+      "hats",
+      "bats",
+      "rats",
+      "mats",
+      "pats"
+    ]
+  },
+  {
+    "id": "his",
+    "text": "his",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_his",
+    "minimalPairs": [
+      "hit",
+      "hip",
+      "hid",
+      "him",
+      "this"
+    ]
+  },
+  {
+    "id": "as",
+    "text": "as",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "z",
+        "patternId": "suffix_s_z",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_as",
+    "minimalPairs": [
+      "at",
+      "an",
+      "am"
+    ]
+  },
+  {
+    "id": "ship",
+    "text": "ship",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "ship",
+    "audioWord": "wd_ship",
+    "minimalPairs": [
+      "dip",
+      "hip",
+      "lip",
+      "rip",
+      "sip",
+      "tip"
+    ]
+  },
+  {
+    "id": "shop",
+    "text": "shop",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "shop",
+    "audioWord": "wd_shop",
+    "minimalPairs": [
+      "hop",
+      "mop",
+      "top",
+      "pop",
+      "chop",
+      "ship"
+    ]
+  },
+  {
+    "id": "shot",
+    "text": "shot",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_shot",
+    "minimalPairs": [
+      "not",
+      "hot",
+      "pot",
+      "dot",
+      "got",
+      "lot"
+    ]
+  },
+  {
+    "id": "shin",
+    "text": "shin",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_shin",
+    "minimalPairs": [
+      "bin",
+      "fin",
+      "pin",
+      "tin",
+      "chin",
+      "thin"
+    ]
+  },
+  {
+    "id": "fish",
+    "text": "fish",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "pictureId": "fish",
+    "audioWord": "wd_fish",
+    "minimalPairs": [
+      "fit",
+      "fin",
+      "fig",
+      "dish"
+    ]
+  },
+  {
+    "id": "dish",
+    "text": "dish",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "pictureId": "dish",
+    "audioWord": "wd_dish",
+    "minimalPairs": [
+      "dip",
+      "dig",
+      "did",
+      "dim",
+      "fish",
+      "dash"
+    ]
+  },
+  {
+    "id": "dash",
+    "text": "dash",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dash",
+    "minimalPairs": [
+      "dad",
+      "dish",
+      "cash",
+      "mash",
+      "rash",
+      "bash"
+    ]
+  },
+  {
+    "id": "cash",
+    "text": "cash",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "pictureId": "cash",
+    "audioWord": "wd_cash",
+    "minimalPairs": [
+      "cat",
+      "can",
+      "cap",
+      "cab",
+      "dash",
+      "mash"
+    ]
+  },
+  {
+    "id": "mash",
+    "text": "mash",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_mash",
+    "minimalPairs": [
+      "mat",
+      "man",
+      "map",
+      "mad",
+      "math",
+      "dash"
+    ]
+  },
+  {
+    "id": "rash",
+    "text": "rash",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_rash",
+    "minimalPairs": [
+      "rat",
+      "ran",
+      "rag",
+      "ram",
+      "dash",
+      "cash"
+    ]
+  },
+  {
+    "id": "bash",
+    "text": "bash",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_bash",
+    "minimalPairs": [
+      "bat",
+      "bad",
+      "bag",
+      "bath",
+      "dash",
+      "cash"
+    ]
+  },
+  {
+    "id": "gosh",
+    "text": "gosh",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_gosh",
+    "minimalPairs": [
+      "got"
+    ]
+  },
+  {
+    "id": "ships",
+    "text": "ships",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_ships",
+    "minimalPairs": [
+      "tips",
+      "sips",
+      "dips",
+      "chips",
+      "shops"
+    ]
+  },
+  {
+    "id": "shops",
+    "text": "shops",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "suffix_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_shops",
+    "minimalPairs": [
+      "hops",
+      "pops",
+      "tops",
+      "mops",
+      "chops",
+      "ships"
+    ]
+  },
+  {
+    "id": "sun",
+    "text": "sun",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "sun",
+    "audioWord": "wd_sun",
+    "minimalPairs": [
+      "run",
+      "fun",
+      "bun",
+      "such"
+    ]
+  },
+  {
+    "id": "run",
+    "text": "run",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_run",
+    "minimalPairs": [
+      "ran",
+      "sun",
+      "fun",
+      "bun",
+      "rug",
+      "rub"
+    ]
+  },
+  {
+    "id": "fun",
+    "text": "fun",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_fun",
+    "minimalPairs": [
+      "fan",
+      "fin",
+      "sun",
+      "run",
+      "bun"
+    ]
+  },
+  {
+    "id": "bun",
+    "text": "bun",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_bun",
+    "minimalPairs": [
+      "bin",
+      "sun",
+      "run",
+      "fun",
+      "bug",
+      "bus"
+    ]
+  },
+  {
+    "id": "bug",
+    "text": "bug",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "bug",
+    "audioWord": "wd_bug",
+    "minimalPairs": [
+      "bag",
+      "big",
+      "bun",
+      "hug",
+      "mug",
+      "rug"
+    ]
+  },
+  {
+    "id": "hug",
+    "text": "hug",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hug",
+    "minimalPairs": [
+      "hog",
+      "bug",
+      "mug",
+      "rug",
+      "dug",
+      "hut"
+    ]
+  },
+  {
+    "id": "mug",
+    "text": "mug",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_mug",
+    "minimalPairs": [
+      "bug",
+      "hug",
+      "rug",
+      "dug",
+      "mud",
+      "much"
+    ]
+  },
+  {
+    "id": "rug",
+    "text": "rug",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rug",
+    "minimalPairs": [
+      "rag",
+      "run",
+      "bug",
+      "hug",
+      "mug",
+      "dug"
+    ]
+  },
+  {
+    "id": "dug",
+    "text": "dug",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_dug",
+    "minimalPairs": [
+      "dig",
+      "dog",
+      "bug",
+      "hug",
+      "mug",
+      "rug"
+    ]
+  },
+  {
+    "id": "cub",
+    "text": "cub",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cub",
+    "minimalPairs": [
+      "cab",
+      "cob",
+      "tub",
+      "rub",
+      "cup",
+      "cut"
+    ]
+  },
+  {
+    "id": "tub",
+    "text": "tub",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tub",
+    "minimalPairs": [
+      "tab",
+      "cub",
+      "rub"
+    ]
+  },
+  {
+    "id": "rub",
+    "text": "rub",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rub",
+    "minimalPairs": [
+      "rib",
+      "rob",
+      "run",
+      "rug",
+      "cub",
+      "tub"
+    ]
+  },
+  {
+    "id": "pup",
+    "text": "pup",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pup",
+    "minimalPairs": [
+      "pop",
+      "cup"
+    ]
+  },
+  {
+    "id": "cup",
+    "text": "cup",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "pictureId": "cup",
+    "audioWord": "wd_cup",
+    "minimalPairs": [
+      "cap",
+      "cub",
+      "pup",
+      "cut"
+    ]
+  },
+  {
+    "id": "up",
+    "text": "up",
+    "graphemes": [
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_up",
+    "minimalPairs": [
+      "us"
+    ]
+  },
+  {
+    "id": "us",
+    "text": "us",
+    "graphemes": [
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_us",
+    "minimalPairs": [
+      "as",
+      "up"
+    ]
+  },
+  {
+    "id": "bus",
+    "text": "bus",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      }
+    ],
+    "pictureId": "bus",
+    "audioWord": "wd_bus",
+    "minimalPairs": [
+      "bun",
+      "bug",
+      "but"
+    ]
+  },
+  {
+    "id": "mud",
+    "text": "mud",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_mud",
+    "minimalPairs": [
+      "mad",
+      "mug",
+      "much"
+    ]
+  },
+  {
+    "id": "nut",
+    "text": "nut",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "nut",
+    "audioWord": "wd_nut",
+    "minimalPairs": [
+      "not",
+      "hut",
+      "cut",
+      "but",
+      "net"
+    ]
+  },
+  {
+    "id": "hut",
+    "text": "hut",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hut",
+    "minimalPairs": [
+      "hat",
+      "hit",
+      "hot",
+      "hug",
+      "nut",
+      "cut"
+    ]
+  },
+  {
+    "id": "cut",
+    "text": "cut",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cut",
+    "minimalPairs": [
+      "cat",
+      "cot",
+      "cub",
+      "cup",
+      "nut",
+      "hut"
+    ]
+  },
+  {
+    "id": "but",
+    "text": "but",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_but",
+    "minimalPairs": [
+      "bat",
+      "bit",
+      "bot",
+      "bun",
+      "bug",
+      "bus"
+    ]
+  },
+  {
+    "id": "gum",
+    "text": "gum",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_gum",
+    "minimalPairs": [
+      "hum"
+    ]
+  },
+  {
+    "id": "hum",
+    "text": "hum",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_hum",
+    "minimalPairs": [
+      "ham",
+      "him",
+      "hug",
+      "hut",
+      "gum"
+    ]
+  },
+  {
+    "id": "bed",
+    "text": "bed",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "pictureId": "bed",
+    "audioWord": "wd_bed",
+    "minimalPairs": [
+      "bad",
+      "red",
+      "fed",
+      "beg",
+      "shed"
+    ]
+  },
+  {
+    "id": "red",
+    "text": "red",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_red",
+    "minimalPairs": [
+      "rod",
+      "bed",
+      "fed",
+      "shed"
+    ]
+  },
+  {
+    "id": "fed",
+    "text": "fed",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_fed",
+    "minimalPairs": [
+      "bed",
+      "red",
+      "shed"
+    ]
+  },
+  {
+    "id": "hen",
+    "text": "hen",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "hen",
+    "audioWord": "wd_hen",
+    "minimalPairs": [
+      "pen",
+      "ten",
+      "men",
+      "then"
+    ]
+  },
+  {
+    "id": "pen",
+    "text": "pen",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "pen",
+    "audioWord": "wd_pen",
+    "minimalPairs": [
+      "pan",
+      "pin",
+      "hen",
+      "ten",
+      "men",
+      "pet"
+    ]
+  },
+  {
+    "id": "ten",
+    "text": "ten",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_ten",
+    "minimalPairs": [
+      "tan",
+      "tin",
+      "hen",
+      "pen",
+      "men",
+      "then"
+    ]
+  },
+  {
+    "id": "men",
+    "text": "men",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_men",
+    "minimalPairs": [
+      "man",
+      "hen",
+      "pen",
+      "ten",
+      "met",
+      "then"
+    ]
+  },
+  {
+    "id": "pet",
+    "text": "pet",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pet",
+    "minimalPairs": [
+      "pat",
+      "pit",
+      "pot",
+      "pen",
+      "net",
+      "set"
+    ]
+  },
+  {
+    "id": "net",
+    "text": "net",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_net",
+    "minimalPairs": [
+      "not",
+      "nut",
+      "pet",
+      "set",
+      "get",
+      "let"
+    ]
+  },
+  {
+    "id": "set",
+    "text": "set",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_set",
+    "minimalPairs": [
+      "sat",
+      "sit",
+      "pet",
+      "net",
+      "get",
+      "let"
+    ]
+  },
+  {
+    "id": "get",
+    "text": "get",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_get",
+    "minimalPairs": [
+      "got",
+      "pet",
+      "net",
+      "set",
+      "let",
+      "met"
+    ]
+  },
+  {
+    "id": "let",
+    "text": "let",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_let",
+    "minimalPairs": [
+      "lit",
+      "lot",
+      "pet",
+      "net",
+      "set",
+      "get"
+    ]
+  },
+  {
+    "id": "met",
+    "text": "met",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_met",
+    "minimalPairs": [
+      "mat",
+      "men",
+      "pet",
+      "net",
+      "set",
+      "get"
+    ]
+  },
+  {
+    "id": "leg",
+    "text": "leg",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "leg",
+    "audioWord": "wd_leg",
+    "minimalPairs": [
+      "log",
+      "let",
+      "beg"
+    ]
+  },
+  {
+    "id": "beg",
+    "text": "beg",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_beg",
+    "minimalPairs": [
+      "bag",
+      "big",
+      "bug",
+      "bed",
+      "leg"
+    ]
+  },
+  {
+    "id": "them",
+    "text": "them",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_them",
+    "minimalPairs": [
+      "then"
+    ]
+  },
+  {
+    "id": "then",
+    "text": "then",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_voiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_then",
+    "minimalPairs": [
+      "than",
+      "thin",
+      "hen",
+      "pen",
+      "ten",
+      "men"
+    ]
+  },
+  {
+    "id": "shed",
+    "text": "shed",
+    "graphemes": [
+      {
+        "spelling": "sh",
+        "soundId": "sh",
+        "patternId": "dig_sh",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_shed",
+    "minimalPairs": [
+      "bed",
+      "red",
+      "fed"
+    ]
+  },
+  {
+    "id": "much",
+    "text": "much",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_much",
+    "minimalPairs": [
+      "mug",
+      "mud",
+      "such"
+    ]
+  },
+  {
+    "id": "such",
+    "text": "such",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_such",
+    "minimalPairs": [
+      "sun",
+      "much"
+    ]
+  },
+  {
+    "id": "and",
+    "text": "and",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_and",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "ant"
+    ]
+  },
+  {
+    "id": "stop",
+    "text": "stop",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_stop",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "pond",
+    "text": "pond",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pond",
+    "requires": [
+      "blend_final"
+    ]
+  },
+  {
+    "id": "hand",
+    "text": "hand",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "pictureId": "hand",
+    "audioWord": "wd_hand",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "sand",
+      "land"
+    ]
+  },
+  {
+    "id": "sand",
+    "text": "sand",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_sand",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "hand",
+      "land"
+    ]
+  },
+  {
+    "id": "land",
+    "text": "land",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_land",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "hand",
+      "sand"
+    ]
+  },
+  {
+    "id": "spot",
+    "text": "spot",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_spot",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "spin",
+    "text": "spin",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_spin",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "flag",
+    "text": "flag",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "flag",
+    "audioWord": "wd_flag",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "flip",
+    "text": "flip",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_flip",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "slip"
+    ]
+  },
+  {
+    "id": "frog",
+    "text": "frog",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      }
+    ],
+    "pictureId": "frog",
+    "audioWord": "wd_frog",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "grab",
+    "text": "grab",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_grab",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "crab"
+    ]
+  },
+  {
+    "id": "grin",
+    "text": "grin",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_grin",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "trip",
+    "text": "trip",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_trip",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "drip"
+    ]
+  },
+  {
+    "id": "drip",
+    "text": "drip",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_drip",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "trip",
+      "drop"
+    ]
+  },
+  {
+    "id": "drop",
+    "text": "drop",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_drop",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "drip"
+    ]
+  },
+  {
+    "id": "crab",
+    "text": "crab",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "pictureId": "crab",
+    "audioWord": "wd_crab",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "grab"
+    ]
+  },
+  {
+    "id": "clap",
+    "text": "clap",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_clap",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "plan",
+    "text": "plan",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_plan",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "slip",
+    "text": "slip",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_slip",
+    "requires": [
+      "blend_initial"
+    ],
+    "minimalPairs": [
+      "flip"
+    ]
+  },
+  {
+    "id": "sled",
+    "text": "sled",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "pictureId": "sled",
+    "audioWord": "wd_sled",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "snap",
+    "text": "snap",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_snap",
+    "requires": [
+      "blend_initial"
+    ]
+  },
+  {
+    "id": "fast",
+    "text": "fast",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_fast",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "last"
+    ]
+  },
+  {
+    "id": "last",
+    "text": "last",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_last",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "fast",
+      "list"
+    ]
+  },
+  {
+    "id": "list",
+    "text": "list",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_list",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "last"
+    ]
+  },
+  {
+    "id": "nest",
+    "text": "nest",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_nest",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "best",
+      "rest"
+    ]
+  },
+  {
+    "id": "best",
+    "text": "best",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_best",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "nest",
+      "rest"
+    ]
+  },
+  {
+    "id": "rest",
+    "text": "rest",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rest",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "nest",
+      "best"
+    ]
+  },
+  {
+    "id": "lamp",
+    "text": "lamp",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_lamp",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "camp"
+    ]
+  },
+  {
+    "id": "camp",
+    "text": "camp",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_camp",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "lamp"
+    ]
+  },
+  {
+    "id": "ant",
+    "text": "ant",
+    "graphemes": [
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "ant",
+    "audioWord": "wd_ant",
+    "requires": [
+      "blend_final"
+    ],
+    "minimalPairs": [
+      "and"
+    ]
+  },
+  {
+    "id": "tent",
+    "text": "tent",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "pictureId": "tent",
+    "audioWord": "wd_tent",
+    "requires": [
+      "blend_final"
+    ]
+  },
+  {
+    "id": "duck",
+    "text": "duck",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "u",
+        "soundId": "u_short",
+        "patternId": "short_u",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "pictureId": "duck",
+    "audioWord": "wd_duck",
+    "minimalPairs": [
+      "dug"
+    ]
+  },
+  {
+    "id": "sock",
+    "text": "sock",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "pictureId": "sock",
+    "audioWord": "wd_sock",
+    "minimalPairs": [
+      "sob",
+      "rock"
+    ]
+  },
+  {
+    "id": "rock",
+    "text": "rock",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "o",
+        "soundId": "o_short",
+        "patternId": "short_o",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "pictureId": "rock",
+    "audioWord": "wd_rock",
+    "minimalPairs": [
+      "rob",
+      "rod",
+      "sock"
+    ]
+  },
+  {
+    "id": "back",
+    "text": "back",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "a",
+        "soundId": "a_short",
+        "patternId": "short_a",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_back",
+    "minimalPairs": [
+      "bat",
+      "bad",
+      "bag",
+      "bath",
+      "bash"
+    ]
+  },
+  {
+    "id": "pick",
+    "text": "pick",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_pick",
+    "minimalPairs": [
+      "pit",
+      "pin",
+      "pig",
+      "chick",
+      "thick"
+    ]
+  },
+  {
+    "id": "neck",
+    "text": "neck",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_neck",
+    "minimalPairs": [
+      "net"
+    ]
+  },
+  {
+    "id": "chick",
+    "text": "chick",
+    "graphemes": [
+      {
+        "spelling": "ch",
+        "soundId": "ch",
+        "patternId": "dig_ch",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "pictureId": "chick",
+    "audioWord": "wd_chick",
+    "minimalPairs": [
+      "chip",
+      "chin",
+      "pick",
+      "thick"
+    ]
+  },
+  {
+    "id": "thick",
+    "text": "thick",
+    "graphemes": [
+      {
+        "spelling": "th",
+        "soundId": "th_unvoiced",
+        "patternId": "dig_th",
+        "continuous": true
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "ck",
+        "soundId": "k",
+        "patternId": "dig_ck",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_thick",
+    "minimalPairs": [
+      "this",
+      "thin",
+      "pick",
+      "chick"
+    ]
+  },
+  {
+    "id": "when",
+    "text": "when",
+    "graphemes": [
+      {
+        "spelling": "wh",
+        "soundId": "w",
+        "patternId": "dig_wh",
+        "continuous": false
+      },
+      {
+        "spelling": "e",
+        "soundId": "e_short",
+        "patternId": "short_e",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_when",
+    "minimalPairs": [
+      "hen",
+      "pen",
+      "ten",
+      "men",
+      "then"
+    ]
+  },
+  {
+    "id": "whip",
+    "text": "whip",
+    "graphemes": [
+      {
+        "spelling": "wh",
+        "soundId": "w",
+        "patternId": "dig_wh",
+        "continuous": false
+      },
+      {
+        "spelling": "i",
+        "soundId": "i_short",
+        "patternId": "short_i",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_whip",
+    "minimalPairs": [
+      "dip",
+      "hip",
+      "lip",
+      "rip",
+      "sip",
+      "tip"
+    ]
+  },
+  {
+    "id": "game",
+    "text": "game",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "pictureId": "game",
+    "audioWord": "wd_game",
+    "minimalPairs": [
+      "gum",
+      "name",
+      "gate",
+      "same"
+    ]
+  },
+  {
+    "id": "name",
+    "text": "name",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_name",
+    "minimalPairs": [
+      "game",
+      "same"
+    ]
+  },
+  {
+    "id": "tape",
+    "text": "tape",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tape",
+    "minimalPairs": [
+      "tap",
+      "tip",
+      "top",
+      "cape"
+    ]
+  },
+  {
+    "id": "cape",
+    "text": "cape",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_cape",
+    "minimalPairs": [
+      "cap",
+      "cup",
+      "tape"
+    ]
+  },
+  {
+    "id": "gate",
+    "text": "gate",
+    "graphemes": [
+      {
+        "spelling": "g",
+        "soundId": "g",
+        "patternId": "cons_g",
+        "continuous": false
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_gate",
+    "minimalPairs": [
+      "got",
+      "get",
+      "game",
+      "late"
+    ]
+  },
+  {
+    "id": "late",
+    "text": "late",
+    "graphemes": [
+      {
+        "spelling": "l",
+        "soundId": "l",
+        "patternId": "cons_l",
+        "continuous": true
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_late",
+    "minimalPairs": [
+      "lit",
+      "lot",
+      "let",
+      "gate"
+    ]
+  },
+  {
+    "id": "same",
+    "text": "same",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_same",
+    "minimalPairs": [
+      "game",
+      "name"
+    ]
+  },
+  {
+    "id": "made",
+    "text": "made",
+    "graphemes": [
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      },
+      {
+        "spelling": "a_e",
+        "soundId": "a_long",
+        "patternId": "vce_a",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_made",
+    "minimalPairs": [
+      "mad",
+      "mud"
+    ]
+  },
+  {
+    "id": "time",
+    "text": "time",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_time",
+    "minimalPairs": [
+      "dime"
+    ]
+  },
+  {
+    "id": "dime",
+    "text": "dime",
+    "graphemes": [
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_dime",
+    "minimalPairs": [
+      "dim",
+      "time"
+    ]
+  },
+  {
+    "id": "pine",
+    "text": "pine",
+    "graphemes": [
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_pine",
+    "minimalPairs": [
+      "pan",
+      "pin",
+      "pen",
+      "fine"
+    ]
+  },
+  {
+    "id": "hide",
+    "text": "hide",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hide",
+    "minimalPairs": [
+      "had",
+      "hid",
+      "ride",
+      "side"
+    ]
+  },
+  {
+    "id": "ride",
+    "text": "ride",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_ride",
+    "minimalPairs": [
+      "rod",
+      "red",
+      "hide",
+      "side"
+    ]
+  },
+  {
+    "id": "side",
+    "text": "side",
+    "graphemes": [
+      {
+        "spelling": "s",
+        "soundId": "s",
+        "patternId": "cons_s",
+        "continuous": true
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "d",
+        "soundId": "d",
+        "patternId": "cons_d",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_side",
+    "minimalPairs": [
+      "sad",
+      "hide",
+      "ride"
+    ]
+  },
+  {
+    "id": "fine",
+    "text": "fine",
+    "graphemes": [
+      {
+        "spelling": "f",
+        "soundId": "f",
+        "patternId": "cons_f",
+        "continuous": true
+      },
+      {
+        "spelling": "i_e",
+        "soundId": "i_long",
+        "patternId": "vce_i",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "audioWord": "wd_fine",
+    "minimalPairs": [
+      "fan",
+      "fin",
+      "fun",
+      "pine"
+    ]
+  },
+  {
+    "id": "bone",
+    "text": "bone",
+    "graphemes": [
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      },
+      {
+        "spelling": "o_e",
+        "soundId": "o_long",
+        "patternId": "vce_o",
+        "continuous": true
+      },
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      }
+    ],
+    "pictureId": "bone",
+    "audioWord": "wd_bone",
+    "minimalPairs": [
+      "bin",
+      "bun"
+    ]
+  },
+  {
+    "id": "home",
+    "text": "home",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o_e",
+        "soundId": "o_long",
+        "patternId": "vce_o",
+        "continuous": true
+      },
+      {
+        "spelling": "m",
+        "soundId": "m",
+        "patternId": "cons_m",
+        "continuous": true
+      }
+    ],
+    "pictureId": "home",
+    "audioWord": "wd_home",
+    "minimalPairs": [
+      "ham",
+      "him",
+      "hum",
+      "hope"
+    ]
+  },
+  {
+    "id": "rope",
+    "text": "rope",
+    "graphemes": [
+      {
+        "spelling": "r",
+        "soundId": "r",
+        "patternId": "cons_r",
+        "continuous": true
+      },
+      {
+        "spelling": "o_e",
+        "soundId": "o_long",
+        "patternId": "vce_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_rope",
+    "minimalPairs": [
+      "rip",
+      "hope"
+    ]
+  },
+  {
+    "id": "hope",
+    "text": "hope",
+    "graphemes": [
+      {
+        "spelling": "h",
+        "soundId": "h",
+        "patternId": "cons_h",
+        "continuous": false
+      },
+      {
+        "spelling": "o_e",
+        "soundId": "o_long",
+        "patternId": "vce_o",
+        "continuous": true
+      },
+      {
+        "spelling": "p",
+        "soundId": "p",
+        "patternId": "cons_p",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_hope",
+    "minimalPairs": [
+      "hip",
+      "hop",
+      "home",
+      "rope"
+    ]
+  },
+  {
+    "id": "note",
+    "text": "note",
+    "graphemes": [
+      {
+        "spelling": "n",
+        "soundId": "n",
+        "patternId": "cons_n",
+        "continuous": true
+      },
+      {
+        "spelling": "o_e",
+        "soundId": "o_long",
+        "patternId": "vce_o",
+        "continuous": true
+      },
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_note",
+    "minimalPairs": [
+      "not",
+      "nut",
+      "net"
+    ]
+  },
+  {
+    "id": "cube",
+    "text": "cube",
+    "graphemes": [
+      {
+        "spelling": "c",
+        "soundId": "k",
+        "patternId": "cons_c",
+        "continuous": false
+      },
+      {
+        "spelling": "u_e",
+        "soundId": "u_long",
+        "patternId": "vce_u",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "pictureId": "cube",
+    "audioWord": "wd_cube",
+    "minimalPairs": [
+      "cab",
+      "cob",
+      "cub",
+      "tube"
+    ]
+  },
+  {
+    "id": "tube",
+    "text": "tube",
+    "graphemes": [
+      {
+        "spelling": "t",
+        "soundId": "t",
+        "patternId": "cons_t",
+        "continuous": false
+      },
+      {
+        "spelling": "u_e",
+        "soundId": "u_long",
+        "patternId": "vce_u",
+        "continuous": true
+      },
+      {
+        "spelling": "b",
+        "soundId": "b",
+        "patternId": "cons_b",
+        "continuous": false
+      }
+    ],
+    "audioWord": "wd_tube",
+    "minimalPairs": [
+      "tab",
+      "tub",
+      "cube"
+    ]
+  }
+]

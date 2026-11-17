@@ -1,0 +1,106 @@
+[
+  {
+    "id": "pr_start",
+    "text": "Tap to start."
+  },
+  {
+    "id": "pr_tap_sounds",
+    "text": "Tap the sounds."
+  },
+  {
+    "id": "pr_slide_blend",
+    "text": "Slide and blend."
+  },
+  {
+    "id": "pr_say_word",
+    "text": "Say the word."
+  },
+  {
+    "id": "pr_find_picture",
+    "text": "Find the picture."
+  },
+  {
+    "id": "pr_your_turn",
+    "text": "Your turn."
+  },
+  {
+    "id": "pr_great_reading",
+    "text": "Great reading!"
+  },
+  {
+    "id": "pr_look_closely",
+    "text": "Let's look closely."
+  },
+  {
+    "id": "pr_tap_to_hear",
+    "text": "Tap the letter to hear its sound."
+  },
+  {
+    "id": "pr_find_sound",
+    "text": "Which one makes this sound?"
+  },
+  {
+    "id": "pr_build_word",
+    "text": "Build the word."
+  },
+  {
+    "id": "pr_find_word",
+    "text": "Find the word."
+  },
+  {
+    "id": "pr_read_sentence",
+    "text": "Read it. Then tap the arrow."
+  },
+  {
+    "id": "pr_try_again",
+    "text": "Try again."
+  },
+  {
+    "id": "pr_watch_listen",
+    "text": "Watch and listen."
+  },
+  {
+    "id": "pr_tap_this_one",
+    "text": "Now you tap it."
+  },
+  {
+    "id": "pr_all_done",
+    "text": "All done. Great work today!"
+  },
+  {
+    "id": "pr_new_book",
+    "text": "You have a new book!"
+  },
+  {
+    "id": "pr_read_aloud",
+    "text": "Read it out loud."
+  },
+  {
+    "id": "pr_keep_going",
+    "text": "Tap the arrow to keep going."
+  },
+  {
+    "id": "pr_heart_part",
+    "text": "This part we know by heart."
+  },
+  {
+    "id": "pr_start_again",
+    "text": "Let's start again."
+  },
+  {
+    "id": "pr_warm_up",
+    "text": "Let's warm up our sounds."
+  },
+  {
+    "id": "pr_pick_book",
+    "text": "Pick a book."
+  },
+  {
+    "id": "pr_new_words",
+    "text": "Let's learn some words first."
+  },
+  {
+    "id": "pr_done_today",
+    "text": "That's all for today. See you tomorrow!"
+  }
+]

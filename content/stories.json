@@ -1,0 +1,1185 @@
+[
+  {
+    "id": "big_pig",
+    "title": "A Big Pig",
+    "levelId": 1,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "big_pig_p1_s1",
+          "text": "I see a pig.",
+          "levelId": 1
+        },
+        {
+          "id": "big_pig_p1_s2",
+          "text": "It is a big pig.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "big_pig_p2_s1",
+          "text": "The pig sat in a pit.",
+          "levelId": 1
+        },
+        {
+          "id": "big_pig_p2_s2",
+          "text": "It is a mad pig.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "big_pig_p3_s1",
+          "text": "I can pat the pig.",
+          "levelId": 1
+        },
+        {
+          "id": "big_pig_p3_s2",
+          "text": "The pig is a pal.",
+          "levelId": 1
+        }
+      ]
+    ]
+  },
+  {
+    "id": "sad_cat",
+    "title": "The Sad Cat",
+    "levelId": 1,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "sad_cat_p1_s1",
+          "text": "The cat is sad.",
+          "levelId": 1
+        },
+        {
+          "id": "sad_cat_p1_s2",
+          "text": "The cat has a rip in her hat.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "sad_cat_p2_s1",
+          "text": "Sam has a pin.",
+          "levelId": 1
+        },
+        {
+          "id": "sad_cat_p2_s2",
+          "text": "Sam can pin the hat.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "sad_cat_p3_s1",
+          "text": "The cat has her hat.",
+          "levelId": 1
+        },
+        {
+          "id": "sad_cat_p3_s2",
+          "text": "We like the cat!",
+          "levelId": 1
+        }
+      ]
+    ]
+  },
+  {
+    "id": "bot_in_a_pod",
+    "title": "A Bot in a Pod",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "rocket",
+    "pages": [
+      [
+        {
+          "id": "bot_in_a_pod_p1_s1",
+          "text": "The bot is in a pod.",
+          "levelId": 2
+        },
+        {
+          "id": "bot_in_a_pod_p1_s2",
+          "text": "The pod is big.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "bot_in_a_pod_p2_s1",
+          "text": "The pod got hot.",
+          "levelId": 2
+        },
+        {
+          "id": "bot_in_a_pod_p2_s2",
+          "text": "The bot is not sad.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "bot_in_a_pod_p3_s1",
+          "text": "The bot can see a dot.",
+          "levelId": 2
+        },
+        {
+          "id": "bot_in_a_pod_p3_s2",
+          "text": "It is a big, hot dot!",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "bot_in_a_pod_p4_s1",
+          "text": "The bot has a map.",
+          "levelId": 2
+        },
+        {
+          "id": "bot_in_a_pod_p4_s2",
+          "text": "Go, bot, go!",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "dog_on_a_log",
+    "title": "A Dog on a Log",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "dog_on_a_log_p1_s1",
+          "text": "Tom has a dog.",
+          "levelId": 2
+        },
+        {
+          "id": "dog_on_a_log_p1_s2",
+          "text": "The dog is on a log.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "dog_on_a_log_p2_s1",
+          "text": "The log has a dip.",
+          "levelId": 2
+        },
+        {
+          "id": "dog_on_a_log_p2_s2",
+          "text": "The dog can hop.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "dog_on_a_log_p3_s1",
+          "text": "Hop, dog, hop!",
+          "levelId": 2
+        },
+        {
+          "id": "dog_on_a_log_p3_s2",
+          "text": "The dog got to Tom.",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "hot_pot",
+    "title": "The Hot Pot",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "sparkles",
+    "pages": [
+      [
+        {
+          "id": "hot_pot_p1_s1",
+          "text": "Mom has a pot.",
+          "levelId": 2
+        },
+        {
+          "id": "hot_pot_p1_s2",
+          "text": "The pot is hot.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "hot_pot_p2_s1",
+          "text": "The cat sat on a mat.",
+          "levelId": 2
+        },
+        {
+          "id": "hot_pot_p2_s2",
+          "text": "The cat can see the pot.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "hot_pot_p3_s1",
+          "text": "Mom has ham in a tin can.",
+          "levelId": 2
+        },
+        {
+          "id": "hot_pot_p3_s2",
+          "text": "The cat got the ham!",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_dot",
+    "title": "The Dot",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "planet",
+    "pages": [
+      [
+        {
+          "id": "the_dot_p1_s1",
+          "text": "I see a dot.",
+          "levelId": 2
+        },
+        {
+          "id": "the_dot_p1_s2",
+          "text": "Is it a pod?",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_dot_p2_s1",
+          "text": "It is not a pod.",
+          "levelId": 2
+        },
+        {
+          "id": "the_dot_p2_s2",
+          "text": "It is big.",
+          "levelId": 1
+        },
+        {
+          "id": "the_dot_p2_s3",
+          "text": "It is hot.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_dot_p3_s1",
+          "text": "The bot has a map.",
+          "levelId": 2
+        },
+        {
+          "id": "the_dot_p3_s2",
+          "text": "The bot can see the dot on the map.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_dot_p4_s1",
+          "text": "We go to the dot.",
+          "levelId": 2
+        },
+        {
+          "id": "the_dot_p4_s2",
+          "text": "Hop in the pod!",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "pig_in_the_bath",
+    "title": "The Pig in the Bath",
+    "levelId": 3,
+    "source": "app",
+    "sticker": "rainbow",
+    "pages": [
+      [
+        {
+          "id": "pig_in_the_bath_p1_s1",
+          "text": "This is a pig.",
+          "levelId": 3
+        },
+        {
+          "id": "pig_in_the_bath_p1_s2",
+          "text": "That is a bath.",
+          "levelId": 3
+        }
+      ],
+      [
+        {
+          "id": "pig_in_the_bath_p2_s1",
+          "text": "The pig got in the bath.",
+          "levelId": 3
+        },
+        {
+          "id": "pig_in_the_bath_p2_s2",
+          "text": "The pig can sit.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "pig_in_the_bath_p3_s1",
+          "text": "The bath is hot.",
+          "levelId": 3
+        },
+        {
+          "id": "pig_in_the_bath_p3_s2",
+          "text": "The pig is not sad!",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "thin_cat",
+    "title": "The Thin Cat",
+    "levelId": 3,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "thin_cat_p1_s1",
+          "text": "That cat is thin.",
+          "levelId": 3
+        },
+        {
+          "id": "thin_cat_p1_s2",
+          "text": "The cat is on a path.",
+          "levelId": 3
+        }
+      ],
+      [
+        {
+          "id": "thin_cat_p2_s1",
+          "text": "The path has a chip.",
+          "levelId": 3
+        },
+        {
+          "id": "thin_cat_p2_s2",
+          "text": "The cat got the chip.",
+          "levelId": 3
+        }
+      ],
+      [
+        {
+          "id": "thin_cat_p3_s1",
+          "text": "This cat is not thin.",
+          "levelId": 3
+        },
+        {
+          "id": "thin_cat_p3_s2",
+          "text": "This cat is fat!",
+          "levelId": 3
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tin_hat",
+    "title": "The Tin Hat",
+    "levelId": 3,
+    "source": "app",
+    "sticker": "crown",
+    "pages": [
+      [
+        {
+          "id": "tin_hat_p1_s1",
+          "text": "Pam has a tin hat.",
+          "levelId": 1
+        },
+        {
+          "id": "tin_hat_p1_s2",
+          "text": "It is big.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "tin_hat_p2_s1",
+          "text": "The cat has the hat.",
+          "levelId": 1
+        },
+        {
+          "id": "tin_hat_p2_s2",
+          "text": "That is not a cat hat!",
+          "levelId": 3
+        }
+      ],
+      [
+        {
+          "id": "tin_hat_p3_s1",
+          "text": "Pam got a thin hat.",
+          "levelId": 3
+        },
+        {
+          "id": "tin_hat_p3_s2",
+          "text": "This hat can fit the cat.",
+          "levelId": 3
+        }
+      ]
+    ]
+  },
+  {
+    "id": "dog_digs",
+    "title": "The Dog Digs",
+    "levelId": 4,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "dog_digs_p1_s1",
+          "text": "The dog digs.",
+          "levelId": 4
+        },
+        {
+          "id": "dog_digs_p1_s2",
+          "text": "He digs in a big pit.",
+          "levelId": 4
+        }
+      ],
+      [
+        {
+          "id": "dog_digs_p2_s1",
+          "text": "The dog has pots.",
+          "levelId": 4
+        },
+        {
+          "id": "dog_digs_p2_s2",
+          "text": "He has pans.",
+          "levelId": 4
+        }
+      ],
+      [
+        {
+          "id": "dog_digs_p3_s1",
+          "text": "The dog digs to the top.",
+          "levelId": 4
+        },
+        {
+          "id": "dog_digs_p3_s2",
+          "text": "He naps on a mat.",
+          "levelId": 4
+        }
+      ]
+    ]
+  },
+  {
+    "id": "pam_pats_the_cat",
+    "title": "Pam Pats the Cat",
+    "levelId": 4,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "pam_pats_the_cat_p1_s1",
+          "text": "I see Pam.",
+          "levelId": 1
+        },
+        {
+          "id": "pam_pats_the_cat_p1_s2",
+          "text": "She has a cat.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "pam_pats_the_cat_p2_s1",
+          "text": "The cat sits on the mat.",
+          "levelId": 4
+        },
+        {
+          "id": "pam_pats_the_cat_p2_s2",
+          "text": "Pam pats the cat.",
+          "levelId": 4
+        }
+      ],
+      [
+        {
+          "id": "pam_pats_the_cat_p3_s1",
+          "text": "The cat naps.",
+          "levelId": 4
+        },
+        {
+          "id": "pam_pats_the_cat_p3_s2",
+          "text": "Pam naps.",
+          "levelId": 4
+        }
+      ]
+    ]
+  },
+  {
+    "id": "bots_in_pods",
+    "title": "Bots in Pods",
+    "levelId": 4,
+    "source": "app",
+    "sticker": "ufo",
+    "pages": [
+      [
+        {
+          "id": "bots_in_pods_p1_s1",
+          "text": "The bots hop in the pods.",
+          "levelId": 4
+        },
+        {
+          "id": "bots_in_pods_p1_s2",
+          "text": "The pods got hot.",
+          "levelId": 4
+        }
+      ],
+      [
+        {
+          "id": "bots_in_pods_p2_s1",
+          "text": "The bots see dots.",
+          "levelId": 4
+        },
+        {
+          "id": "bots_in_pods_p2_s2",
+          "text": "The dots are big!",
+          "levelId": 4
+        }
+      ],
+      [
+        {
+          "id": "bots_in_pods_p3_s1",
+          "text": "The bots sit on top.",
+          "levelId": 4
+        },
+        {
+          "id": "bots_in_pods_p3_s2",
+          "text": "They tap the maps.",
+          "levelId": 4
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_ship",
+    "title": "The Ship",
+    "levelId": 5,
+    "source": "app",
+    "sticker": "rocket",
+    "pages": [
+      [
+        {
+          "id": "the_ship_p1_s1",
+          "text": "The bot has a ship.",
+          "levelId": 5
+        },
+        {
+          "id": "the_ship_p1_s2",
+          "text": "It is a big ship.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "the_ship_p2_s1",
+          "text": "The dog is on the ship.",
+          "levelId": 5
+        },
+        {
+          "id": "the_ship_p2_s2",
+          "text": "The cat is on the ship.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "the_ship_p3_s1",
+          "text": "The ship got to a big dot.",
+          "levelId": 5
+        },
+        {
+          "id": "the_ship_p3_s2",
+          "text": "Dash to the top, bot!",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "the_ship_p4_s1",
+          "text": "They see a dish.",
+          "levelId": 5
+        },
+        {
+          "id": "the_ship_p4_s2",
+          "text": "It has fish in it!",
+          "levelId": 5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "fish_in_a_dish",
+    "title": "A Fish in a Dish",
+    "levelId": 5,
+    "source": "app",
+    "sticker": "rainbow",
+    "pages": [
+      [
+        {
+          "id": "fish_in_a_dish_p1_s1",
+          "text": "Pam has a fish.",
+          "levelId": 5
+        },
+        {
+          "id": "fish_in_a_dish_p1_s2",
+          "text": "The fish is in a dish.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "fish_in_a_dish_p2_s1",
+          "text": "The cat can see the fish.",
+          "levelId": 5
+        },
+        {
+          "id": "fish_in_a_dish_p2_s2",
+          "text": "The cat is on the mat.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "fish_in_a_dish_p3_s1",
+          "text": "Dash, cat, dash!",
+          "levelId": 5
+        },
+        {
+          "id": "fish_in_a_dish_p3_s2",
+          "text": "Pam got the dish.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "fish_in_a_dish_p4_s1",
+          "text": "The fish is in the bath.",
+          "levelId": 5
+        },
+        {
+          "id": "fish_in_a_dish_p4_s2",
+          "text": "The cat is sad.",
+          "levelId": 1
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_shop",
+    "title": "The Shop",
+    "levelId": 5,
+    "source": "app",
+    "sticker": "sparkles",
+    "pages": [
+      [
+        {
+          "id": "the_shop_p1_s1",
+          "text": "Mom has cash.",
+          "levelId": 5
+        },
+        {
+          "id": "the_shop_p1_s2",
+          "text": "We go to the shop.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "the_shop_p2_s1",
+          "text": "The shop has hats.",
+          "levelId": 5
+        },
+        {
+          "id": "the_shop_p2_s2",
+          "text": "The shop has fish.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "the_shop_p3_s1",
+          "text": "I got a big hat.",
+          "levelId": 2
+        },
+        {
+          "id": "the_shop_p3_s2",
+          "text": "Mom got a fish.",
+          "levelId": 5
+        }
+      ],
+      [
+        {
+          "id": "the_shop_p4_s1",
+          "text": "The cat got in the bag.",
+          "levelId": 2
+        },
+        {
+          "id": "the_shop_p4_s2",
+          "text": "Gosh!",
+          "levelId": 5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_star",
+    "title": "The Star",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "star",
+    "bonus": [
+      "star"
+    ],
+    "pages": [
+      [
+        {
+          "id": "the_star_p1_s1",
+          "text": "I see a star.",
+          "levelId": 1
+        },
+        {
+          "id": "the_star_p1_s2",
+          "text": "It is a big star.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "the_star_p2_s1",
+          "text": "The bot got in a pod.",
+          "levelId": 2
+        },
+        {
+          "id": "the_star_p2_s2",
+          "text": "The pod can go to the star.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_star_p3_s1",
+          "text": "The star is hot.",
+          "levelId": 2
+        },
+        {
+          "id": "the_star_p3_s2",
+          "text": "The bot is not sad.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_star_p4_s1",
+          "text": "The bot can see a lot.",
+          "levelId": 2
+        },
+        {
+          "id": "the_star_p4_s2",
+          "text": "I like the star!",
+          "levelId": 1
+        }
+      ]
+    ]
+  },
+  {
+    "id": "to_the_moon",
+    "title": "To the Moon",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "rocket",
+    "bonus": [
+      "moon"
+    ],
+    "pages": [
+      [
+        {
+          "id": "to_the_moon_p1_s1",
+          "text": "The dog has a pod.",
+          "levelId": 2
+        },
+        {
+          "id": "to_the_moon_p1_s2",
+          "text": "The cat got in the pod.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "to_the_moon_p2_s1",
+          "text": "They go to the moon.",
+          "levelId": 1
+        },
+        {
+          "id": "to_the_moon_p2_s2",
+          "text": "The moon is big.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "to_the_moon_p3_s1",
+          "text": "The dog can hop on the moon.",
+          "levelId": 2
+        },
+        {
+          "id": "to_the_moon_p3_s2",
+          "text": "The cat can hop on the moon.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "to_the_moon_p4_s1",
+          "text": "Hop, hop, hop!",
+          "levelId": 2
+        },
+        {
+          "id": "to_the_moon_p4_s2",
+          "text": "They like the moon.",
+          "levelId": 1
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_fairy",
+    "title": "The Fairy",
+    "levelId": 3,
+    "source": "app",
+    "sticker": "wand",
+    "bonus": [
+      "fairy"
+    ],
+    "pages": [
+      [
+        {
+          "id": "the_fairy_p1_s1",
+          "text": "I see a fairy.",
+          "levelId": 1
+        },
+        {
+          "id": "the_fairy_p1_s2",
+          "text": "She is on a log.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_fairy_p2_s1",
+          "text": "The fairy has a thin rod.",
+          "levelId": 3
+        },
+        {
+          "id": "the_fairy_p2_s2",
+          "text": "She can tap the log.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_fairy_p3_s1",
+          "text": "Tap, tap, tap!",
+          "levelId": 1
+        },
+        {
+          "id": "the_fairy_p3_s2",
+          "text": "The log is a pod.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_fairy_p4_s1",
+          "text": "The fairy got in.",
+          "levelId": 2
+        },
+        {
+          "id": "the_fairy_p4_s2",
+          "text": "Go, fairy, go!",
+          "levelId": 1
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_princess",
+    "title": "The Princess",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "crown",
+    "bonus": [
+      "princess"
+    ],
+    "pages": [
+      [
+        {
+          "id": "the_princess_p1_s1",
+          "text": "The princess has a cat.",
+          "levelId": 1
+        },
+        {
+          "id": "the_princess_p1_s2",
+          "text": "The cat has a tin hat.",
+          "levelId": 1
+        }
+      ],
+      [
+        {
+          "id": "the_princess_p2_s1",
+          "text": "The princess has a dog.",
+          "levelId": 2
+        },
+        {
+          "id": "the_princess_p2_s2",
+          "text": "The dog has a big hat.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_princess_p3_s1",
+          "text": "The princess has a hog.",
+          "levelId": 2
+        },
+        {
+          "id": "the_princess_p3_s2",
+          "text": "The hog is in the fog.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "the_princess_p4_s1",
+          "text": "Hop on, princess!",
+          "levelId": 2
+        },
+        {
+          "id": "the_princess_p4_s2",
+          "text": "They go to the top.",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "princess_on_the_moon",
+    "title": "The Princess on the Moon",
+    "levelId": 2,
+    "source": "app",
+    "sticker": "unicorn",
+    "bonus": [
+      "star",
+      "moon",
+      "fairy",
+      "princess"
+    ],
+    "pages": [
+      [
+        {
+          "id": "princess_on_the_moon_p1_s1",
+          "text": "The princess is in a pod.",
+          "levelId": 2
+        },
+        {
+          "id": "princess_on_the_moon_p1_s2",
+          "text": "The pod can go to the moon.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "princess_on_the_moon_p2_s1",
+          "text": "The moon is big.",
+          "levelId": 1
+        },
+        {
+          "id": "princess_on_the_moon_p2_s2",
+          "text": "The princess can hop on it.",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "princess_on_the_moon_p3_s1",
+          "text": "She can see a fairy.",
+          "levelId": 1
+        },
+        {
+          "id": "princess_on_the_moon_p3_s2",
+          "text": "The fairy is on a star!",
+          "levelId": 2
+        }
+      ],
+      [
+        {
+          "id": "princess_on_the_moon_p4_s1",
+          "text": "The fairy has a map.",
+          "levelId": 1
+        },
+        {
+          "id": "princess_on_the_moon_p4_s2",
+          "text": "They go to the top.",
+          "levelId": 2
+        }
+      ]
+    ]
+  },
+  {
+    "id": "bug_in_the_sun",
+    "title": "The Bug in the Sun",
+    "levelId": 6,
+    "source": "app",
+    "sticker": "rainbow",
+    "pages": [
+      [
+        {
+          "id": "bug_in_the_sun_p1_s1",
+          "text": "The bug is in the sun.",
+          "levelId": 6
+        },
+        {
+          "id": "bug_in_the_sun_p1_s2",
+          "text": "The sun is hot.",
+          "levelId": 6
+        }
+      ],
+      [
+        {
+          "id": "bug_in_the_sun_p2_s1",
+          "text": "The bug got up on a cup.",
+          "levelId": 6
+        },
+        {
+          "id": "bug_in_the_sun_p2_s2",
+          "text": "It is fun!",
+          "levelId": 6
+        }
+      ],
+      [
+        {
+          "id": "bug_in_the_sun_p3_s1",
+          "text": "The bug can run.",
+          "levelId": 6
+        },
+        {
+          "id": "bug_in_the_sun_p3_s2",
+          "text": "Run, bug, run!",
+          "levelId": 6
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_frog",
+    "title": "The Frog",
+    "levelId": 7,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "the_frog_p1_s1",
+          "text": "The frog sat on a log.",
+          "levelId": 7
+        },
+        {
+          "id": "the_frog_p1_s2",
+          "text": "The log is in the pond.",
+          "levelId": 7
+        }
+      ],
+      [
+        {
+          "id": "the_frog_p2_s1",
+          "text": "The frog can hop.",
+          "levelId": 7
+        },
+        {
+          "id": "the_frog_p2_s2",
+          "text": "Hop and stop!",
+          "levelId": 7
+        },
+        {
+          "id": "the_frog_p2_s3",
+          "text": "Hop and stop!",
+          "levelId": 7
+        }
+      ],
+      [
+        {
+          "id": "the_frog_p3_s1",
+          "text": "The frog got to the sand.",
+          "levelId": 7
+        },
+        {
+          "id": "the_frog_p3_s2",
+          "text": "It naps in the sun.",
+          "levelId": 6
+        }
+      ]
+    ]
+  },
+  {
+    "id": "the_duck",
+    "title": "The Duck",
+    "levelId": 8,
+    "source": "app",
+    "sticker": "paw",
+    "pages": [
+      [
+        {
+          "id": "the_duck_p1_s1",
+          "text": "The duck is on a rock.",
+          "levelId": 8
+        },
+        {
+          "id": "the_duck_p1_s2",
+          "text": "The rock is in the sun.",
+          "levelId": 8
+        }
+      ],
+      [
+        {
+          "id": "the_duck_p2_s1",
+          "text": "The duck has a sock.",
+          "levelId": 8
+        },
+        {
+          "id": "the_duck_p2_s2",
+          "text": "That is not a duck sock!",
+          "levelId": 8
+        }
+      ],
+      [
+        {
+          "id": "the_duck_p3_s1",
+          "text": "The chick got the sock.",
+          "levelId": 8
+        },
+        {
+          "id": "the_duck_p3_s2",
+          "text": "The chick ran home.",
+          "levelId": 8
+        }
+      ]
+    ]
+  }
+]
