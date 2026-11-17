@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Reading App: Instruction Manual</title><link rel="stylesheet" href="docs.css"></head>
+<body>
+
+<section class="cover">
+  <p class="kicker">Instruction manual</p>
+  <h1>Reading App</h1>
+  <p class="lead">Setting it up, using it every day, and reading what it tells you.</p>
+  <img src="../img/home.png" alt="">
+  <p class="meta">Version 1.0.0 · 17 November 2026 · For the parent</p>
+</section>
+
+<h2 class="page-break">Contents</h2>
+<ol class="toc">
+  <li>1. Quick start</li>
+  <li>2. Putting the app online</li>
+  <li>3. Installing on the iPad</li>
+  <li>4. Recording the sounds</li>
+  <li>5. The home screen</li>
+  <li>6. The sound-it-out routine</li>
+  <li>7. Solo mode</li>
+  <li>8. Coach mode</li>
+  <li>9. This week's class passage</li>
+  <li>10. The parent area</li>
+  <li>11. Reading the reports</li>
+  <li>12. A weekly rhythm</li>
+  <li>13. Troubleshooting</li>
+  <li>14. Reference</li>
+</ol>
+
+<h2>1. Quick start</h2>
+<p>Allow about 45 minutes the first time. After that the app needs nothing from you except the occasional level unlock and a backup.</p>
+<ol class="steps">
+  <li><strong>Put the app online</strong> so the iPad can install it (section 2). About 10 minutes, once.</li>
+  <li><strong>Install it on the iPad</strong> from Safari, and open it once while online (section 3).</li>
+  <li><strong>Set your PIN.</strong> Hold the gear in the top right corner for 3 seconds and choose four digits. Write it down: it cannot be recovered.</li>
+  <li><strong>Record the sounds</strong> she is using now (section 4). About 30 clips, 10 to 15 minutes. <em>Do not skip this.</em> Without them the sound dots are silent.</li>
+  <li><strong>Check the levels.</strong> Parent area → Levels. Levels 1 to 3 start unlocked: short a, i and o, the consonants she has been taught, ch and th.</li>
+  <li><strong>Try it yourself first.</strong> Do one Solo session and one Coach story so you know what she will see.</li>
+  <li><strong>Turn on Guided Access</strong> before she uses it alone (section 3).</li>
+</ol>
+
+<h2>2. Putting the app online</h2>
+<p>The app is a folder of files. It needs to be served from an <code>https://</code> address once, so the iPad can download it. After that it runs with no connection. Pick one option.</p>
+<div class="cols">
+  <div class="box">
+    <h3>Option A: GitHub Pages</h3>
+    <ol>
+      <li>On GitHub, open the repository → <strong>Settings → Pages</strong>.</li>
+      <li>Under "Build and deployment", set Source to <strong>GitHub Actions</strong>.</li>
+      <li>Open the <strong>Actions</strong> tab → <strong>Deploy to GitHub Pages</strong> → <strong>Run workflow</strong>.</li>
+      <li>When it finishes, the address is shown on the run page: <code>https://&lt;user&gt;.github.io/reading_app/</code></li>
+    </ol>
+    <p>The site is public even if the repository is private (on a free plan). It contains no data about her.</p>
+  </div>
+  <div class="box">
+    <h3>Option B: Netlify</h3>
+    <ol>
+      <li>Sign in at netlify.com → <strong>Add new site → Import an existing project</strong>.</li>
+      <li>Choose the repository. The build settings are read from <code>netlify.toml</code> automatically.</li>
+      <li>Click <strong>Deploy</strong>. The address looks like <code>https://&lt;name&gt;.netlify.app</code></li>
+    </ol>
+    <p>Netlify can password-protect a site on paid plans if you want the app itself private.</p>
+  </div>
+</div>
+<p><strong>Updating later:</strong> deploy again. The iPad downloads the new version in the background the next time it is online. It is never applied in the middle of a session. You will see a small dot on the gear; apply it from Parent area → About → Update now.</p>
+
+<h2>3. Installing on the iPad</h2>
+<ol class="steps">
+  <li>On the iPad, open the address in <strong>Safari</strong>. It must be Safari.</li>
+  <li>Tap the <strong>Share</strong> button, then <strong>Add to Home Screen</strong>, then <strong>Add</strong>.</li>
+  <li>Close Safari. Open <strong>Reading</strong> from the home screen while still on Wi-Fi and leave it open for ten seconds. This launch is the one that stores the app for offline use.</li>
+  <li>Hold the gear for 3 seconds, set your PIN, and open <strong>About</strong>. It should say "Ready to work offline".</li>
+  <li>Test it: turn on Airplane Mode, swipe the app away, and open it again.</li>
+</ol>
+<div class="note"><strong>Why step 3 matters.</strong> iPadOS keeps a home-screen app's storage separate from Safari's. Visiting the page in Safari does not make the home-screen app work offline. Opening it from the home screen once does.</div>
+
+<h3>Guided Access: keeping her inside the app</h3>
+<ol>
+  <li>iPad <strong>Settings → Accessibility → Guided Access</strong>. Turn it on and set a passcode.</li>
+  <li>Open the Reading app. <strong>Triple-click the top button</strong> (the Home button on older iPads) and tap <strong>Start</strong>.</li>
+  <li>To end it: triple-click again and enter the passcode.</li>
+</ol>
+
+<h2>4. Recording the sounds</h2>
+<div class="cols">
+  <div>
+    <p>All audio is your voice, recorded on the iPad. Open <strong>Parent area → Sound Studio</strong>. The first time, iPadOS asks for microphone permission.</p>
+    <p>For each clip: tap the <strong>microphone</strong>, say the sound, tap <strong>stop</strong>. The app trims the silence, evens out the volume and saves it. Tap <strong>play</strong> to check, and record again if you are not happy.</p>
+    <h3>Record in this order</h3>
+    <ol>
+      <li><strong>Sounds she is using now</strong> (about 30). Essential.</li>
+      <li><strong>Spoken directions</strong> (26 short phrases such as "Tap the sounds").</li>
+      <li><strong>Words she can read now.</strong> She hears a whole word only after sounding it out herself.</li>
+      <li>Later levels, when you are about to unlock them.</li>
+    </ol>
+  </div>
+  <figure>
+    <img src="../img/parent-studio.png" alt="">
+    <figcaption>Sound Studio. Each sound shows how to say it.</figcaption>
+  </figure>
+</div>
+<h3>Getting the sounds right</h3>
+<table>
+  <tr><th style="width:26%">Kind of sound</th><th style="width:30%">Examples</th><th>How to say it</th></tr>
+  <tr><td>Sounds you can hold</td><td>m, s, f, n, l, r, z, sh, th, all vowels</td><td>Hold it steady for about half a second: "mmmm", not "muh".</td></tr>
+  <tr><td>Stop sounds</td><td>b, d, g, p, t, c/k, ch</td><td>Short and clipped, with <strong>no vowel after it</strong>: a quick /b/, not "buh". This matters most. An added "uh" makes "b-a-t" blend to "buh-a-tuh".</td></tr>
+  <tr><td>Whole words</td><td>cat, the, friend</td><td>Naturally, as you would say it to her.</td></tr>
+</table>
+<p>Then use <strong>Test blend</strong> at the top of Sound Studio: pick a word and listen. The sounds should run together smoothly into the word.</p>
+<div class="note"><strong>Short on time?</strong> Record the single sounds, then turn on <strong>Settings → Use the iPad's voice until you have recorded</strong>. The iPad will speak whole words and directions that have no recording yet. It is never used for single letter sounds: a synthetic voice gets those wrong.</div>
+
+<h2>5. The home screen</h2>
+<div class="cols">
+  <figure>
+    <img src="../img/home.png" alt="">
+    <figcaption>There is nothing here she has to read.</figcaption>
+  </figure>
+  <div>
+    <table>
+      <tr><th>On screen</th><th>What it is</th></tr>
+      <tr><td>One person</td><td><strong>Solo mode.</strong> She works on her own.</td></tr>
+      <tr><td>Two people</td><td><strong>Coach mode.</strong> She reads aloud to you.</td></tr>
+      <tr><td>Books</td><td>Her <strong>bookshelf</strong>: everything she has finished, to reread.</td></tr>
+      <tr><td>Card with stars</td><td>A story that is due for its next read.</td></tr>
+      <tr><td>Row of dots</td><td>One dot for each of the last seven days. A day she practised is filled in. Nothing is ever shown as lost.</td></tr>
+      <tr><td>Gear</td><td>The parent area. <strong>Hold for 3 seconds.</strong> A dot on it means something needs you: sounds to record, or an update.</td></tr>
+    </table>
+    <p>Every launch starts with one large Start button. iPadOS only allows sound after a tap, and this is that tap.</p>
+  </div>
+</div>
+
+<h2>6. The sound-it-out routine</h2>
+<p>This is the heart of the app and the only help it ever gives. It opens when she taps a word, and automatically after a miss. It is the same as the sound dots her teacher draws under words.</p>
+<div class="cols-3">
+  <figure><img src="../img/help-1-tap-sounds.png" alt=""><figcaption><strong>1. Tap each dot</strong> to hear that sound.</figcaption></figure>
+  <figure><img src="../img/help-2-slide.png" alt=""><figcaption><strong>2. Slide</strong> the arrow along. The sounds run together.</figcaption></figure>
+  <figure><img src="../img/help-3-word.png" alt=""><figcaption><strong>3. Say the word.</strong> Only then does the speaker appear to confirm it.</figcaption></figure>
+</div>
+<ul>
+  <li>The speaker button for the whole word does not exist until every dot has been tapped <em>and</em> the slide is finished. There is no shortcut.</li>
+  <li>Heart words work the same way. A small <span class="heart">♥</span> sits over the part she has to know by heart, exactly as her teacher marks it. The dots under the other letters still work.</li>
+  <li>After a miss the routine has no close button: she finishes it, then tries the question again.</li>
+</ul>
+
+<h2>7. Solo mode</h2>
+<p>A session is 4, 6 or 8 minutes (you choose; 6 to start). The dots along the top show how far through she is. There is no clock on screen.</p>
+<div class="cols">
+  <figure><img src="../img/solo-warmup.png" alt=""><figcaption><strong>Sound warm-up.</strong> Tap the letter to hear it, or hear a sound and find its letter.</figcaption></figure>
+  <figure><img src="../img/solo-build.png" alt=""><figcaption><strong>Word building.</strong> She hears a word and puts its sounds in the boxes. Drag or tap.</figcaption></figure>
+</div>
+<div class="cols">
+  <figure><img src="../img/solo-pick.png" alt=""><figcaption><strong>Pick the word.</strong> The choices differ by one sound, so she has to look at every letter.</figcaption></figure>
+  <figure><img src="../img/solo-match-choose.png" alt=""><figcaption><strong>Read then match.</strong> The sentence shows alone first. Pictures appear only after she taps that she has read it.</figcaption></figure>
+</div>
+<h3>What happens when she gets one wrong</h3>
+<table>
+  <tr><th style="width:22%">Moment</th><th>What the app does</th></tr>
+  <tr><td>First miss</td><td>No buzzer, no red X. The sound-it-out routine opens on the word. Then she tries again.</td></tr>
+  <tr><td>Second miss</td><td>The app models it: each sound, the blend, the word. The right answer is highlighted and she taps it herself.</td></tr>
+  <tr><td>Afterwards</td><td>That item comes back a few items later, and the word returns to daily review.</td></tr>
+</table>
+<h3>Guessing does not work</h3>
+<ul>
+  <li>Taps in the first second after a question are ignored, and so are taps that follow another tap too quickly.</li>
+  <li>Three fast wrong taps bring a calm "Let's look closely", then the routine.</li>
+  <li>The answers change position every time.</li>
+</ul>
+<h3>The end of a session</h3>
+<p>When time is up she finishes the item she is on, then does one she knows well, so she always ends on a success. The sentences she read go on her bookshelf. After the daily limit (two sessions unless you change it) she sees a quiet "see you tomorrow" screen; the bookshelf stays open.</p>
+<p><strong>To stop a session early:</strong> hold the home icon for 2 seconds.</p>
+
+<h2>8. Coach mode</h2>
+<p>She reads aloud and you score. This builds fluency and her tolerance for more text. Sit so the scoring strip is on your side (Settings → Scoring strip side).</p>
+<div class="cols">
+  <figure><img src="../img/coach-home.png" alt=""><figcaption>Pick a story. "Read again" stories come first. The line at the top shows how much text she sees at a time.</figcaption></figure>
+  <figure><img src="../img/coach-read.png" alt=""><figcaption>Only the current chunk is at full strength. What she has read fades; what is coming is hidden.</figcaption></figure>
+</div>
+<h3>Scoring</h3>
+<table>
+  <tr><th style="width:26%">She…</th><th>You…</th></tr>
+  <tr><td>reads the chunk correctly</td><td>tap <strong>✓ Correct</strong>. The next chunk appears. (She can also tap the arrow herself.)</td></tr>
+  <tr><td>misreads a word, then fixes it herself</td><td>hold a finger on that word until it highlights, then tap <strong>↻ Fixed it herself</strong>. Then ✓ for the rest.</td></tr>
+  <tr><td>gets stuck on a word</td><td>use the correction script below. Then hold the word and tap <strong>✕ Needed help</strong>. Then ✓ for the rest.</td></tr>
+  <tr><td>wants to sound a word out</td><td>let her tap it. The routine opens. That is the app working as intended.</td></tr>
+</table>
+<div class="box">
+  <h3>The correction script: say these, in this order</h3>
+  <ol>
+    <li>"Look at all the letters."</li>
+    <li>"Tap the sounds."</li>
+    <li>"Slide and blend."</li>
+    <li>Still stuck? Read it for her, then: "Your turn. Read it again."</li>
+  </ol>
+  <p><strong>Never say</strong> "What would make sense?" or "Look at the picture." Those teach guessing, which is the habit this app exists to replace. The script stays on the strip so every adult uses the same words.</p>
+</div>
+<h3>How the amount of text grows</h3>
+<table>
+  <tr><th style="width:12%">Step</th><th style="width:38%">She sees at once</th><th>Moves when</th></tr>
+  <tr><td>1</td><td>One word</td><td rowspan="5"><strong>Up</strong> after two Coach sessions in a row at 90% or better.<br><strong>Down</strong> after one session below 80%.<br>She starts at step 2. You can set the step by hand in Settings; the change is logged.</td></tr>
+  <tr><td>2</td><td>One phrase (2 to 4 words)</td></tr>
+  <tr><td>3</td><td>One sentence</td></tr>
+  <tr><td>4</td><td>Two sentences</td></tr>
+  <tr><td>5</td><td>The full page</td></tr>
+</table>
+<p>Accuracy counts a word as right if she read it correctly or fixed it herself. Words that needed help count against it, and they join her Solo practice the next day.</p>
+<h3>Three reads, three stars</h3>
+<p>Each story earns a star per completed read: the first read, a second the same or next day, and a third later in the week. Stars are for finishing, never for speed. A story due for its next read appears on the home screen.</p>
+
+<h2>9. This week's class passage</h2>
+<div class="cols">
+  <div>
+    <ol class="steps">
+      <li>Parent area → <strong>Class passage</strong>. Type or paste the passage and give it a title (the title is for you).</li>
+      <li>Tap <strong>Check the words</strong>. Every word is marked: can sound out, heart word, not taught yet, or new to the app.</li>
+      <li>For each word that is <strong>new to the app</strong>, choose <em>Add to word list</em> (a regular word she will meet again) or <em>One-time heart word</em> (just for this passage). Confirm how it splits into sounds.</li>
+      <li>Tap <strong>Save passage</strong>.</li>
+      <li>In Coach mode it appears under "Class passages". Before reading, she practises only the not-yet-taught words with tap-and-blend. Then she reads the passage at her current step.</li>
+    </ol>
+  </div>
+  <figure><img src="../img/parent-passage.png" alt=""><figcaption>Amber words have not been taught yet and will be practised first. Red words need your decision.</figcaption></figure>
+</div>
+<p>This is the only place she is ever shown a word that has not been taught, and only after practising it in the same sitting.</p>
+
+<h2>10. The parent area</h2>
+<p>Hold the gear for 3 seconds and enter your PIN. It locks itself after 5 minutes without a touch, or as soon as you leave the app.</p>
+<h3>Levels</h3>
+<div class="cols">
+  <div>
+    <p>Unlock a level when her class has taught it. Before anything changes you see exactly how many words, sentences and stories it adds or removes.</p>
+    <p>Tap a single pattern to switch just that one. Letters outside the eight levels (k, w, j, v, x, y, qu) are under "Not in a level yet".</p>
+    <p>A level cannot be unlocked until its sounds are recorded. The app tells you which are missing.</p>
+  </div>
+  <figure><img src="../img/parent-levels-preview.png" alt=""><figcaption>Every change is previewed first.</figcaption></figure>
+</div>
+<table>
+  <tr><th style="width:9%">Level</th><th style="width:25%">Teaches</th><th style="width:30%">Examples</th><th>At install</th></tr>
+  <tr><td>1</td><td>Short a, i; m s t p n c f d g h b r l z</td><td>cap, map, sit, pin</td><td>Unlocked</td></tr>
+  <tr><td>2</td><td>Short o</td><td>hop, dog, top, pot</td><td>Unlocked</td></tr>
+  <tr><td>3</td><td>ch, th</td><td>chip, chat, this, math</td><td>Unlocked</td></tr>
+  <tr><td>4</td><td>Ending -s</td><td>hops, dogs, sits</td><td>Locked. Unlock when ready; it already appears in class passages.</td></tr>
+  <tr><td>5</td><td>sh</td><td>ship, shop, fish</td><td>Locked. The next new skill.</td></tr>
+  <tr><td>6</td><td>Short u, e</td><td>sun, bed, run</td><td>Locked</td></tr>
+  <tr><td>7</td><td>Blends</td><td>stop, pond, hand</td><td>Locked</td></tr>
+  <tr><td>8</td><td>ck, wh, silent e</td><td>duck, when, home</td><td>Locked</td></tr>
+</table>
+
+<h3>Heart words</h3>
+<div class="cols">
+  <div>
+    <p>The list shows each heart word with its dots and hearts as she will see them. Hearts fall away by themselves as patterns unlock: <em>is</em> and <em>has</em> lose theirs at Level 4, and <em>she</em> keeps only the one over <em>e</em> after Level 5.</p>
+    <p><strong>To add one:</strong> type the word → Split into sounds → check each sound → tap "♥ irregular" on any part that breaks the rules → Save. Then record it in Sound Studio.</p>
+    <div class="note"><strong>Worth adding early: "and".</strong> It is not decodable until blends (Level 7), but it is everywhere. Add it here with no irregular parts and she can read it straight away.</div>
+  </div>
+  <figure><img src="../img/parent-heart-add.png" alt=""><figcaption>Adding a heart word.</figcaption></figure>
+</div>
+<p><strong>Interest words.</strong> Four heart words ship switched off: <em>star, moon, fairy, princess</em>. Turn any of them on in the list (look for "interest word") and five extra stories become available, including <em>To the Moon</em> and <em>The Princess on the Moon</em>. <em>Star</em> and <em>moon</em> are the easiest two to start with. Record each word, and for <em>fairy</em> the extra sound /air/, first.</p>
+
+<h3>Word list</h3>
+<p>Every regular word, with its sounds and the level it becomes readable at. Add a word the same way as a heart word. The app proposes the split; you confirm it, because some choices need a person (the <em>s</em> in <em>gas</em> against the <em>s</em> in <em>dogs</em>, <em>th</em> in <em>this</em> against <em>thin</em>). It also suggests look-alike words for "Pick the word".</p>
+
+<h3>Settings</h3>
+<table>
+  <tr><th style="width:34%">Setting</th><th>What it does</th></tr>
+  <tr><td>Session length</td><td>4, 6 or 8 minutes of Solo. Start with 6.</td></tr>
+  <tr><td>Solo sessions per day</td><td>1 to 4. Default 2.</td></tr>
+  <tr><td>Scoring strip side</td><td>Left or right, to suit where you sit.</td></tr>
+  <tr><td>Text-load step</td><td>Set the Coach step by hand. Normally leave it to the app.</td></tr>
+  <tr><td>Use the iPad's voice until you have recorded</td><td>Speaks unrecorded whole words and directions. Never single sounds.</td></tr>
+  <tr><td>Quiet mode</td><td>No sound. Listening activities are skipped and the session log notes it. For waiting rooms.</td></tr>
+  <tr><td>Change PIN</td><td>Needs the current PIN.</td></tr>
+</table>
+
+<h3>Backup</h3>
+<p><strong>Export backup</strong> saves one file, <code>readingapp-backup-YYYYMMDD.json</code>, through the share sheet: progress, settings, words you added, and your recordings. Save it to Files or iCloud Drive. <strong>Import</strong> replaces everything on the iPad with a backup's contents after asking you to confirm. Nothing is merged. The app reminds you after 30 days.</p>
+<div class="note warn"><strong>Make a backup after recording.</strong> Your recordings are the most time you will put into this app, and they live only on the iPad until you export.</div>
+
+<h2>11. Reading the reports</h2>
+<div class="cols">
+  <figure><img src="../img/parent-reports.png" alt=""><figcaption>Sample data, for illustration.</figcaption></figure>
+  <figure><img src="../img/parent-reports-charts.png" alt=""><figcaption>The ladder history shows each step change.</figcaption></figure>
+</div>
+<table>
+  <tr><th style="width:22%">Report</th><th style="width:38%">What it shows</th><th>What to look for</th></tr>
+  <tr><td>Solo accuracy</td><td>Share of Solo items right first time, with no help, over 14 days.</td><td>About 95%. Much lower: the content is too hard, so hold off unlocking. 100% for a week: she is ready for more.</td></tr>
+  <tr><td>Coach accuracy</td><td>Share of words read correctly or self-corrected.</td><td>90% or better.</td></tr>
+  <tr><td>Help use</td><td>Per session: how often help opened, and how often she finished the routine.</td><td><strong>The key chart.</strong> The orange bars catching up with the blue ones means sounding out is replacing guessing.</td></tr>
+  <tr><td>Text-load ladder</td><td>Her step over time.</td><td>A slow climb. A step down is the app protecting her confidence, not a failure.</td></tr>
+  <tr><td>Stall words</td><td>Words ranked by misses plus help uses.</td><td>A pattern across words (all short o, say) is worth mentioning to her teacher.</td></tr>
+  <tr><td>Pattern accuracy</td><td>Accuracy for each taught pattern.</td><td>Rows marked "Needs practice". Do not unlock the next level while one is weak.</td></tr>
+  <tr><td>Session log</td><td>Date, mode, length, items, accuracy, notes.</td><td>Notes such as skipped listening items.</td></tr>
+</table>
+
+<h2>12. A weekly rhythm</h2>
+<table>
+  <tr><th style="width:24%">When</th><th>What</th></tr>
+  <tr><td>Most days</td><td>One Solo session (6 minutes). Her choice of when.</td></tr>
+  <tr><td>Three or four times a week</td><td>One Coach story together (5 to 10 minutes). Follow the "Read again" cards so each story gets its three reads.</td></tr>
+  <tr><td>When the class passage comes home</td><td>Enter it under Class passage. Read it in Coach mode once or twice that week.</td></tr>
+  <tr><td>Weekly, for you</td><td>Two minutes in Reports. Check help use and stall words.</td></tr>
+  <tr><td>When school teaches something new</td><td>Record its sounds, then unlock the level.</td></tr>
+  <tr><td>Monthly</td><td>Export a backup.</td></tr>
+</table>
+<p>Keep it short and stop while it is going well. The app is built so that she succeeds about nineteen times in twenty; that feeling is the point.</p>
+
+<h2>13. Troubleshooting</h2>
+<table>
+  <tr><th style="width:34%">Problem</th><th>What to do</th></tr>
+  <tr><td>No sound at all</td><td>Check the iPad's volume and that Quiet mode is off. Sound starts with the Start button; if the app was left open for a long time, close and reopen it.</td></tr>
+  <tr><td>Dots are silent but other sounds work</td><td>Those sounds are not recorded. Sound Studio → "Sounds she is using now".</td></tr>
+  <tr><td>Words are silent after the routine</td><td>Record the word, or turn on "Use the iPad's voice until you have recorded".</td></tr>
+  <tr><td>Sound matching or word building never appears</td><td>They need audio. They are skipped when sounds or words are missing, or in Quiet mode. The session log says so.</td></tr>
+  <tr><td>The microphone will not record</td><td>iPad Settings → find the Reading app or Safari → allow Microphone. Recording works from the home-screen app.</td></tr>
+  <tr><td>It will not open without Wi-Fi</td><td>Open it from the <em>home screen</em> once while online and wait for About to say "Ready to work offline".</td></tr>
+  <tr><td>A level will not unlock</td><td>The message lists the sounds to record first.</td></tr>
+  <tr><td>A story has disappeared from Coach</td><td>It needs a pattern or heart word that is now locked. Unlock it again and the story returns.</td></tr>
+  <tr><td>The slider snaps back</td><td>It must be dragged in one movement from the left end to the right end. Letting go early starts it again. This is deliberate.</td></tr>
+  <tr><td>She taps and nothing happens</td><td>Taps in the first second, or straight after another tap, are ignored on purpose. Encourage her to look, then tap once.</td></tr>
+  <tr><td>A "start again" arrow appeared</td><td>Something went wrong and the app recovered. Tap the arrow. The details are in About → Error log.</td></tr>
+  <tr><td>Forgotten PIN</td><td>There is no reset. iPad Settings → Safari → Advanced → Website Data → remove the app's site, then reinstall and import your last backup. Without a backup, progress and recordings are lost.</td></tr>
+  <tr><td>Storage protection says "not granted"</td><td>iPadOS may clear data from sites that are not used for weeks. Keep the app on the home screen, use it regularly, and back up.</td></tr>
+</table>
+
+<h2>14. Reference</h2>
+<div class="cols">
+  <div>
+    <h3>What the app will never do</h3>
+    <ul>
+      <li>Ask her to guess from a picture or from context</li>
+      <li>Show a picture before she has read the text</li>
+      <li>Time her, score speed, or take anything away</li>
+      <li>Play a whole word before she has sounded it out</li>
+      <li>Show a word she has not been taught (class passages excepted, after practice)</li>
+      <li>Connect to the internet while she uses it</li>
+    </ul>
+  </div>
+  <div>
+    <h3>Her starting heart words</h3>
+    <p class="sample">I · a · the · they · she · he · we · go · see · like · was · is · has · her · friend · down · eat · to · are</p>
+    <p><em>can</em> is on her school list but is fully decodable, so it is an ordinary word here.</p>
+    <h3>How review is spaced</h3>
+    <p>A word answered right with no help moves up a box: reviewed the same day, then after 1, 2, 4 and 8 days. A modelled word goes back to the start. A word is mastered after three different days of unaided correct answers.</p>
+  </div>
+</div>
+<h3>Privacy and licences</h3>
+<p>All data stays on the iPad. The app has no accounts, analytics or third-party code and makes no network requests while running. The Andika typeface is © SIL International, licensed under the SIL Open Font License 1.1. Pictures are from OpenMoji (openmoji.org), licensed CC BY-SA 4.0, except mat, pod, dot, lid and mop, which were drawn for this app.</p>
+<p>For developers: <code>README.md</code> covers building, testing, and adding bundled content. <code>docs/BUILD_REPORT.md</code> lists test results, deviations from the spec and open questions.</p>
+</body>
+</html>

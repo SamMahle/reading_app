@@ -138,7 +138,9 @@ function Finish({ newSentenceIds }: { newSentenceIds: readonly string[] }) {
           <div className="finish__books" data-testid="new-books">
             {newSentenceIds.map((id) => (
               <span key={id} className="finish__book">
-                <Picture id="book" />
+                <Picture
+                  id={CONTENT.sentences.find((s) => s.id === id)?.scene?.subject ?? 'book'}
+                />
               </span>
             ))}
           </div>

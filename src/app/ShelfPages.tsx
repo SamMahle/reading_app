@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { CONTENT } from '@/content/index';
-import { isReadable } from '@/engine/readability';
+import { isReadable, partitionReadable } from '@/engine/readability';
 import type { AnyEntry, Sentence } from '@/engine/types';
 import { Bookshelf, type ShelfBook } from '@/ui/Bookshelf';
 import { FocusReader } from '@/ui/FocusReader';
@@ -31,7 +31,6 @@ export function ShelfPage() {
         return [
           {
             id: record.id,
-            title: sentence.text,
             sticker: sentence.scene?.subject ?? 'book',
             hue: hueOf(record.id),
           },
@@ -39,12 +38,14 @@ export function ShelfPage() {
       }
       const story = app.stories.find((s) => s.id === record.id);
       if (!story) return [];
-      // Titles are text she may read, so they pass the checker or are not shown.
-      const title = isReadable(story.title, app.unlock, app.lexicon).ok ? story.title : '';
+      // An app story is shelved only while every page still passes the checker.
+      const readable =
+        story.source !== 'app' ||
+        partitionReadable(story.pages.flat(), app.unlock, app.lexicon).refused.length === 0;
+      if (!readable) return [];
       return [
         {
           id: record.id,
-          title,
           sticker: story.sticker ?? 'book',
           stars: Math.min(record.reads.length, 3),
           hue: hueOf(record.id),

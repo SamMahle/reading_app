@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from 'react';
 import { audio } from '@/audio/AudioService';
+import { soundClipId } from '@/content/audioManifest';
 import {
   allDotsTapped,
   canPlayWholeWord,
@@ -147,6 +148,9 @@ export function SoundItOut({
           )}
         </div>
 
+        {import.meta.env.DEV && entry.graphemes.some((g) => !audio.has(soundClipId(g.soundId))) && (
+          <span className="dev-badge">missing sound clips for this word</span>
+        )}
         <div className="help-overlay__actions">
           {ready && (
             <>

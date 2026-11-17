@@ -1,6 +1,6 @@
 import fc from 'fast-check';
 import { describe, expect, it } from 'vitest';
-import { unlockedPatterns } from '@/engine/lexicon';
+import { buildLexicon, unlockedPatterns } from '@/engine/lexicon';
 import { classifyWord, isReadable } from '@/engine/readability';
 import { createRng } from '@/engine/rng';
 import {
@@ -220,6 +220,36 @@ describe('buildSession (spec §8.5)', () => {
       for (const m of matches) ids.add(m.sentenceId);
     }
     expect(ids.size).toBeGreaterThan(3);
+  });
+
+  it('uses a parent-added heart word in Solo as soon as it is unlocked', () => {
+    // "and" is not readable until blends are taught, unless the parent adds it as a heart word.
+    const sentence = {
+      id: 'custom_1',
+      text: 'The cat and the dog sat on a mat.',
+      levelId: 2,
+      scene: { subject: 'cat', object: 'mat', relation: 'on' as const },
+    };
+    const and = word('and');
+    const lexicon = buildLexicon(CONTENT.levels, CONTENT.words, CONTENT.heartWords, [
+      {
+        id: 'and',
+        text: 'and',
+        graphemes: and.graphemes,
+        irregularIdx: [],
+        unlockLevel: 1,
+        audioWord: 'wd_and',
+        isHeartWord: true,
+      },
+    ]);
+    const sentences = [sentence];
+    const before = buildSession(input({ sentences }));
+    expect(before.items.some((i) => i.kind === 'match')).toBe(false);
+    const unlock = { ...defaultUnlock(), heartWords: [...defaultUnlock().heartWords, 'and'] };
+    const after = buildSession(input({ sentences, lexicon, unlock }));
+    expect(after.items.filter((i) => i.kind === 'match').map((i) => i.sentenceId)).toEqual([
+      'custom_1',
+    ]);
   });
 
   it('weights warm-ups toward recently missed graphemes', () => {

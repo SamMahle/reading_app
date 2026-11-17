@@ -22,7 +22,8 @@ export default tseslint.config(
   },
   {
     files: ['scripts/**/*.{ts,mjs}', '*.config.{js,ts}'],
-    languageOptions: { globals: { ...globals.node } },
+    // Browser globals too: Playwright scripts pass callbacks into the page.
+    languageOptions: { globals: { ...globals.node, ...globals.browser } },
     rules: { 'no-console': 'off' },
   },
   prettier,

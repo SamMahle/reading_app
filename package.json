@@ -5,18 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "preview": "vite preview --port 4173 --strictPort",
-    "typecheck": "tsc -b",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test --project=webkit",
     "validate-content": "tsx scripts/validate-content.ts",
     "audio-manifest": "tsx scripts/audio-manifest.ts",
-    "check": "npm run lint && npm run typecheck && npm run validate-content && npm run test:coverage"
+    "check": "npm run lint && npm run format:check && npm run typecheck && npm run validate-content && npm run test:coverage",
+    "review-list": "tsx scripts/review-list.ts",
+    "icons": "node scripts/make-icons.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "docs": "node scripts/build-docs.mjs",
+    "test:e2e:chromium": "playwright test --project=chromium"
   },
   "dependencies": {
     "idb": "^8.0.4",
@@ -46,5 +51,10 @@
     "vite-plugin-pwa": "^2.0.0",
     "vitest": "^5.1.0",
     "workbox-window": "^7.4.1"
+  },
+  "description": "Offline-first iPad web app that teaches one beginning reader to decode words.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
   }
 }

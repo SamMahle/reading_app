@@ -3,6 +3,7 @@ import { useApp } from '@/app/AppData';
 import { matchRoute, navigate } from '@/app/router';
 import { useUpdateReady } from '@/app/update';
 import { createPin, isValidPin, verifyPin } from '@/data/pin';
+import { DAY_MS } from '@/engine/dates';
 import { LevelsPanel } from './LevelsPanel';
 import { PassagePanel } from './PassagePanel';
 import { ReportsPanel } from './ReportsPanel';
@@ -126,6 +127,10 @@ export function ParentArea({ path }: { path: string }) {
   const [firstPin, setFirstPin] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const hasPin = !!app.settings.pinHash;
+  // A gentle reminder once there is progress worth keeping and no backup for 30 days.
+  const lastBackup = app.settings.lastBackupTs ?? 0;
+  const backupDue =
+    app.sessions.length > 0 && (app.sessions.at(-1)?.ts ?? 0) - lastBackup > 30 * DAY_MS;
 
   if (!lock.unlocked) {
     if (!hasPin) {
@@ -188,7 +193,9 @@ export function ParentArea({ path }: { path: string }) {
             onClick={() => navigate(`/parent/${s.id}`)}
           >
             {s.label}
-            {s.id === 'about' && updateReady && <span className="parent__dot" />}
+            {((s.id === 'about' && updateReady) || (s.id === 'backup' && backupDue)) && (
+              <span className="parent__dot" />
+            )}
           </button>
         ))}
         <button

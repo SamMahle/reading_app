@@ -94,14 +94,21 @@
 }
 
 .word__dot {
-  width: 22px;
-  height: 22px;
-  margin-top: 10px;
+  width: 0.2em;
+  height: 0.2em;
+  margin-top: 0.1em;
   border-radius: 50%;
   background: var(--color-dot);
   transition:
     background-color var(--motion) ease,
     transform var(--motion) ease;
+}
+
+/* While sounding out, the dots are full-size touch targets. */
+.word--spaced .word__dot {
+  width: 22px;
+  height: 22px;
+  margin-top: 10px;
 }
 
 .word__dot--tapped {
@@ -598,29 +605,16 @@
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  width: 132px;
-  min-height: 170px;
-  padding: 12px 10px;
+  width: 112px;
+  min-height: 150px;
+  padding: 16px 10px 12px;
   border-radius: 10px 10px 0 0;
   box-shadow: inset -6px 0 0 rgb(31 42 55 / 6%);
 }
 
 .shelf__sticker {
-  width: 56px;
-  height: 56px;
-}
-
-.shelf__title {
-  font-family: var(--font-reading);
-  font-size: 1.125rem;
-  line-height: 1.25;
-  text-align: center;
-  color: var(--color-ink);
-}
-
-.shelf__title .word {
-  font-size: inherit;
-  white-space: normal;
+  width: 76px;
+  height: 76px;
 }
 
 .shelf__stars {

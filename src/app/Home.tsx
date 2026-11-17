@@ -13,6 +13,8 @@ import { navigate } from './router';
 import { useUpdateReady } from './update';
 
 const GEAR_HOLD_MS = 3000;
+/** Decoration only, drawn from the things she loves: animals, space, princesses, fairies. */
+const FRIENDS = ['paw', 'rocket', 'crown', 'wand', 'planet', 'unicorn'];
 const TRACKER_DAYS = 7;
 
 /**
@@ -137,6 +139,11 @@ export function Home() {
             ))}
           </div>
         )}
+      </div>
+      <div className="home__friends" aria-hidden="true">
+        {FRIENDS.map((id) => (
+          <Picture key={id} id={id} className="home__friend" />
+        ))}
       </div>
     </main>
   );

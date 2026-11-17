@@ -9,13 +9,14 @@ import {
   type ReactNode,
 } from 'react';
 import { audio } from '@/audio/AudioService';
-import { soundClipsForUnlock } from '@/content/audioManifest';
+import { soundClipsForUnlock, wordClipId } from '@/content/audioManifest';
 import { CONTENT, defaultUnlock } from '@/content/index';
 import { importBackup } from '@/data/backup';
 import { openStore, type AppStore } from '@/data/store';
 import { DEFAULT_SETTINGS, type AudioRecord, type Settings, type StoryRecord } from '@/data/types';
 import { initialLadder } from '@/engine/ladder';
 import { buildLexicon } from '@/engine/lexicon';
+import { classifyWord } from '@/engine/readability';
 import { enqueueStallWord } from '@/engine/scheduler';
 import type {
   AnyEntry,
@@ -202,11 +203,17 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
   // Decode the sound clips for everything unlocked, ahead of first use (spec §12).
   useEffect(() => {
     if (!state.ready) return;
+    const words = [...lexicon.words.values(), ...lexicon.heartWords.values()]
+      .filter((entry) =>
+        ['decodable', 'heart'].includes(classifyWord(entry.text, state.unlock, lexicon).cls),
+      )
+      .map((entry) => entry.audioWord ?? wordClipId(entry.id));
     void audio.preload([
       ...soundClipsForUnlock(state.unlock, CONTENT, state.custom),
       ...CONTENT.prompts.map((p) => p.id),
+      ...words,
     ]);
-  }, [state.ready, state.unlock, state.custom, state.recordedClips]);
+  }, [state.ready, state.unlock, state.custom, state.recordedClips, lexicon]);
 
   const actions = useMemo(() => {
     const store = () => {

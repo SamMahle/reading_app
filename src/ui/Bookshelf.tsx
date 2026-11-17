@@ -1,12 +1,13 @@
-import type { ReactNode } from 'react';
 import { StarIcon } from './icons';
 import { Picture } from './Picture';
 
 export interface ShelfBook {
   id: string;
-  /** Already passed through the decodability gate by the caller. */
-  title: ReactNode;
-  sticker?: string;
+  /**
+   * The picture on the spine. Spines carry no text: anything she reads is
+   * shown at full reading size, after she opens the book.
+   */
+  sticker: string;
   /** 0–3 for stories; undefined for single sentences. */
   stars?: number;
   /** Stable colour index so a book always looks the same. */
@@ -33,10 +34,10 @@ export function Bookshelf({
           style={{ background: SPINE_COLORS[book.hue % SPINE_COLORS.length] }}
           data-testid="shelf-book"
           data-book={book.id}
+          aria-label="Read this book again"
           onClick={() => onOpen(book.id)}
         >
-          {book.sticker && <Picture id={book.sticker} className="shelf__sticker" />}
-          <span className="shelf__title">{book.title}</span>
+          <Picture id={book.sticker} className="shelf__sticker" />
           {book.stars !== undefined && (
             <span className="shelf__stars" aria-label={`${book.stars} of 3 reads`}>
               {[0, 1, 2].map((i) => (

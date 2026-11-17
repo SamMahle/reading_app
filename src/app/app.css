@@ -110,3 +110,16 @@
   text-align: center;
   color: var(--color-ink);
 }
+
+.home__friends {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding-bottom: 8px;
+}
+
+.home__friend {
+  width: 56px;
+  height: 56px;
+  opacity: 0.85;
+}
