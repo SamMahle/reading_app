@@ -155,6 +155,11 @@ a dot on the gear and applies it from **Parent area → About → Update now**.
 3. **Check the levels** match what her class has taught (Levels 1–3 start unlocked).
 4. **Read through `content/REVIEW.md`** and mark what you approve.
 
+Recording on a different device (your own phone, say) works too: export a
+backup there, then on her iPad use **Backup → Import recordings only**. That
+copies just the audio, replacing clips with the same name, and leaves her
+progress, settings and words untouched. **Import backup** replaces everything.
+
 Bundling audio in the app instead of recording on the iPad: put files in
 `assets/audio/sounds/snd_<soundId>.m4a`, `assets/audio/words/wd_<word>.m4a` or
 `assets/audio/prompts/pr_<id>.m4a` (`.mp3` and `.wav` also work) and rebuild.

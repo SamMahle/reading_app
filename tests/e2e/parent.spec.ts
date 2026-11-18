@@ -153,3 +153,71 @@ test.describe('parent panel (spec §10)', () => {
     await fresh.close();
   });
 });
+
+test('import recordings only copies audio and keeps her progress', async ({ page, browser }) => {
+  // The phone: a recording (written straight to storage; headless browsers have no microphone).
+  await start(page);
+  await openParent(page);
+  await page.evaluate(
+    () =>
+      new Promise<void>((resolve) => {
+        const open = indexedDB.open('readingapp');
+        open.onsuccess = () => {
+          const tx = open.result.transaction('audio', 'readwrite');
+          tx.objectStore('audio').put({
+            clipId: 'snd_m',
+            mime: 'audio/wav',
+            data: new Uint8Array([1, 2, 3]).buffer,
+            ts: 1,
+          });
+          tx.oncomplete = () => {
+            open.result.close();
+            resolve();
+          };
+        };
+      }),
+  );
+  const phoneBackup = await exportBackup(page);
+
+  // Her iPad: a different install with real progress.
+  const ipadContext = await browser.newContext({ viewport: { width: 1024, height: 768 } });
+  const ipad = await ipadContext.newPage();
+  await start(ipad);
+  await ipad.getByTestId('start-solo').click();
+  await answerItem(ipad);
+  await answerItem(ipad);
+  // Leave the session the supported way: hold the home button for 2 seconds.
+  const exit = ipad.getByTestId('exit-session');
+  const box = await exit.boundingBox();
+  if (!box) throw new Error('no exit button');
+  await ipad.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+  await ipad.mouse.down();
+  await ipad.waitForTimeout(2300);
+  await ipad.mouse.up();
+  await expect(ipad.getByTestId('home')).toBeVisible();
+  await openParent(ipad);
+  await openSection(ipad, 'settings');
+  await ipad.locator('[data-minutes="4"]').click();
+  const attemptsBefore = await readStore(ipad, 'attempts');
+  expect(attemptsBefore).toHaveLength(2);
+
+  await openSection(ipad, 'backup');
+  await ipad.getByTestId('import-recordings-file').setInputFiles(phoneBackup.path);
+  const dialog = ipad.getByTestId('import-recordings-confirm');
+  await expect(dialog).toContainText('Copy 1 recordings');
+  await expect(dialog).toContainText('1 new on this device');
+  await ipad.getByTestId('import-recordings-apply').click();
+  await expect(ipad.getByTestId('backup-message')).toContainText('Copied 1 recordings');
+
+  // The recording arrived; her progress and settings did not change.
+  expect((await readStore<{ clipId: string }>(ipad, 'audio')).map((r) => r.clipId)).toEqual([
+    'snd_m',
+  ]);
+  expect(await readStore(ipad, 'attempts')).toEqual(attemptsBefore);
+  expect((await readStore<{ sessionMinutes: number }>(ipad, 'settings'))[0]?.sessionMinutes).toBe(
+    4,
+  );
+  await openSection(ipad, 'studio');
+  await expect(ipad.locator('[data-clip="snd_m"]')).toHaveAttribute('data-status', 'recorded');
+  await ipadContext.close();
+});

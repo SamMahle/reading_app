@@ -1,7 +1,15 @@
 import 'fake-indexeddb/auto';
 import { openDB } from 'idb';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { backupFileName, exportBackup, importBackup, validateBackup } from '@/data/backup';
+import {
+  backupFileName,
+  exportBackup,
+  importBackup,
+  importRecordings,
+  previewRecordings,
+  validateBackup,
+  validateRecordingsSource,
+} from '@/data/backup';
 import {
   ALL_STORES,
   DB_VERSION,
@@ -211,6 +219,73 @@ describe('backup (spec §10.2)', () => {
 
     await expect(importBackup(store, { ...good, formatVersion: 9 })).rejects.toThrow('Unsupported');
     expect(await store.listAttempts()).toHaveLength(2);
+  });
+});
+
+describe('import recordings only', () => {
+  const bytes = async (store: AppStore, clipId: string) => {
+    const record = (await store.listAudio()).find((r) => r.clipId === clipId);
+    return record ? [...new Uint8Array(record.data)] : undefined;
+  };
+
+  it('copies recordings and leaves progress, settings and words untouched', async () => {
+    // The phone: two good recordings.
+    const phone = await openStore(freshName());
+    await phone.putAudio({
+      clipId: 'snd_m',
+      mime: 'audio/wav',
+      data: Uint8Array.of(9, 9).buffer,
+      ts: T0,
+    });
+    await phone.putAudio({
+      clipId: 'snd_s',
+      mime: 'audio/wav',
+      data: Uint8Array.of(7).buffer,
+      ts: T0,
+    });
+    await phone.saveSettings({ ...DEFAULT_SETTINGS, sessionMinutes: 4 });
+    const backup = JSON.parse(JSON.stringify(await exportBackup(phone))) as unknown;
+
+    // Her iPad: real progress and an older recording of /m/.
+    const ipad = await openStore(freshName());
+    await seed(ipad);
+    const before = await exportBackup(ipad, new Date(T0));
+    expect(validateRecordingsSource(backup)).toEqual([]);
+    expect(await previewRecordings(ipad, backup)).toEqual({ total: 2, added: 1, replaced: 1 });
+
+    expect(await importRecordings(ipad, backup)).toEqual({ total: 2, added: 1, replaced: 1 });
+    expect(await bytes(ipad, 'snd_m')).toEqual([9, 9]); // replaced by the phone's take
+    expect(await bytes(ipad, 'snd_s')).toEqual([7]); // added
+
+    // Everything except the audio store is exactly as it was.
+    const after = await exportBackup(ipad, new Date(T0));
+    const { audio: _beforeAudio, ...beforeRest } = before.stores;
+    const { audio: _afterAudio, ...afterRest } = after.stores;
+    void _beforeAudio;
+    void _afterAudio;
+    expect(afterRest).toEqual(beforeRest);
+    expect((await ipad.getSettings()).sessionMinutes).toBe(8); // not the phone's 4
+  });
+
+  it('refuses files that are not usable and changes nothing', async () => {
+    const ipad = await openStore(freshName());
+    await seed(ipad);
+    const empty = JSON.parse(JSON.stringify(await exportBackup(await openStore(freshName())))) as {
+      stores: Record<string, unknown>;
+    };
+    expect(validateRecordingsSource(null)).toEqual(['The file is not a Reading App backup.']);
+    expect(validateRecordingsSource(empty)).toContain('The backup has no recordings in it.');
+    expect(validateRecordingsSource({ ...empty, stores: {} })).toContain(
+      'The backup has no recordings.',
+    );
+    expect(validateRecordingsSource({ ...empty, stores: { audio: [{ clipId: 'x' }] } })).toContain(
+      'Recording 1 in the file is damaged.',
+    );
+    expect(validateRecordingsSource({ ...empty, app: 'other' })[0]).toContain(
+      'not a Reading App backup',
+    );
+    await expect(importRecordings(ipad, empty)).rejects.toThrow('no recordings');
+    expect(await ipad.listAudioIds()).toEqual(['snd_m']);
   });
 });
 

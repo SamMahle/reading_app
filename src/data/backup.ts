@@ -103,9 +103,8 @@ const ROW_CHECKS: Record<StoreName, (row: Record<string, unknown>) => boolean> =
   errors: (r) => isString(r.id) && isNumber(r.ts) && isString(r.message),
 };
 
-/** Returns a list of problems. An empty list means the file is safe to import. */
-export function validateBackup(value: unknown): string[] {
-  if (!isRecord(value)) return ['The file is not a Reading App backup.'];
+/** Checks shared by both kinds of import: is this a backup this app can read? */
+function validateHeader(value: Record<string, unknown>): string[] {
   const problems: string[] = [];
   if (value.app !== BACKUP_APP_ID) problems.push('The file is not a Reading App backup.');
   if (value.formatVersion !== BACKUP_FORMAT_VERSION)
@@ -115,6 +114,13 @@ export function validateBackup(value: unknown): string[] {
       'The backup comes from a newer version of the app. Update the app, then import again.',
     );
   }
+  return problems;
+}
+
+/** Returns a list of problems. An empty list means the file is safe to import. */
+export function validateBackup(value: unknown): string[] {
+  if (!isRecord(value)) return ['The file is not a Reading App backup.'];
+  const problems = validateHeader(value);
   if (!isRecord(value.stores)) return [...problems, 'The backup has no data stores.'];
   for (const name of ALL_STORES) {
     const rows = value.stores[name];
@@ -160,4 +166,68 @@ export async function importBackup(store: AppStore, value: unknown): Promise<voi
     }
   }
   await Promise.all([...work, tx.done]);
+}
+
+// ---------------------------------------------------------------------------
+// Recordings only
+// ---------------------------------------------------------------------------
+
+export interface RecordingsSummary {
+  /** Recordings in the file. */
+  total: number;
+  /** Clips this device does not have yet. */
+  added: number;
+  /** Clips this device already has, which the file's version replaces. */
+  replaced: number;
+}
+
+/**
+ * Problems with using a file as a source of recordings. Only the header and
+ * the audio store are checked: the rest of the file is never read.
+ */
+export function validateRecordingsSource(value: unknown): string[] {
+  if (!isRecord(value)) return ['The file is not a Reading App backup.'];
+  const problems = validateHeader(value);
+  const rows = isRecord(value.stores) ? value.stores.audio : undefined;
+  if (!Array.isArray(rows)) return [...problems, 'The backup has no recordings.'];
+  const bad = rows.findIndex((row) => !isRecord(row) || !ROW_CHECKS.audio(row));
+  if (bad !== -1) problems.push(`Recording ${bad + 1} in the file is damaged.`);
+  if (rows.length === 0) problems.push('The backup has no recordings in it.');
+  return problems;
+}
+
+function recordingRows(value: unknown): SerializedAudio[] {
+  return (value as BackupFile).stores.audio as SerializedAudio[];
+}
+
+/** What a recordings-only import would do on this device. */
+export async function previewRecordings(
+  store: AppStore,
+  value: unknown,
+): Promise<RecordingsSummary> {
+  const rows = recordingRows(value);
+  const existing = new Set(await store.listAudioIds());
+  const replaced = rows.filter((row) => existing.has(row.clipId)).length;
+  return { total: rows.length, added: rows.length - replaced, replaced };
+}
+
+/**
+ * Copy only the recordings from a backup. Clips with the same id are
+ * replaced; every other store (progress, settings, words) is left untouched.
+ */
+export async function importRecordings(
+  store: AppStore,
+  value: unknown,
+): Promise<RecordingsSummary> {
+  const problems = validateRecordingsSource(value);
+  if (problems.length > 0) throw new Error(problems.join(' '));
+  const summary = await previewRecordings(store, value);
+  const tx = store.db.transaction('audio', 'readwrite');
+  await Promise.all([
+    ...recordingRows(value).map(({ dataBase64, ...rest }) =>
+      tx.store.put({ ...rest, data: base64ToBytes(dataBase64) }),
+    ),
+    tx.done,
+  ]);
+  return summary;
 }

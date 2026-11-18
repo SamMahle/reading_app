@@ -2,7 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import { APP_CONFIG } from '../../../app.config';
 import { useApp } from '@/app/AppData';
 import { applyAppUpdate, useOfflineReady, useUpdateReady } from '@/app/update';
-import { backupFileName, exportBackup, validateBackup } from '@/data/backup';
+import {
+  backupFileName,
+  exportBackup,
+  previewRecordings,
+  validateBackup,
+  validateRecordingsSource,
+  type RecordingsSummary,
+} from '@/data/backup';
 import { createPin, isValidPin, verifyPin } from '@/data/pin';
 import type { ErrorRecord } from '@/data/types';
 import { DAY_MS } from '@/engine/dates';
@@ -223,8 +230,13 @@ export function SettingsPanel() {
 export function BackupPanel() {
   const app = useApp();
   const [pending, setPending] = useState<unknown>(null);
+  const [pendingRecordings, setPendingRecordings] = useState<{
+    data: unknown;
+    summary: RecordingsSummary;
+  } | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const fileInput = useRef<HTMLInputElement>(null);
+  const recordingsInput = useRef<HTMLInputElement>(null);
   const last = app.settings.lastBackupTs;
   const overdue = last === undefined || Date.now() - last > BACKUP_REMINDER_DAYS * DAY_MS;
 
@@ -273,6 +285,24 @@ export function BackupPanel() {
     }
   };
 
+  const chooseRecordingsFile = async (file: File | undefined) => {
+    setMessage(null);
+    if (!file || !app.store) return;
+    try {
+      const parsed: unknown = JSON.parse(await file.text());
+      const problems = validateRecordingsSource(parsed);
+      if (problems.length > 0) {
+        setMessage(problems.join(' '));
+        return;
+      }
+      setPendingRecordings({ data: parsed, summary: await previewRecordings(app.store, parsed) });
+    } catch {
+      setMessage('That file could not be read. Choose a readingapp-backup file.');
+    } finally {
+      if (recordingsInput.current) recordingsInput.current.value = '';
+    }
+  };
+
   return (
     <div className="panel" data-testid="backup-panel">
       <h1>Backup</h1>
@@ -315,12 +345,79 @@ export function BackupPanel() {
             />
           </label>
         </div>
-        {message && (
-          <p className="panel__note" role="status" data-testid="backup-message">
-            {message}
-          </p>
-        )}
       </section>
+
+      <section className="panel__section">
+        <h2>Copy recordings from another device</h2>
+        <p className="panel__note">
+          Record on one device, export a backup there, then import just its recordings here. Her
+          progress, settings and words on this device are not changed. A recording with the same
+          name is replaced by the one in the file.
+        </p>
+        <div className="form-row">
+          <label className="button">
+            Import recordings only
+            <input
+              ref={recordingsInput}
+              type="file"
+              accept="application/json,.json"
+              className="visually-hidden"
+              data-testid="import-recordings-file"
+              onChange={(event) => void chooseRecordingsFile(event.target.files?.[0])}
+            />
+          </label>
+        </div>
+      </section>
+
+      {message && (
+        <p className="panel__note panel__status" role="status" data-testid="backup-message">
+          {message}
+        </p>
+      )}
+
+      {pendingRecordings !== null && (
+        <div
+          className="dialog-backdrop"
+          role="dialog"
+          aria-modal="true"
+          data-testid="import-recordings-confirm"
+        >
+          <div className="dialog">
+            <h2>Copy {pendingRecordings.summary.total} recordings?</h2>
+            <ul className="dialog__list">
+              <li>{pendingRecordings.summary.added} new on this device</li>
+              <li>{pendingRecordings.summary.replaced} replacing a recording already here</li>
+            </ul>
+            <p>Nothing else changes: her progress, settings and words stay as they are.</p>
+            <div className="dialog__actions">
+              <button type="button" className="button" onClick={() => setPendingRecordings(null)}>
+                Cancel
+              </button>
+              <button
+                type="button"
+                className="button button--primary"
+                data-testid="import-recordings-apply"
+                onClick={() => {
+                  const { data } = pendingRecordings;
+                  setPendingRecordings(null);
+                  void app
+                    .importRecordings(data)
+                    .then((summary) =>
+                      setMessage(
+                        `Copied ${summary.total} recordings (${summary.added} new, ${summary.replaced} replaced).`,
+                      ),
+                    )
+                    .catch(() =>
+                      setMessage('The recordings could not be copied. Nothing was changed.'),
+                    );
+                }}
+              >
+                Copy recordings
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {pending !== null && (
         <div

@@ -11,7 +11,7 @@ import {
 import { audio } from '@/audio/AudioService';
 import { soundClipsForUnlock, wordClipId } from '@/content/audioManifest';
 import { CONTENT, defaultUnlock } from '@/content/index';
-import { importBackup } from '@/data/backup';
+import { importBackup, importRecordings, type RecordingsSummary } from '@/data/backup';
 import { openStore, type AppStore } from '@/data/store';
 import { DEFAULT_SETTINGS, type AudioRecord, type Settings, type StoryRecord } from '@/data/types';
 import { initialLadder } from '@/engine/ladder';
@@ -112,6 +112,8 @@ export interface AppContextValue extends AppState {
   saveRecording(record: AudioRecord): Promise<void>;
   deleteRecording(clipId: string): Promise<void>;
   restoreBackup(backup: unknown): Promise<void>;
+  /** Copy only the recordings from a backup; nothing else changes. */
+  importRecordings(backup: unknown): Promise<RecordingsSummary>;
   logError(mode: string, error: Error): void;
 }
 
@@ -324,6 +326,13 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
       async restoreBackup(backup: unknown) {
         await importBackup(store(), backup);
         await reload();
+      },
+      async importRecordings(backup: unknown) {
+        const summary = await importRecordings(store(), backup);
+        const recordings = await store().listAudio();
+        audio.setRecordings(recordings);
+        patch({ recordedClips: recordings.map((r) => r.clipId) });
+        return summary;
       },
       logError(mode: string, error: Error) {
         const record = {
