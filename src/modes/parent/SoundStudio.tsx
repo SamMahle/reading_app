@@ -20,6 +20,19 @@ interface Group {
   open: boolean;
 }
 
+/** A parent-facing explanation of why the microphone did not start. */
+function microphoneProblem(error: unknown): string {
+  const name = error instanceof Error ? error.name : '';
+  if (name === 'NotAllowedError') {
+    return 'Microphone access was refused. Allow it in Settings → Apps → Safari → Microphone, then reopen the app and try again.';
+  }
+  if (name === 'NotFoundError') return 'No microphone was found on this device.';
+  if (name === 'NotReadableError') {
+    return 'The microphone is busy. Close any call, voice memo or other app using it, then try again.';
+  }
+  return `The microphone could not start${name ? ` (${name})` : ''}. Close the app fully, reopen it and try again.`;
+}
+
 /**
  * Sound Studio (spec §10.3): the parent records every clip on the iPad.
  * Each take is trimmed, normalized and faded, and overrides a bundled clip
@@ -104,10 +117,8 @@ export function SoundStudio() {
       await audio.unlock();
       active.current = await startRecording(clipId);
       setRecordingId(clipId);
-    } catch {
-      setMessage(
-        'The microphone is not available. Allow microphone access for this app in iPad Settings, then try again.',
-      );
+    } catch (error) {
+      setMessage(microphoneProblem(error));
     }
   };
 

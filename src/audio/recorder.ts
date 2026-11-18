@@ -1,5 +1,5 @@
 import type { AudioRecord } from '@/data/types';
-import { audio } from './AudioService';
+import { audio, setAudioSessionType } from './AudioService';
 import { encodeWav, mixToMono, processRecording } from './processing';
 
 /**
@@ -17,16 +17,27 @@ export function canRecord(): boolean {
 }
 
 export async function startRecording(clipId: string): Promise<ActiveRecording> {
-  const stream = await navigator.mediaDevices.getUserMedia({
-    audio: { echoCancellation: false, noiseSuppression: true, autoGainControl: false },
-  });
+  // The normal "playback" session blocks the microphone on iOS.
+  setAudioSessionType('play-and-record');
+  let stream: MediaStream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: false, noiseSuppression: true, autoGainControl: false },
+    });
+  } catch (error) {
+    setAudioSessionType('playback');
+    throw error;
+  }
   const recorder = new MediaRecorder(stream);
   const chunks: Blob[] = [];
   recorder.addEventListener('dataavailable', (event) => {
     if (event.data.size > 0) chunks.push(event.data);
   });
   recorder.start();
-  const release = () => stream.getTracks().forEach((track) => track.stop());
+  const release = () => {
+    stream.getTracks().forEach((track) => track.stop());
+    setAudioSessionType('playback');
+  };
 
   return {
     stop: () =>

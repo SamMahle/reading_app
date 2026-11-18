@@ -43,19 +43,23 @@ const PROMPT_TEXT = new Map(CONTENT.prompts.map((p) => [p.id, p.text]));
  */
 export const PROMPT_GAP_MS = 750;
 
+export type AudioSessionType = 'playback' | 'play-and-record';
+
 /**
- * Safari 17+ lets a page declare itself a media player, so the iPhone's
- * Ring/Silent switch no longer mutes it (by default Web Audio is treated like
- * a game sound effect and silenced). Older Safari ignores this.
+ * Safari 17+ audio session (navigator.audioSession). "playback" makes the app
+ * a media player, so the iPhone's Ring/Silent switch does not mute it (by
+ * default Web Audio counts as a sound effect and is silenced). "playback"
+ * does not allow the microphone, so Sound Studio switches to
+ * "play-and-record" while it records, then back. Older Safari ignores this.
  */
-function declareMediaPlayback(): void {
+export function setAudioSessionType(type: AudioSessionType): void {
   // `navigator.audioSession` is a WebKit API not yet in TypeScript's DOM types.
   const session = (navigator as Navigator & { audioSession?: { type: string } }).audioSession;
   if (!session) return;
   try {
-    session.type = 'playback';
+    session.type = type;
   } catch {
-    // Not supported: the switch keeps its default behaviour.
+    // Not supported: keep the default behaviour.
   }
 }
 
@@ -106,7 +110,7 @@ export class AudioService {
    * runs synchronously, before the first await.
    */
   async unlock(): Promise<void> {
-    declareMediaPlayback();
+    setAudioSessionType('playback');
     unlockSpeech();
     const ctx = this.context();
     if (!ctx) return;
