@@ -44,12 +44,13 @@ two weeks of real use and has not started.
 | Unit tests (Vitest) | 164 passed in 15 files |
 | End-to-end (Playwright, production build, 1024×768 touch viewport) | 18 passed, **in Chromium** |
 
-**WebKit was not run.** The build machine had only Chromium installed. The
-Playwright config defines a WebKit project as the default (`npm run test:e2e`)
-and CI installs WebKit and runs it, so the first CI run on GitHub is the real
-WebKit result. Treat Safari-specific behaviour (audio unlock, MediaRecorder,
-pointer capture on the slider) as unverified until that run and the device
-checklist are done.
+**WebKit (CI on GitHub):** 17 of 18 pass. The offline cold-start test cannot
+run in Playwright's WebKit, whose service-worker support is Chromium-only
+(the offline reload fails inside the test harness with "WebKit encountered an
+internal error"). It is skipped in the WebKit pass with that reason and runs in
+Chromium in the same CI job. Offline behaviour in real Safari is covered by the
+device checklist. Audio unlock, MediaRecorder and touch feel still need the
+device.
 
 ## 3. Gaps that need the owner
 

@@ -24,10 +24,14 @@ jobs:
         run: npm run test:coverage
       - name: Build
         run: npm run build
-      - name: Install WebKit
-        run: npx playwright install --with-deps webkit
+      - name: Install WebKit and Chromium
+        run: npx playwright install --with-deps webkit chromium
       - name: End-to-end tests (WebKit, iPad viewport)
         run: npm run test:e2e
+      # Playwright supports service workers only in Chromium, so the offline
+      # cold-start test runs there (it is skipped in the WebKit pass above).
+      - name: Offline cold start (Chromium)
+        run: npx playwright test --project=chromium tests/e2e/offline.spec.ts
       - uses: actions/upload-artifact@v4
         if: failure()
         with:

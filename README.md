@@ -107,12 +107,13 @@ in a sub-folder.
 
 1. In the repository: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 2. **Actions → Deploy to GitHub Pages → Run workflow**.
-3. The app is published at `https://<user>.github.io/<repository>/`.
+3. The app is published at `https://<user>.github.io/<repository>/`
+   (for this repository: `https://sammahle.github.io/reading_app/`).
 
-A GitHub Pages site is public even when the repository is private on a free
-plan. The app contains no personal data (her progress stays on the iPad), but
-choose Netlify with a password-protected site if you want the app itself
-private.
+A GitHub Pages site is always public. On a free GitHub plan the repository must
+be public too; Pages for a private repository needs a paid plan. The app
+contains no personal data (her progress stays on the iPad), but choose Netlify
+with a password-protected site if you want the app itself private.
 
 ### Option B: Netlify
 
