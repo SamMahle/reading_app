@@ -43,6 +43,30 @@ const PROMPT_TEXT = new Map(CONTENT.prompts.map((p) => [p.id, p.text]));
  */
 export const PROMPT_GAP_MS = 750;
 
+/**
+ * Safari 17+ lets a page declare itself a media player, so the iPhone's
+ * Ring/Silent switch no longer mutes it (by default Web Audio is treated like
+ * a game sound effect and silenced). Older Safari ignores this.
+ */
+function declareMediaPlayback(): void {
+  // `navigator.audioSession` is a WebKit API not yet in TypeScript's DOM types.
+  const session = (navigator as Navigator & { audioSession?: { type: string } }).audioSession;
+  if (!session) return;
+  try {
+    session.type = 'playback';
+  } catch {
+    // Not supported: the switch keeps its default behaviour.
+  }
+}
+
+/** iOS only lets speech start after one utterance is spoken inside a tap. */
+function unlockSpeech(): void {
+  if (!('speechSynthesis' in window)) return;
+  const silent = new SpeechSynthesisUtterance(' ');
+  silent.volume = 0;
+  window.speechSynthesis.speak(silent);
+}
+
 export function wait(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -77,16 +101,21 @@ export class AudioService {
     return this.ctx;
   }
 
-  /** Call from a user gesture. Resumes the context and plays one silent sample. */
+  /**
+   * Call from a user gesture. Everything here that iOS ties to the gesture
+   * runs synchronously, before the first await.
+   */
   async unlock(): Promise<void> {
+    declareMediaPlayback();
+    unlockSpeech();
     const ctx = this.context();
     if (!ctx) return;
     try {
-      if (ctx.state !== 'running') await ctx.resume();
       const source = ctx.createBufferSource();
       source.buffer = ctx.createBuffer(1, 1, ctx.sampleRate);
       source.connect(ctx.destination);
       source.start();
+      if (ctx.state !== 'running') await ctx.resume();
     } catch {
       // Audio stays unavailable; listening items are skipped (spec §13).
     }
