@@ -6,7 +6,10 @@ export interface PromptAudioProps {
   promptId: string;
   /** Called when the automatic first play has finished (or could not play). */
   onFinished?: () => void;
-  /** Extra audio that follows the prompt on every play (the target word or sound). */
+  /**
+   * Target audio that follows the prompt on every play (the word or sound),
+   * after a short pause so the two are heard separately.
+   */
   after?: () => Promise<unknown>;
 }
 
@@ -23,9 +26,9 @@ export function PromptAudio({ promptId, onFinished, after }: PromptAudioProps) {
   useEffect(() => {
     let cancelled = false;
     void (async () => {
-      await audio.playPrompt(promptId);
-      if (cancelled) return;
-      await followUp.current?.();
+      await audio.playPromptThen(promptId, async () => {
+        if (!cancelled) await followUp.current?.();
+      });
       if (!cancelled) finished.current?.();
     })();
     return () => {
@@ -34,10 +37,9 @@ export function PromptAudio({ promptId, onFinished, after }: PromptAudioProps) {
   }, [promptId]);
 
   const replay = () => {
-    void (async () => {
-      await audio.playPrompt(promptId);
+    void audio.playPromptThen(promptId, async () => {
       await followUp.current?.();
-    })();
+    });
   };
 
   return (

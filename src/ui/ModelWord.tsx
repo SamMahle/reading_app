@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { audio } from '@/audio/AudioService';
+import { audio, PROMPT_GAP_MS, wait } from '@/audio/AudioService';
 import type { AnyEntry, UnlockState } from '@/engine/types';
 import { Word } from './Word';
 
 const SOUND_MIN_MS = 650;
 const BLEND_STEP_MS = 420;
 const WORD_MIN_MS = 900;
-
-const wait = (ms: number) => new Promise<void>((resolve) => window.setTimeout(resolve, ms));
 
 export interface ModelWordProps {
   entry: AnyEntry;
@@ -30,7 +28,7 @@ export function ModelWord({ entry, unlock, display, onDone }: ModelWordProps) {
   useEffect(() => {
     let cancelled = false;
     void (async () => {
-      await audio.playPrompt('pr_watch_listen');
+      if (await audio.playPrompt('pr_watch_listen')) await wait(PROMPT_GAP_MS);
       for (let i = 0; i < entry.graphemes.length && !cancelled; i += 1) {
         const grapheme = entry.graphemes[i];
         if (!grapheme) continue;
