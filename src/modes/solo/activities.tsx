@@ -134,8 +134,7 @@ function WarmupFind({ item, onDone }: ActivityProps<WarmupItem>) {
     if (stage !== 'model') return undefined;
     let cancelled = false;
     void (async () => {
-      await audio.playPrompt('pr_watch_listen');
-      await audio.playSound(item.target);
+      await audio.playPromptThen('pr_watch_listen', () => audio.playSound(item.target));
       if (!cancelled) modelDone();
     })();
     return () => {

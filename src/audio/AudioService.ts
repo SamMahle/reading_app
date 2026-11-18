@@ -34,6 +34,18 @@ function clipIdFromPath(path: string): string {
 }
 
 const PROMPT_TEXT = new Map(CONTENT.prompts.map((p) => [p.id, p.text]));
+
+/**
+ * Silence between a spoken direction and the target sound or word that
+ * follows it ("Build the word." … "mat"), so the two never run together.
+ * Recordings are trimmed to the voice, and the iPad's voice reports that it
+ * has finished slightly early, so the gap must be deliberate.
+ */
+export const PROMPT_GAP_MS = 750;
+
+export function wait(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 const NO_HANDLE: SustainHandle = { stop: () => undefined };
 const FADE_OUT_S = 0.03;
 
@@ -284,6 +296,15 @@ export class AudioService {
     if (!this.speechFallback) return false;
     await speak(entry.id === 'i' ? 'I' : entry.text);
     return true;
+  }
+
+  /**
+   * A spoken direction, then a clear pause, then the target audio. The pause
+   * is skipped when the direction could not be played (nothing to separate).
+   */
+  async playPromptThen(promptId: string, target: () => Promise<unknown>): Promise<void> {
+    if (await this.playPrompt(promptId)) await wait(PROMPT_GAP_MS);
+    await target();
   }
 
   /** A spoken direction. Resolves when it has finished (or cannot play). */
